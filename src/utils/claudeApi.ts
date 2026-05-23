@@ -1,6 +1,10 @@
 import type { DateIdea, DateSlot, DateSuggestion, GeoLocation, Mood, FoodPref } from './types';
 
-const API_URL = 'https://api.anthropic.com/v1/messages';
+// In dev (localhost), call Anthropic directly.
+// In production (Vercel), route through /api/claude to avoid CORS.
+const IS_PROD = (import.meta as { env?: { PROD?: boolean } }).env?.PROD ?? false;
+const DIRECT_URL = 'https://api.anthropic.com/v1/messages';
+const PROXY_URL = '/api/claude';
 
 async function callClaude(
   userMessage: string,
@@ -9,19 +13,14 @@ async function callClaude(
   model = 'claude-haiku-4-5-20251001',
   maxTokens = 4096
 ): Promise<string> {
-  const res = await fetch(API_URL, {
+  const body = { model, max_tokens: maxTokens, system, messages: [{ role: 'user', content: userMessage }] };
+
+  const res = await fetch(IS_PROD ? PROXY_URL : DIRECT_URL, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': apiKey,
-      'anthropic-version': '2023-06-01',
-    },
-    body: JSON.stringify({
-      model,
-      max_tokens: maxTokens,
-      system,
-      messages: [{ role: 'user', content: userMessage }],
-    }),
+    headers: IS_PROD
+      ? { 'Content-Type': 'application/json' }
+      : { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
+    body: JSON.stringify(IS_PROD ? { apiKey, ...body } : body),
   });
 
   if (!res.ok) {

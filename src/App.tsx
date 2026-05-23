@@ -4,7 +4,7 @@ import DatePlanner from './pages/DatePlanner';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/lab">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/date-planner" element={<DatePlanner />} />

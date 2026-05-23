@@ -1,14 +1,14 @@
 import { useCallback, useEffect, useState } from 'react';
 import { ArrowLeft, Download, KeyRound, Loader2, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import type { ApiKeys, DateIdea, DateSlot, GeoLocation, Mood, FoodPref, WeatherDay } from '../utils/types';
+import type { ApiKeys, DateIdea, DateSlot, GeoLocation, Sticker, WeatherDay } from '../utils/types';
 import { generatePlan } from '../utils/claudeApi';
 import { fetchForecast } from '../utils/weatherApi';
 import { exportToICS } from '../utils/icsExport';
 import ApiKeySetup from '../components/dateplanner/ApiKeySetup';
 import IdeaDump from '../components/dateplanner/IdeaDump';
 import LocationPicker from '../components/dateplanner/LocationPicker';
-import ContextPanel from '../components/dateplanner/ContextPanel';
+import StickerBoard from '../components/dateplanner/StickerBoard';
 import DateSlotPicker from '../components/dateplanner/DateSlotPicker';
 import PlanView from '../components/dateplanner/PlanView';
 
@@ -33,9 +33,8 @@ export default function DatePlanner() {
   const [ideas, setIdeas] = useState<DateIdea[]>([]);
   const [location, setLocation] = useState<GeoLocation | null>(null);
   const [weather, setWeather] = useState<WeatherDay[]>([]);
-  const [mood, setMood] = useState<Mood>('normal');
-  const [foodPref, setFoodPref] = useState<FoodPref>('surprise');
   const [selectedDates, setSelectedDates] = useState<string[]>([]);
+  const [stickersByDate, setStickersByDate] = useState<Record<string, Sticker[]>>({});
   const [slots, setSlots] = useState<DateSlot[]>([]);
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState('');
@@ -73,6 +72,7 @@ export default function DatePlanner() {
       date,
       weather: weather.find((w) => w.date === date),
       suggestion: null,
+      stickers: stickersByDate[date] ?? [],
     }));
 
     try {
@@ -80,8 +80,6 @@ export default function DatePlanner() {
         ideas,
         initialSlots,
         location ?? { city: 'your city', country: '', lat: 0, lon: 0, displayName: 'your location' },
-        mood,
-        foodPref,
         apiKeys.anthropic
       );
       const filled: DateSlot[] = initialSlots.map((slot, i) => ({
@@ -214,49 +212,50 @@ export default function DatePlanner() {
           />
         </section>
 
-        {/* Step 2: Context */}
+        {/* Step 2: Location */}
         <section>
-          <SectionHeader number="2" title="Set the scene" subtitle="Location, mood, and food — so the AI knows what kind of day you're after" />
-          <div className="space-y-6">
-            {/* Location + weather row */}
-            <div className="flex items-start gap-4 flex-wrap">
-              <div>
-                <p className="text-xs font-semibold text-zinc-500 mb-2">Your location</p>
-                <LocationPicker
-                  location={location}
-                  onSelect={handleLocationSelect}
-                  owmKey={apiKeys.openweather}
-                />
-              </div>
-              {location && weather.length > 0 && (
-                <div className="bg-sky-50 rounded-xl px-4 py-2.5 border border-sky-100">
-                  <p className="text-xs font-semibold text-sky-600 mb-1">Next 5-day forecast</p>
-                  <div className="flex gap-3">
-                    {weather.slice(0, 5).map((w) => (
-                      <div key={w.date} className="text-center">
-                        <div className="text-lg">{w.emoji}</div>
-                        <div className="text-[10px] text-sky-700 font-medium">
-                          {new Date(w.date + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'short' })}
-                        </div>
-                        <div className="text-[10px] text-sky-600">
-                          {w.tempMax}°
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+          <SectionHeader number="2" title="Set the scene" subtitle="Where are you based? We'll check the weather and find spots near you" />
+          <div className="flex items-start gap-4 flex-wrap">
+            <div>
+              <p className="text-xs font-semibold text-zinc-500 mb-2">Your location</p>
+              <LocationPicker
+                location={location}
+                onSelect={handleLocationSelect}
+                owmKey={apiKeys.openweather}
+              />
             </div>
-
-            {/* Mood + food */}
-            <ContextPanel mood={mood} setMood={setMood} foodPref={foodPref} setFoodPref={setFoodPref} />
+            {location && weather.length > 0 && (
+              <div className="bg-sky-50 rounded-xl px-4 py-2.5 border border-sky-100">
+                <p className="text-xs font-semibold text-sky-600 mb-1">Next 5-day forecast</p>
+                <div className="flex gap-3">
+                  {weather.slice(0, 5).map((w) => (
+                    <div key={w.date} className="text-center">
+                      <div className="text-lg">{w.emoji}</div>
+                      <div className="text-[10px] text-sky-700 font-medium">
+                        {new Date(w.date + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'short' })}
+                      </div>
+                      <div className="text-[10px] text-sky-600">{w.tempMax}°</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </section>
 
-        {/* Step 3: Date slot picker */}
+        {/* Step 3: Date slot picker + sticker board */}
         <section>
-          <SectionHeader number="3" title="Pick your couple dates" subtitle="Click the days you're setting aside — the AI will fill them in" />
-          <DateSlotPicker selected={selectedDates} onChange={setSelectedDates} />
+          <SectionHeader number="3" title="Pick your dates & sticker them" subtitle="Select your free days, then drag stickers to set the vibe for each one" />
+          <div className="space-y-5">
+            <DateSlotPicker selected={selectedDates} onChange={setSelectedDates} />
+            <StickerBoard
+              selectedDates={selectedDates}
+              stickersByDate={stickersByDate}
+              onUpdateDate={(date, stickers) =>
+                setStickersByDate((prev) => ({ ...prev, [date]: stickers }))
+              }
+            />
+          </div>
         </section>
 
         {/* Generate CTA */}

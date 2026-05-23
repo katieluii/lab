@@ -37,14 +37,28 @@ export interface DateSuggestion {
   alternatives: DateIdea[];
 }
 
+export type EnergyTag = 'lazy' | 'normal' | 'adventurous';
+export type FoodTag = 'hot' | 'light' | 'treat' | 'surprise';
+export type VibeTag = DateIdea['category'];
+export type StickerTag = VibeTag | EnergyTag | FoodTag;
+
+export interface Sticker {
+  id: string;
+  type: 'vibe' | 'energy' | 'food';
+  tag: StickerTag;
+  emoji: string;
+  label: string;
+}
+
 export interface DateSlot {
   date: string; // YYYY-MM-DD
   weather?: WeatherDay;
   suggestion: DateSuggestion | null;
+  stickers?: Sticker[];
 }
 
-export type Mood = 'lazy' | 'normal' | 'adventurous';
-export type FoodPref = 'hot' | 'light' | 'treat' | 'surprise';
+export type Mood = EnergyTag;
+export type FoodPref = FoodTag;
 
 export interface ApiKeys {
   anthropic: string;

@@ -1,10 +1,6 @@
-import type { DateIdea, DateSlot, DateSuggestion, GeoLocation, Mood, FoodPref } from './types';
+import type { DateIdea, DateSlot, DateSuggestion, GeoLocation } from './types';
 
-// In dev (localhost), call Anthropic directly.
-// In production (Vercel), route through /api/claude to avoid CORS.
-const IS_PROD = (import.meta as { env?: { PROD?: boolean } }).env?.PROD ?? false;
-const DIRECT_URL = 'https://api.anthropic.com/v1/messages';
-const PROXY_URL = '/api/claude';
+const PROXY_URL = 'https://restless-thunder-b1c3.katieluikakiu.workers.dev';
 
 async function callClaude(
   userMessage: string,
@@ -15,12 +11,10 @@ async function callClaude(
 ): Promise<string> {
   const body = { model, max_tokens: maxTokens, system, messages: [{ role: 'user', content: userMessage }] };
 
-  const res = await fetch(IS_PROD ? PROXY_URL : DIRECT_URL, {
+  const res = await fetch(PROXY_URL, {
     method: 'POST',
-    headers: IS_PROD
-      ? { 'Content-Type': 'application/json' }
-      : { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
-    body: JSON.stringify(IS_PROD ? { apiKey, ...body } : body),
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ apiKey, ...body }),
   });
 
   if (!res.ok) {
@@ -60,17 +54,23 @@ export async function generatePlan(
   ideas: DateIdea[],
   slots: DateSlot[],
   location: GeoLocation,
-  mood: Mood,
-  foodPref: FoodPref,
   apiKey: string
 ): Promise<DateSuggestion[]> {
-  const moodLabel = { lazy: 'low energy / lazy day', normal: 'normal energy', adventurous: 'adventurous / high energy' }[mood];
-  const foodLabel = { hot: 'hot/hearty food', light: 'light food', treat: 'a food treat / dessert place', surprise: 'no food preference' }[foodPref];
+  const energyLabels: Record<string, string> = { lazy: 'low energy / lazy day', normal: 'normal energy', adventurous: 'adventurous / high energy' };
+  const foodLabels: Record<string, string> = { hot: 'hot/hearty food', light: 'light food', treat: 'a food treat / dessert place', surprise: 'no food preference' };
 
-  const weatherLines = slots.map((s) => {
-    if (!s.weather) return `${s.date}: no forecast available`;
-    const { emoji, tempMin, tempMax, description, isGoodForOutdoor } = s.weather;
-    return `${s.date}: ${emoji} ${tempMin}–${tempMax}°C, ${description}, ${isGoodForOutdoor ? 'good for outdoor' : 'NOT ideal for outdoor'}`;
+  const slotLines = slots.map((s) => {
+    const stickers = s.stickers ?? [];
+    const energyTag = stickers.find(st => st.type === 'energy')?.tag ?? 'normal';
+    const foodTag = stickers.find(st => st.type === 'food')?.tag ?? 'surprise';
+    const vibeStickers = stickers.filter(st => st.type === 'vibe');
+
+    const weatherPart = s.weather
+      ? `${s.weather.emoji} ${s.weather.tempMin}–${s.weather.tempMax}°C, ${s.weather.description}, ${s.weather.isGoodForOutdoor ? 'good for outdoor' : 'NOT ideal for outdoor'}`
+      : 'no forecast';
+    const vibePart = vibeStickers.length ? vibeStickers.map(v => `${v.emoji} ${v.label}`).join(', ') : 'no vibe preference';
+
+    return `- ${s.date}: weather=${weatherPart} | energy=${energyLabels[energyTag] ?? energyTag} | food=${foodLabels[foodTag] ?? foodTag} | vibe hints=${vibePart}`;
   });
 
   const system = `You are a romantic date planner. Return ONLY a JSON array — no markdown, no explanation.
@@ -78,23 +78,23 @@ Each item must have exactly these fields:
 - ideaId: string (must match one of the provided idea IDs)
 - venue: string (specific place / neighbourhood in ${location.city})
 - estimatedDistance: string (rough travel time/distance from ${location.city} centre, e.g. "20 min by tube", "45 min drive")
-- foodSuggestion: string (1 specific restaurant, café, or food idea near the venue)
-- why: string (1–2 sentences explaining why this works for this specific date and weather)
+- foodSuggestion: string (1 specific restaurant, café, or food idea near the venue — it must be geographically close to the venue)
+- why: string (1–2 sentences explaining why this works for this specific date's weather, energy, and vibe)
 - alternatives: array of 2 idea IDs from the provided list (different from the main pick)
 
 Rules:
 - Pick a different idea for each date slot — no repeats
 - Prefer outdoor ideas when weather is good, indoor when it's poor
-- Match the mood (${moodLabel}) and food preference (${foodLabel})
+- Match the per-date energy level and food preference listed below
+- Prioritise vibe hints if provided (e.g. if vibe hint is "Dinner date", prefer a dining idea)
+- Food suggestion must be near the venue (same neighbourhood or a short walk away)
 - Always include estimated distance from ${location.city} centre
 - alternatives must be valid idea IDs from the list`;
 
   const prompt = `Location: ${location.displayName}
-Mood: ${moodLabel}
-Food preference: ${foodLabel}
 
-Weather forecast:
-${weatherLines.join('\n')}
+Per-date preferences and weather:
+${slotLines.join('\n')}
 
 Available date ideas:
 ${JSON.stringify(ideas, null, 2)}

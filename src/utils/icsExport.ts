@@ -1,11 +1,10 @@
-import type { DateSlot } from './types';
+import type { DateIdea, DateSlot } from './types';
 
 function pad(n: number) {
   return String(n).padStart(2, '0');
 }
 
 function toIcsDate(dateStr: string): string {
-  // dateStr: YYYY-MM-DD → 20260524
   return dateStr.replace(/-/g, '');
 }
 
@@ -15,6 +14,22 @@ function escapeText(s: string): string {
 
 function uid(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2)}@katieslab`;
+}
+
+function getTimeBlock(category: DateIdea['category'], duration: DateIdea['duration']): { start: string; end: string } {
+  switch (category) {
+    case 'dining': return { start: '190000', end: '210000' };
+    case 'entertainment': return { start: '193000', end: '220000' };
+    case 'outdoor':
+      if (duration === 'full-day') return { start: '090000', end: '180000' };
+      if (duration === 'half-day') return { start: '130000', end: '180000' };
+      return { start: '140000', end: '160000' };
+    case 'travel': return { start: '080000', end: '200000' };
+    case 'cultural': return { start: '100000', end: '130000' };
+    case 'indoor_active': return { start: '140000', end: '170000' };
+    case 'relaxed': return { start: '180000', end: '220000' };
+    default: return { start: '120000', end: '140000' };
+  }
 }
 
 export function exportToICS(slots: DateSlot[]): void {
@@ -32,6 +47,7 @@ export function exportToICS(slots: DateSlot[]): void {
   for (const slot of filled) {
     const s = slot.suggestion!;
     const dateStr = toIcsDate(slot.date);
+    const { start, end } = getTimeBlock(s.idea.category, s.idea.duration);
     const title = `📅 ${s.idea.title}`;
     const description = [
       s.venue,
@@ -42,8 +58,8 @@ export function exportToICS(slots: DateSlot[]): void {
 
     lines.push(
       'BEGIN:VEVENT',
-      `DTSTART;VALUE=DATE:${dateStr}`,
-      `DTEND;VALUE=DATE:${dateStr}`,
+      `DTSTART:${dateStr}T${start}`,
+      `DTEND:${dateStr}T${end}`,
       `SUMMARY:${escapeText(title)}`,
       `DESCRIPTION:${escapeText(description)}`,
       s.venue ? `LOCATION:${escapeText(s.venue)}` : '',

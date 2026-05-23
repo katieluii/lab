@@ -556,13 +556,13 @@ function scaleScore(userPref: number | null, wineVal: number, weight = 1): numbe
   return raw * weight;
 }
 
+function candidatePool(colours: Colour[]): Wine[] {
+  if (colours.length === 0) return WINES;
+  return WINES.filter((w) => colours.includes(w.colour));
+}
+
 function scoreWine(wine: Wine, profile: PaletteProfile): number {
   let score = 0;
-
-  // Colour (hard filter)
-  if (profile.colours.length > 0) {
-    score += profile.colours.includes(wine.colour) ? 5 : -8;
-  }
 
   // Old vs New World
   if (profile.worldOrigin && profile.worldOrigin !== 'any') {
@@ -591,7 +591,7 @@ function scoreWine(wine: Wine, profile: PaletteProfile): number {
 }
 
 export function recommend(profile: PaletteProfile, count = 5): Wine[] {
-  return [...WINES]
+  return candidatePool(profile.colours)
     .map((wine) => ({ wine, score: scoreWine(wine, profile) }))
     .sort((a, b) => b.score - a.score)
     .slice(0, count)
@@ -627,7 +627,7 @@ export function recommendWithFeedback(
   const dislikedIds = new Set(
     Object.entries(feedback).filter(([, v]) => v === 'disliked').map(([k]) => k),
   );
-  return [...WINES]
+  return candidatePool(profile.colours)
     .filter((wine) => !dislikedIds.has(wine.id))
     .map((wine) => ({ wine, score: scoreWine(wine, profile) + feedbackBias(wine, feedback) }))
     .sort((a, b) => b.score - a.score)

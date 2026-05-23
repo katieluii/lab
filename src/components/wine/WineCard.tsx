@@ -4,7 +4,11 @@ import type { Wine, PaletteProfile, Descriptor } from '../../data/wines';
 import { DESCRIPTOR_LABELS, generateWhy } from '../../data/wines';
 
 function wineSearchUrl(wine: Wine): string {
-  const q = wine.name.replace(/\s+/g, '+');
+  // Normalise accented characters then encode for Wine-Searcher's URL format
+  const q = wine.name
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')  // strip diacritics
+    .replace(/\s+/g, '+');
   return `https://www.wine-searcher.com/find/${q}`;
 }
 
@@ -62,7 +66,7 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
             <span className="text-xs font-bold px-2.5 py-1 rounded-full text-white" style={{ backgroundColor: ACCENT }}>
               #{rank}
             </span>
-            <span className="text-xs text-zinc-400 font-medium">{wine.priceRange}</span>
+            <span className="text-sm font-bold text-zinc-700">{wine.priceRange}</span>
           </div>
         </div>
 

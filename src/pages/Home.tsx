@@ -26,8 +26,8 @@ export default function Home() {
       <header className="sticky top-0 z-10 bg-[#fdf8f3]/80 backdrop-blur-md border-b border-zinc-200/60">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-xl">🧪</span>
-            <span className="font-bold text-zinc-900 tracking-tight">Katie's Lab</span>
+            <span className="text-xl">🌸</span>
+            <span className="font-bold text-zinc-900 tracking-tight">KaTiE's B I G brain</span>
           </div>
           <div className="flex items-center gap-4">
             <a
@@ -58,12 +58,11 @@ export default function Home() {
             side projects // hyperfocus mode
           </span>
         </div>
-        <h1 className="text-5xl md:text-6xl font-bold text-zinc-900 leading-tight tracking-tight mb-4">
-          Katie's Lab
+        <h1 className="text-4xl md:text-5xl font-bold text-zinc-900 leading-tight tracking-tight mb-4">
+          ±±±±±±±±±± KaTiE's B I G brain ±±±±±±±±±± 🌸✨⭐🌟🌼💫🌸⭐✨🌟🌼💫🌸✦
         </h1>
         <p className="text-xl text-zinc-500 max-w-xl leading-relaxed mb-2">
-          AI tools, recommenders, and apps built because my brain won't shut up about them.
-          Neuroscience-adjacent. Chaotic. Occasionally useful.
+          AI tools, recommenders, apps, things — built because, um, my brain. Neuroscience-adjacent. Chaotic. Occasionally useful. Let's go babyyyyyyy
         </p>
         <p className="text-sm text-zinc-400 font-mono">
           6 ideas initiated · 1 deployed · dopamine pending
@@ -124,8 +123,8 @@ export default function Home() {
       <footer className="border-t border-zinc-200/60 bg-white/50">
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-zinc-400">
-            <span className="text-lg">🧪</span>
-            <span className="font-mono">Katie's Lab // side projects</span>
+            <span className="text-lg">🌸</span>
+            <span className="font-mono">KaTiE's B I G brain // side projects</span>
           </div>
           <div className="flex items-center gap-4 text-sm text-zinc-400">
             <a

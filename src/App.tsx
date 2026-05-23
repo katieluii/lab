@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import DatePlanner from './pages/DatePlanner';
+import CoupleGift from './pages/CoupleGift';
+import WineRecommender from './pages/Wine';
 
 export default function App() {
   return (
@@ -8,6 +10,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/date-planner" element={<DatePlanner />} />
+        <Route path="/couple-gift" element={<CoupleGift />} />
+        <Route path="/wine" element={<WineRecommender />} />
       </Routes>
     </BrowserRouter>
   );

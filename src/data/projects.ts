@@ -65,12 +65,13 @@ export const projects: Project[] = [
     tagline: 'Elfster, but for two people + an AI secret keeper.',
     description:
       'LDR couples each add a wishlist. An AI blends both lists into suggestions — so neither person knows which gifts came from the other vs the AI. Secrecy by design. Find items in-app, save to a shared room, reveal on the day.',
-    status: 'ideating',
+    status: 'building',
     priority: 4,
-    tags: ['Claude API', 'FastAPI', 'Real-time', 'Product Search'],
+    tags: ['Claude API', 'FastAPI', 'SQLite', 'Real-time'],
     accentColor: '#7c3aed',
     accentBg: 'bg-violet-50',
     accentText: 'text-violet-600',
+    route: '/couple-gift',
   },
   {
     id: 'dream-diary',
@@ -125,11 +126,12 @@ export const projects: Project[] = [
     tagline: 'Discover your palate without the pretentiousness.',
     description:
       'Describe what you like (crisp, mineral, not acidic, love salinity?) and get wine recommendations that match. Find tasting events near you. Curated by real wine friends. Future: vineyard partnerships and a premium tier.',
-    status: 'ideating',
+    status: 'building',
     priority: 3,
     tags: ['Claude API', 'Curated DB', 'Recommender', 'FastAPI'],
     accentColor: '#9f1239',
     accentBg: 'bg-rose-50',
     accentText: 'text-rose-900',
+    route: '/wine',
   },
 ];

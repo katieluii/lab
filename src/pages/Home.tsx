@@ -54,28 +54,28 @@ export default function Home() {
       {/* Hero */}
       <section className="max-w-5xl mx-auto px-6 pt-16 pb-12">
         <div className="mb-3">
-          <span className="inline-block text-xs font-semibold tracking-widest text-zinc-400 uppercase">
-            ✦ personal projects ✦
+          <span className="inline-block text-xs font-mono font-semibold text-zinc-400">
+            side projects // hyperfocus mode
           </span>
         </div>
         <h1 className="text-5xl md:text-6xl font-bold text-zinc-900 leading-tight tracking-tight mb-4">
           Katie's Lab
         </h1>
         <p className="text-xl text-zinc-500 max-w-xl leading-relaxed mb-2">
-          Things I'm building because they should exist. AI tools, recommenders,
-          couple stuff, culture apps.
+          AI tools, recommenders, and apps built because my brain won't shut up about them.
+          Neuroscience-adjacent. Chaotic. Occasionally useful.
         </p>
-        <p className="text-sm text-zinc-400 italic">
-          6 ideas · 0 shipped (yet) · infinite caffeine
+        <p className="text-sm text-zinc-400 font-mono">
+          6 ideas initiated · 1 deployed · dopamine pending
         </p>
 
         {/* Stats bar */}
         <div className="mt-8 flex flex-wrap gap-4">
           {[
-            { n: '6', label: 'total projects' },
-            { n: '4', label: 'use Claude API' },
-            { n: '2', label: 'need a backend' },
-            { n: '2', label: 'are expensive 💸' },
+            { n: '6', label: 'projects in the pipeline' },
+            { n: '4', label: 'powered by Claude API' },
+            { n: '∞', label: 'tabs open right now' },
+            { n: '2', label: 'will cost me 💸' },
           ].map(({ n, label }) => (
             <div key={label} className="bg-white rounded-xl px-4 py-3 ring-1 ring-zinc-200/60 shadow-sm">
               <div className="text-2xl font-bold text-zinc-900">{n}</div>
@@ -125,7 +125,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-zinc-400">
             <span className="text-lg">🧪</span>
-            <span>Katie's Lab — personal projects</span>
+            <span className="font-mono">Katie's Lab // side projects</span>
           </div>
           <div className="flex items-center gap-4 text-sm text-zinc-400">
             <a

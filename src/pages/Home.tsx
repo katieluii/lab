@@ -26,8 +26,9 @@ export default function Home() {
       <header className="sticky top-0 z-10 bg-[#fdf8f3]/80 backdrop-blur-md border-b border-zinc-200/60">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-xl">🌸</span>
+            <span className="text-xl">💫🌼🌟⭐🌼</span>
             <span className="font-bold text-zinc-900 tracking-tight">KaTiE's B I G brain</span>
+            <span className="text-xl">🌟💫🌼⭐🌟</span>
           </div>
           <div className="flex items-center gap-4">
             <a
@@ -59,7 +60,7 @@ export default function Home() {
           </span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-zinc-900 leading-tight tracking-tight mb-4">
-          ±±±±±±±±±± KaTiE's B I G brain ±±±±±±±±±± 🌸✨⭐🌟🌼💫🌸⭐✨🌟🌼💫🌸✦
+          ±±±±±±±±± KaTiE's B I G brain ±±±±±±±±±
         </h1>
         <p className="text-xl text-zinc-500 max-w-xl leading-relaxed mb-2">
           AI tools, recommenders, apps, things — built because, um, my brain. Neuroscience-adjacent. Chaotic. Occasionally useful. Let's go babyyyyyyy

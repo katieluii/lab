@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { ArrowLeft, ArrowRight, RotateCcw } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import type { Colour, Descriptor, FruitType, PaletteProfile, Wine as WineEntry } from '../data/wines';
-import { DESCRIPTOR_LABELS, FRUIT_LABELS, recommend } from '../data/wines';
+import type { Colour, Descriptor, FruitType, PaletteProfile, Wine as WineEntry, WineFeedback } from '../data/wines';
+import { DESCRIPTOR_LABELS, FRUIT_LABELS, recommend, recommendWithFeedback } from '../data/wines';
 import WineCard from '../components/wine/WineCard';
 import RankingScale from '../components/wine/RankingScale';
 
@@ -98,6 +98,12 @@ export default function WineRecommender() {
   const [stepIdx, setStepIdx] = useState(0);
   const [done, setDone] = useState(false);
   const [recs, setRecs] = useState<WineEntry[]>([]);
+  const [feedback, setFeedback] = useState<WineFeedback>({});
+  const [refined, setRefined] = useState(false);
+  const [overallRating, setOverallRating] = useState<number | null>(() => {
+    const saved = localStorage.getItem('winerec_overall_rating');
+    return saved ? Number(saved) : null;
+  });
 
   const step = ALL_STEPS[stepIdx];
   const isLast = stepIdx === ALL_STEPS.length - 1;
@@ -153,11 +159,37 @@ export default function WineRecommender() {
     setStepIdx((i) => Math.max(0, i - 1));
   }
 
+  function handleFeedback(wineId: string, sentiment: 'liked' | 'disliked') {
+    setFeedback((prev) => {
+      const next = { ...prev };
+      if (next[wineId] === sentiment) {
+        delete next[wineId];
+      } else {
+        next[wineId] = sentiment;
+      }
+      return next;
+    });
+    setRefined(false);
+  }
+
+  function handleRefine() {
+    setRecs(recommendWithFeedback(profile, feedback));
+    setRefined(true);
+    setTimeout(() => document.getElementById('results')?.scrollIntoView({ behavior: 'smooth' }), 50);
+  }
+
+  function handleOverallRating(rating: number) {
+    setOverallRating(rating);
+    localStorage.setItem('winerec_overall_rating', String(rating));
+  }
+
   function handleRetake() {
     setProfile(emptyProfile());
     setStepIdx(0);
     setDone(false);
     setRecs([]);
+    setFeedback({});
+    setRefined(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -476,11 +508,72 @@ export default function WineRecommender() {
 
             <div className="space-y-4">
               {recs.map((wine, i) => (
-                <WineCard key={wine.id} wine={wine} profile={profile} rank={i + 1} />
+                <WineCard
+                  key={wine.id}
+                  wine={wine}
+                  profile={profile}
+                  rank={i + 1}
+                  feedbackGiven={feedback[wine.id]}
+                  onLike={() => handleFeedback(wine.id, 'liked')}
+                  onDislike={() => handleFeedback(wine.id, 'disliked')}
+                />
               ))}
             </div>
 
-            <p className="text-xs text-zinc-400 text-center mt-8 leading-relaxed">
+            {/* Refine button */}
+            {Object.keys(feedback).length > 0 && (
+              <div className="text-center mt-2">
+                {refined ? (
+                  <p className="text-sm font-medium" style={{ color: '#9f1239' }}>
+                    ✓ Refined to match your feedback
+                  </p>
+                ) : (
+                  <button
+                    onClick={handleRefine}
+                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold text-white transition-all active:scale-95"
+                    style={{ backgroundColor: '#9f1239' }}
+                  >
+                    ✨ Refine my picks
+                  </button>
+                )}
+              </div>
+            )}
+
+            {/* Overall satisfaction */}
+            <div className="bg-white rounded-2xl shadow-sm ring-1 ring-zinc-200/60 p-6 text-center">
+              <p className="font-semibold text-zinc-900 mb-1">How did we do?</p>
+              <p className="text-sm text-zinc-400 mb-4">Rate the overall recommendations</p>
+              <div className="flex justify-center gap-3">
+                {([
+                  { rating: 1, emoji: '😞' },
+                  { rating: 2, emoji: '😕' },
+                  { rating: 3, emoji: '😐' },
+                  { rating: 4, emoji: '😊' },
+                  { rating: 5, emoji: '🤩' },
+                ] as const).map(({ rating, emoji }) => (
+                  <button
+                    key={rating}
+                    onClick={() => handleOverallRating(rating)}
+                    className="text-2xl p-2 rounded-xl transition-all hover:scale-110 active:scale-95"
+                    style={overallRating === rating ? { outline: '2px solid #9f1239', outlineOffset: 2 } : {}}
+                    title={String(rating)}
+                  >
+                    {emoji}
+                  </button>
+                ))}
+              </div>
+              {overallRating !== null && (
+                <p className="text-sm text-zinc-500 mt-3">
+                  {overallRating >= 4
+                    ? 'Glad we could help! 🍷'
+                    : overallRating === 3
+                    ? 'Thanks — thumbs on individual wines help us refine.'
+                    : 'Sorry to hear it. Try rating individual wines so we can adjust.'}
+                </p>
+              )}
+            </div>
+
+            <p className="text-xs text-zinc-400 text-center mt-2 leading-relaxed">
               Curated by hand · prices approximate · ask your local merchant for current stock
             </p>
           </section>

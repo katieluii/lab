@@ -33,9 +33,12 @@ interface Props {
   wine: Wine;
   profile: PaletteProfile;
   rank: number;
+  feedbackGiven?: 'liked' | 'disliked';
+  onLike?: () => void;
+  onDislike?: () => void;
 }
 
-export default function WineCard({ wine, profile, rank }: Props) {
+export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, onDislike }: Props) {
   const [showStory, setShowStory] = useState(false);
   const why = generateWhy(wine, profile);
   const topProducers = wine.producers.slice(0, 3);
@@ -154,6 +157,35 @@ export default function WineCard({ wine, profile, rank }: Props) {
             {showStory && (
               <p className="text-xs text-zinc-500 leading-relaxed mt-2">{wine.storySnippet}</p>
             )}
+          </div>
+        )}
+
+        {/* Per-wine feedback */}
+        {(onLike || onDislike) && (
+          <div className="pt-3 border-t border-zinc-100 flex items-center gap-2.5">
+            <span className="text-xs text-zinc-400 mr-1">Was this a match?</span>
+            <button
+              onClick={onLike}
+              className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border-2 font-medium transition-all active:scale-95"
+              style={
+                feedbackGiven === 'liked'
+                  ? { backgroundColor: ACCENT, borderColor: ACCENT, color: '#fff' }
+                  : { borderColor: '#e4e4e7', color: '#71717a' }
+              }
+            >
+              👍 Yes
+            </button>
+            <button
+              onClick={onDislike}
+              className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border-2 font-medium transition-all active:scale-95"
+              style={
+                feedbackGiven === 'disliked'
+                  ? { backgroundColor: '#e4e4e7', borderColor: '#a1a1aa', color: '#3f3f46' }
+                  : { borderColor: '#e4e4e7', color: '#71717a' }
+              }
+            >
+              👎 Not quite
+            </button>
           </div>
         )}
       </div>

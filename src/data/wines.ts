@@ -598,6 +598,43 @@ export function recommend(profile: PaletteProfile, count = 5): Wine[] {
     .map((s) => s.wine);
 }
 
+// --- Feedback-aware recommendation ---
+
+export type WineFeedback = Record<string, 'liked' | 'disliked'>;
+
+function feedbackBias(wine: Wine, feedback: WineFeedback): number {
+  let bias = 0;
+  for (const [wineId, sentiment] of Object.entries(feedback)) {
+    const ref = WINES.find((w) => w.id === wineId);
+    if (!ref || ref.id === wine.id) continue;
+    const delta = sentiment === 'liked' ? 1 : -1;
+    if (ref.colour === wine.colour)      bias += 2 * delta;
+    if (ref.worldOrigin === wine.worldOrigin) bias += delta;
+    if (ref.body === wine.body)          bias += 1.5 * delta;
+    if (ref.acidity === wine.acidity)    bias += 1.5 * delta;
+    if (ref.tannins === wine.tannins)    bias += delta;
+    bias += ref.descriptors.filter((d) => wine.descriptors.includes(d)).length * delta;
+    bias += ref.fruitTypes.filter((f) => wine.fruitTypes.includes(f)).length * 0.5 * delta;
+  }
+  return bias;
+}
+
+export function recommendWithFeedback(
+  profile: PaletteProfile,
+  feedback: WineFeedback,
+  count = 5,
+): Wine[] {
+  const dislikedIds = new Set(
+    Object.entries(feedback).filter(([, v]) => v === 'disliked').map(([k]) => k),
+  );
+  return [...WINES]
+    .filter((wine) => !dislikedIds.has(wine.id))
+    .map((wine) => ({ wine, score: scoreWine(wine, profile) + feedbackBias(wine, feedback) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, count)
+    .map((s) => s.wine);
+}
+
 export function generateWhy(wine: Wine, profile: PaletteProfile): string {
   const parts: string[] = [];
 

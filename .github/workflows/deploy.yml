@@ -34,6 +34,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_GIFT_API_URL: https://heartfelt-vibrancy-production.up.railway.app
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

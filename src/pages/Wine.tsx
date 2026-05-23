@@ -227,11 +227,11 @@ export default function WineRecommender() {
         {/* Hero */}
         <div>
           <h1 className="text-4xl font-bold text-zinc-900 mb-2 leading-tight">
-            Discover your palate.<br />
-            <span style={{ color: '#9f1239' }}>Without the pretentiousness.</span>
+            Find wines you'll love.<br />
+            <span style={{ color: '#9f1239' }}>Tell us what you like. We'll do the rest.</span>
           </h1>
           <p className="text-zinc-500">
-            Answer a few questions — the same ones a sommelier would ask — and we'll find bottles that match.
+            Answer a few short questions about what you enjoy, and we'll match you to wines you're likely to love.
           </p>
         </div>
 

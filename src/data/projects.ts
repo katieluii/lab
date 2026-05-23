@@ -111,9 +111,10 @@ export const projects: Project[] = [
     tagline: 'Spotify for concerts. But actually good for classical.',
     description:
       'A centralised place to find classical concerts that match your taste. Questionnaire figures out if you\'re a Romantic-period-piano person or a Baroque-chamber-music person. Then surfaces upcoming performances near you. Democratising classical music.',
-    status: 'ideating',
+    status: 'live',
+    liveUrl: 'https://katieluii.github.io/nota/',
     priority: 2,
-    tags: ['Web Scraping', 'Claude API', 'FastAPI', 'Recommender'],
+    tags: ['Web Scraping', 'React', 'TypeScript'],
     accentColor: '#d97706',
     accentBg: 'bg-amber-50',
     accentText: 'text-amber-700',
@@ -123,7 +124,7 @@ export const projects: Project[] = [
     wp: 'WP6',
     emoji: '🍷',
     title: 'Wine Recommender',
-    tagline: 'Discover your palate without the pretentiousness.',
+    tagline: 'Find wines you\'ll actually love.',
     description:
       'Describe what you like (crisp, mineral, not acidic, love salinity?) and get wine recommendations that match. Find tasting events near you. Curated by real wine friends. Future: vineyard partnerships and a premium tier.',
     status: 'live',

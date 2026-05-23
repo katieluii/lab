@@ -37,7 +37,12 @@ export default function IdeaDump({ ideas, onParsed, anthropicKey }: Props) {
       const parsed = await parseIdeas(raw, anthropicKey);
       onParsed(parsed);
     } catch (e) {
-      setError(e instanceof Error ? e.message : 'Something went wrong parsing ideas.');
+      const msg = e instanceof Error ? e.message : String(e);
+      if (msg.toLowerCase().includes('failed to fetch') || msg.toLowerCase().includes('networkerror')) {
+        setError('Cannot reach Anthropic API. Possible causes: (1) API key is wrong — re-enter it in Settings, (2) a browser extension (ad blocker, privacy shield) is blocking the request — try disabling it or using Incognito mode, (3) transient network issue — try again.');
+      } else {
+        setError(msg || 'Something went wrong. Check your API key in Settings.');
+      }
     } finally {
       setLoading(false);
     }

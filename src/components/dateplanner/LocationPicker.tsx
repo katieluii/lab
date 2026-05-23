@@ -24,7 +24,10 @@ export default function LocationPicker({ location, onSelect, owmKey }: Props) {
       try {
         const r = await searchCities(query, owmKey);
         setResults(r);
+        if (r.length === 0) setError('No cities found. Check your OpenWeatherMap key is correct and activated (new keys take up to 10 min).');
+        else setError('');
       } catch {
+        setError('City search failed. If you just created your OpenWeatherMap key, wait up to 10 minutes for it to activate.');
         setResults([]);
       }
     }, 350);
@@ -45,8 +48,13 @@ export default function LocationPicker({ location, onSelect, owmKey }: Props) {
       } else {
         setError('Could not identify your location. Try searching instead.');
       }
-    } catch {
-      setError('Location access denied. Please search for your city instead.');
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : '';
+      if (msg.includes('denied') || msg.includes('PERMISSION')) {
+        setError('Location access denied. Please search for your city instead.');
+      } else {
+        setError('Could not identify your location — your OpenWeatherMap key may not be activated yet (new keys take up to 10 min). Try searching for your city instead.');
+      }
     } finally {
       setDetecting(false);
     }

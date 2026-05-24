@@ -137,7 +137,7 @@ export default function WineRecommender() {
   const [gap, setGap]               = useState<string | null>(null);
 
   // persistence: returning-user banner
-  const savedAt = useRef<string | null>(localStorage.getItem(LS.SAVED_AT));
+  const savedAt = useRef<string | null>(lsGet<string | null>(LS.SAVED_AT, null));
   const hasSaved = useRef(Boolean(localStorage.getItem(LS.PROFILE)));
   const [showReturnBanner, setShowReturnBanner] = useState(hasSaved.current);
 

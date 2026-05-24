@@ -39,10 +39,14 @@ interface Props {
   feedbackGiven?: 'liked' | 'disliked';
   onLike?: () => void;
   onDislike?: () => void;
+  note?: string;
+  onNote?: (text: string) => void;
 }
 
-export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, onDislike }: Props) {
+export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, onDislike, note, onNote }: Props) {
   const [showStory, setShowStory] = useState(false);
+  const [showNoteBox, setShowNoteBox] = useState(false);
+  const [draftNote, setDraftNote] = useState(note ?? '');
   const why = generateWhy(wine, profile);
   const topProducers = wine.producers.slice(0, 3);
 
@@ -165,30 +169,78 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
 
         {/* Per-wine feedback */}
         {(onLike || onDislike) && (
-          <div className="pt-3 border-t border-zinc-100 flex items-center gap-2.5">
-            <span className="text-xs text-zinc-400 mr-1">Was this a match?</span>
-            <button
-              onClick={onLike}
-              className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border-2 font-medium transition-all active:scale-95"
-              style={
-                feedbackGiven === 'liked'
-                  ? { backgroundColor: ACCENT, borderColor: ACCENT, color: '#fff' }
-                  : { borderColor: '#e4e4e7', color: '#71717a' }
-              }
-            >
-              👍 Yes
-            </button>
-            <button
-              onClick={onDislike}
-              className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border-2 font-medium transition-all active:scale-95"
-              style={
-                feedbackGiven === 'disliked'
-                  ? { backgroundColor: '#e4e4e7', borderColor: '#a1a1aa', color: '#3f3f46' }
-                  : { borderColor: '#e4e4e7', color: '#71717a' }
-              }
-            >
-              👎 Not quite
-            </button>
+          <div className="pt-3 border-t border-zinc-100 space-y-2.5">
+            <div className="flex items-center gap-2.5">
+              <span className="text-xs text-zinc-400 mr-1">Was this a match?</span>
+              <button
+                onClick={onLike}
+                className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border-2 font-medium transition-all active:scale-95"
+                style={
+                  feedbackGiven === 'liked'
+                    ? { backgroundColor: ACCENT, borderColor: ACCENT, color: '#fff' }
+                    : { borderColor: '#e4e4e7', color: '#71717a' }
+                }
+              >
+                👍 Yes
+              </button>
+              <button
+                onClick={onDislike}
+                className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border-2 font-medium transition-all active:scale-95"
+                style={
+                  feedbackGiven === 'disliked'
+                    ? { backgroundColor: '#e4e4e7', borderColor: '#a1a1aa', color: '#3f3f46' }
+                    : { borderColor: '#e4e4e7', color: '#71717a' }
+                }
+              >
+                👎 Not quite
+              </button>
+            </div>
+
+            {/* Optional text note */}
+            {!showNoteBox ? (
+              <button
+                onClick={() => setShowNoteBox(true)}
+                className="text-xs transition-colors flex items-center gap-1"
+                style={{ color: note ? ACCENT : '#a1a1aa' }}
+              >
+                {note ? `📝 "${note.length > 50 ? note.slice(0, 50) + '…' : note}"` : '+ Add a note (optional)'}
+              </button>
+            ) : (
+              <div className="space-y-2">
+                <textarea
+                  autoFocus
+                  value={draftNote}
+                  onChange={(e) => setDraftNote(e.target.value)}
+                  placeholder="What did you like or not like? Any detail helps — tannins too grippy, acidity spot on, reminded you of something..."
+                  rows={3}
+                  className="w-full text-xs border border-zinc-200 rounded-lg px-3 py-2 resize-none focus:outline-none focus:ring-1 text-zinc-700 placeholder-zinc-300 leading-relaxed"
+                  style={{ '--tw-ring-color': `${ACCENT}44` } as React.CSSProperties}
+                />
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => { onNote?.(draftNote.trim()); setShowNoteBox(false); }}
+                    className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white transition-all active:scale-95"
+                    style={{ backgroundColor: ACCENT }}
+                  >
+                    Save note
+                  </button>
+                  <button
+                    onClick={() => { setDraftNote(note ?? ''); setShowNoteBox(false); }}
+                    className="text-xs px-3 py-1.5 rounded-lg border border-zinc-200 text-zinc-500 hover:border-zinc-300 transition-all"
+                  >
+                    Cancel
+                  </button>
+                  {draftNote.trim() && (
+                    <button
+                      onClick={() => { setDraftNote(''); onNote?.(''); setShowNoteBox(false); }}
+                      className="text-xs px-2 py-1.5 text-zinc-400 hover:text-zinc-600 transition-colors ml-auto"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

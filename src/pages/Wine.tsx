@@ -57,6 +57,7 @@ const TANNIN_LABELS: [string, string, string, string, string] = [
 const LS = {
   PROFILE:  'winerec_profile',
   FEEDBACK: 'winerec_feedback',
+  NOTES:    'winerec_notes',
   SAVED_AT: 'winerec_saved_at',
   RATING:   'winerec_overall_rating',
 } as const;
@@ -127,6 +128,7 @@ export default function WineRecommender() {
   const [done, setDone]         = useState(false);
   const [recs, setRecs]         = useState<WineEntry[]>([]);
   const [feedback, setFeedbackRaw] = useState<WineFeedback>(() => lsGet(LS.FEEDBACK, {}));
+  const [notes, setNotesRaw]    = useState<Record<string, string>>(() => lsGet(LS.NOTES, {}));
   const [refined, setRefined]   = useState(false);
   const [overallRating, setOverallRating] = useState<number | null>(() => lsGet(LS.RATING, null));
 
@@ -160,6 +162,15 @@ export default function WineRecommender() {
     setFeedbackRaw((prev) => {
       const next = typeof updater === 'function' ? updater(prev) : updater;
       lsSet(LS.FEEDBACK, next);
+      return next;
+    });
+  }
+
+  function handleNote(wineId: string, text: string) {
+    setNotesRaw((prev) => {
+      const next = { ...prev };
+      if (text) next[wineId] = text; else delete next[wineId];
+      lsSet(LS.NOTES, next);
       return next;
     });
   }
@@ -254,8 +265,9 @@ export default function WineRecommender() {
   function handleRetake() {
     const fresh = emptyProfile();
     setProfileRaw(fresh);
-    lsClear(LS.PROFILE, LS.FEEDBACK, LS.SAVED_AT);
+    lsClear(LS.PROFILE, LS.FEEDBACK, LS.NOTES, LS.SAVED_AT);
     setFeedbackRaw({});
+    setNotesRaw({});
     setStepIdx(0);
     setDone(false);
     setRecs([]);
@@ -646,6 +658,8 @@ export default function WineRecommender() {
                   feedbackGiven={feedback[wine.id]}
                   onLike={() => handleFeedback(wine.id, 'liked')}
                   onDislike={() => handleFeedback(wine.id, 'disliked')}
+                  note={notes[wine.id]}
+                  onNote={(text) => handleNote(wine.id, text)}
                 />
               ))}
             </div>

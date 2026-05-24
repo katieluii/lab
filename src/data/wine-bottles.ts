@@ -317,7 +317,7 @@ export const BOTTLES: Record<string, Bottle[]> = {
 
   // ── REDS — Old World ────────────────────────────────────────────────────────
 
-  'burgundy-pinot': [
+  'gevrey-chambertin': [
     {
       producer: 'Joseph Drouhin',
       wine: 'Gevrey-Chambertin',

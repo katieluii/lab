@@ -5,7 +5,8 @@ import type {
   Colour, Descriptor, FruitType, PaletteProfile, Wine as WineEntry, WineFeedback, WineArchetype,
 } from '../data/wines';
 import {
-  DESCRIPTOR_LABELS, FRUIT_LABELS, recommend, recommendWithFeedback,
+  WINES, DESCRIPTOR_LABELS, FRUIT_LABELS, QUESTIONNAIRE_DESCRIPTORS,
+  recommend, recommendWithFeedback,
   confidenceScore, detectArchetype, fillProfileWithArchetype, detectGaps,
 } from '../data/wines';
 import WineCard from '../components/wine/WineCard';
@@ -28,9 +29,7 @@ const ALL_FRUIT_TYPES: FruitType[] = [
   'red-fruit', 'dark-fruit', 'citrus', 'stone-fruit', 'tropical', 'dried-fruit',
 ];
 
-const ALL_DESCRIPTORS: Descriptor[] = [
-  'mineral', 'saline', 'oaky', 'buttery', 'earthy', 'floral', 'herbal', 'spicy', 'funky',
-];
+const ALL_DESCRIPTORS: Descriptor[] = QUESTIONNAIRE_DESCRIPTORS;
 
 const OCCASION_OPTIONS = [
   { value: 'solo',    emoji: '🛋️', label: 'Sipping solo',      sub: 'Unwinding after a long day' },
@@ -220,8 +219,8 @@ export default function WineRecommender() {
     const filled = fillProfileWithArchetype(p, arch);
     const conf   = confidenceScore(p);
     const count  = conf < 0.35 ? 7 : 5;
-    const results = recommend(filled, count);
-    const gapMsg  = detectGaps(p);
+    const results = recommend(WINES, filled, count);
+    const gapMsg  = detectGaps(p, WINES);
     setArchetype(arch);
     setConfidence(conf);
     setGap(gapMsg);
@@ -252,7 +251,7 @@ export default function WineRecommender() {
   function handleRefine() {
     const arch   = detectArchetype(profile);
     const filled = fillProfileWithArchetype(profile, arch);
-    setRecs(recommendWithFeedback(filled, feedback));
+    setRecs(recommendWithFeedback(WINES, filled, feedback));
     setRefined(true);
     setTimeout(() => document.getElementById('results')?.scrollIntoView({ behavior: 'smooth' }), 50);
   }

@@ -213,6 +213,31 @@ export const WINES: Wine[] = [
     storySnippet: "Vermentino probably arrived in Sardinia from Spain (via Liguria) centuries ago. The Sardinians took it and made it their own — the coastal terroir, sea breezes, and granite soils give it a saline, almost oyster-shell quality you don't find anywhere else.",
   },
   {
+    id: 'albarino',
+    name: 'Albariño (Rías Baixas)',
+    region: 'Rías Baixas',
+    country: 'Spain',
+    grape: 'Albariño',
+    colour: 'white',
+    body: 'light',
+    sweetness: 1,
+    acidity: 'high',
+    tannins: 'none',
+    fruitTypes: ['citrus', 'stone-fruit'],
+    descriptors: ['saline', 'floral', 'mineral'],
+    worldOrigin: 'old',
+    priceRange: '£14–28',
+    why: "Spain's great coastal white — lemon, white peach, and a spray of sea salt. Bracing acidity, low alcohol, built for food.",
+    producers: [
+      { name: 'Pazo de Señorans', note: 'One of Rías Baixas finest estates; single-vineyard selections are outstanding' },
+      { name: 'Do Ferreiro', note: 'Old-vine Albariño; deep and complex in a way most examples never reach' },
+      { name: 'Burgáns (Martín Códax)', note: 'The accessible entry point; consistent and widely available' },
+      { name: 'Fillaboa', note: 'Crisp, clean, precise — a benchmark for the fresh coastal style' },
+    ],
+    vintageNote: 'Drink within 2–3 years for freshness. Old-vine examples from Do Ferreiro can age surprisingly well for 5+ years.',
+    storySnippet: "Albariño nearly vanished. By mid-20th century, Galicia's wine industry had collapsed and much of the vineyard was replanted with inferior varieties for volume. The revival began in the 1980s when a handful of producers bet on Albariño's quality potential. The region's extreme climate — 2,000mm of rain annually — means yields are low and disease pressure is high. The grape's thick skin is its adaptation. The name may derive from \"white Rhine\" — Rhine Riesling monks are said to have brought the grape from Germany in the 12th century, and the two varieties are genetically close.",
+  },
+  {
     id: 'viognier',
     name: 'Condrieu',
     region: 'Northern Rhône',
@@ -260,6 +285,31 @@ export const WINES: Wine[] = [
     ],
     vintageNote: '2019 and 2020 are excellent years for Jura whites. These age well — 5–10 years is ideal.',
     storySnippet: "Savagnin Ouillé is the \"fresh\" version of the grape — made without the oxidative ageing that creates the famous Vin Jaune (yellow wine). Vin Jaune ages under a film of yeast called voile for at least 6 years and 3 months before bottling, producing a sherry-like wine of extraordinary complexity. The ouillé style is its more accessible sibling.",
+  },
+  {
+    id: 'alsace-riesling',
+    name: 'Alsace Riesling',
+    region: 'Alsace',
+    country: 'France',
+    grape: 'Riesling',
+    colour: 'white',
+    body: 'light',
+    sweetness: 2,
+    acidity: 'high',
+    tannins: 'none',
+    fruitTypes: ['citrus', 'stone-fruit'],
+    descriptors: ['floral', 'mineral'],
+    worldOrigin: 'old',
+    priceRange: '£15–30',
+    why: "Riesling from the French side of the Rhine — drier than German versions, with the same electric acidity and haunting floral-mineral complexity. The most underrated white in France.",
+    producers: [
+      { name: 'Trimbach', note: 'Clos Ste Hune is one of France\'s most collectible whites; Réserve is excellent value' },
+      { name: 'Domaine Weinbach', note: 'Family domaine from a former monastery; biodynamic and exceptional' },
+      { name: 'Zind-Humbrecht', note: 'Olivier Humbrecht MW; terroir-driven wines of remarkable precision' },
+      { name: 'Hugel & Fils', note: 'Historic house; Jubilee Riesling offers tremendous value' },
+    ],
+    vintageNote: '2017 and 2019 are exceptional. Grand Cru examples need 5–10 years to show their best.',
+    storySnippet: "Alsace has been French, German, French again, German again — the region changed hands four times between 1870 and 1945. This explains why the wines look German (tall flute bottles, Germanic grape varieties) but taste French (dry, food-oriented, terroir-driven). The most remarkable thing about Trimbach's Clos Sainte Hune is its consistency: winemaking methods unchanged since the 1970s, almost every vintage outstanding. Despite this, it sells at a fraction of comparable white Burgundy prices — one of the wine world's enduring anomalies.",
   },
   // SPARKLING — Old World
   {
@@ -388,6 +438,31 @@ export const WINES: Wine[] = [
     storySnippet: "Barbera was long considered Piedmont's workhorse grape — made cheaply, drunk young, not taken seriously. Then in the 1980s Giacomo Bologna of Braida put it in new French oak barrels, aged it seriously, and charged serious money. The wine world was shocked. Bricco dell'Uccellone became the first Barbera to be treated as a grand wine.",
   },
   {
+    id: 'beaujolais-morgon',
+    name: 'Beaujolais Morgon',
+    region: 'Beaujolais',
+    country: 'France',
+    grape: 'Gamay',
+    colour: 'red',
+    body: 'light',
+    sweetness: 1,
+    acidity: 'high',
+    tannins: 'low',
+    fruitTypes: ['red-fruit'],
+    descriptors: ['earthy', 'floral'],
+    worldOrigin: 'old',
+    priceRange: '£14–28',
+    why: "Beaujolais done seriously — Morgon's granite soils produce Gamay with real depth: fresh cherry, violet, and an earthy richness that makes it unlike any other light red.",
+    producers: [
+      { name: 'Marcel Lapierre', note: 'The godfather of natural Beaujolais; his Morgon is iconic and age-worthy' },
+      { name: 'Jean Foillard', note: 'Lapierre disciple; elegant, precise Morgon from old vines' },
+      { name: 'Georges Descombes', note: 'Another natural wine legend; earthy and wild in the best sense' },
+      { name: 'Château des Jacques', note: 'Louis Jadot estate; more conventional but reliably excellent' },
+    ],
+    vintageNote: '2019 and 2020 are exceptional. Morgon, unlike most Beaujolais, can age 5–10 years in good vintages.',
+    storySnippet: "In the 1980s, a group of winemakers known as the \"Gang of Four\" — Marcel Lapierre, Jean-Paul Thévenet, Guy Breton, and Jean Foillard — decided to make Beaujolais the way their grandparents did: no pesticides, wild yeast, no additives. They sparked what became the global natural wine movement. Meanwhile, Beaujolais Nouveau — the third Thursday of November marketing phenomenon invented in 1951 — gave the whole region a reputation it's still shaking off. The ten Beaujolais Crus (Morgon, Moulin-à-Vent, Fleurie, Brouilly...) are a completely different category.",
+  },
+  {
     id: 'rioja',
     name: 'Rioja Reserva',
     region: 'Rioja',
@@ -514,6 +589,31 @@ export const WINES: Wine[] = [
     ],
     vintageNote: '2016, 2018, and 2019 are all outstanding Mendoza vintages. High-altitude Malbec (Luján de Cuyo, Uco Valley) ages better than valley-floor wines.',
     storySnippet: "Malbec is a French grape — it was once widely planted in Bordeaux and still stars in Cahors. But in France it struggled with frost and rot. Argentine emigrés brought it to Mendoza in the mid-19th century, and in the dry, high-altitude climate it thrived. Today Argentina produces more Malbec than France ever did.",
+  },
+  {
+    id: 'central-otago-pinot',
+    name: 'Central Otago Pinot Noir',
+    region: 'Central Otago',
+    country: 'New Zealand',
+    grape: 'Pinot Noir',
+    colour: 'red',
+    body: 'medium',
+    sweetness: 1,
+    acidity: 'high',
+    tannins: 'low',
+    fruitTypes: ['red-fruit', 'dark-fruit'],
+    descriptors: ['earthy', 'floral', 'spicy'],
+    worldOrigin: 'new',
+    priceRange: '£22–50',
+    why: "The New World's answer to red Burgundy — generous dark cherry, earthy spice, and silky tannins. More approachable young than Burgundy, equally serious in intent.",
+    producers: [
+      { name: 'Felton Road', note: 'The benchmark; biodynamic estate making some of the Southern Hemisphere\'s greatest Pinot Noir' },
+      { name: 'Mt Difficulty', note: 'Bannockburn sub-region; consistently excellent and well priced for the quality' },
+      { name: 'Rippon', note: 'Stunning lakeside estate; biodynamic; wines of rare elegance' },
+      { name: 'Burn Cottage', note: 'Biodynamic; international cult following; limited but worth seeking' },
+    ],
+    vintageNote: '2019 and 2021 are outstanding. Central Otago has a continental climate — vintages vary significantly.',
+    storySnippet: "Central Otago is the world's southernmost wine region, and one of the highest — vineyards sit at 200–450 metres above sea level, surrounded by schist mountains. The region was discovered by gold rush prospectors in the 1860s; they found gold, but the first winemakers who followed found something rarer. The extreme diurnal temperature range (cold nights, hot days) produces wines of unusual concentration and freshness simultaneously — the same combination that makes Burgundy great, achieved at a completely different latitude on the other side of the world.",
   },
   {
     id: 'napa-cabernet',
@@ -676,4 +776,122 @@ export function generateWhy(wine: Wine, profile: PaletteProfile): string {
   }
 
   return parts.length > 0 ? parts.join(' ') : wine.why;
+}
+
+// --- Confidence ---
+
+export function confidenceScore(profile: PaletteProfile): number {
+  let score = 0;
+  if (profile.acidity !== null)   score += 2;    // most decisive dimension
+  if (profile.sweetness !== null) score += 1.5;
+  if (profile.tannins !== null)   score += 1.5;
+  if (profile.body !== null)      score += 1;
+  if (!profile.fruitIDK && profile.fruitTypes.length > 0) score += 1;
+  if (profile.descriptors.length > 0) score += 0.5;
+  if (profile.colours.length > 0)     score += 1;
+  if (profile.worldOrigin && profile.worldOrigin !== 'any') score += 0.5;
+  return Math.min(score / 9, 1); // 0.0 → 1.0
+}
+
+// --- Archetypes ---
+
+export interface WineArchetype {
+  id: string;
+  name: string;
+  emoji: string;
+  tagline: string;
+  defaults: {
+    acidity?: number;
+    sweetness?: number;
+    body?: number;
+    tannins?: number;
+    descriptors?: Descriptor[];
+    fruitTypes?: FruitType[];
+  };
+}
+
+export const ARCHETYPES: WineArchetype[] = [
+  {
+    id: 'mineral-seeker',
+    name: 'The Mineral Lover',
+    emoji: '💎',
+    tagline: 'Crisp, stony, electric acidity',
+    defaults: { acidity: 4, body: 2, sweetness: 1, descriptors: ['mineral', 'saline'] },
+  },
+  {
+    id: 'fruit-forward',
+    name: 'The Fruit Lover',
+    emoji: '🍑',
+    tagline: 'Ripe, round, expressive',
+    defaults: { acidity: 2, body: 3, sweetness: 2, fruitTypes: ['stone-fruit', 'tropical'] },
+  },
+  {
+    id: 'earthy-complex',
+    name: 'The Terroir Hound',
+    emoji: '🌍',
+    tagline: 'Savoury, earthy, Old World soul',
+    defaults: { acidity: 3, body: 3, sweetness: 1, descriptors: ['earthy', 'herbal', 'mineral'] },
+  },
+  {
+    id: 'tannin-hunter',
+    name: 'The Bold Red Seeker',
+    emoji: '🪨',
+    tagline: 'Structure, grip, dark fruit',
+    defaults: { acidity: 3, body: 4, sweetness: 1, tannins: 4, fruitTypes: ['dark-fruit'] },
+  },
+  {
+    id: 'light-elegant',
+    name: 'The Elegance Chaser',
+    emoji: '🌸',
+    tagline: 'Delicate, floral, silky',
+    defaults: { acidity: 3, body: 2, sweetness: 1, tannins: 2, descriptors: ['floral'] },
+  },
+  {
+    id: 'fun-approachable',
+    name: 'The Easy Drinker',
+    emoji: '🎉',
+    tagline: 'Crowd-pleasing, no surprises',
+    defaults: { acidity: 2, body: 3, sweetness: 2, tannins: 2 },
+  },
+];
+
+export function detectArchetype(profile: PaletteProfile): WineArchetype {
+  const scores = ARCHETYPES.map((arch) => {
+    let score = 0;
+    if (profile.acidity !== null && arch.defaults.acidity !== undefined)
+      score += 5 - Math.abs(profile.acidity - arch.defaults.acidity);
+    if (profile.sweetness !== null && arch.defaults.sweetness !== undefined)
+      score += 5 - Math.abs(profile.sweetness - arch.defaults.sweetness);
+    if (profile.body !== null && arch.defaults.body !== undefined)
+      score += 5 - Math.abs(profile.body - arch.defaults.body);
+    if (profile.tannins !== null && arch.defaults.tannins !== undefined)
+      score += 5 - Math.abs(profile.tannins - arch.defaults.tannins);
+    if (profile.descriptors.length > 0 && arch.defaults.descriptors)
+      score += profile.descriptors.filter((d) => arch.defaults.descriptors!.includes(d)).length * 2;
+    if (!profile.fruitIDK && profile.fruitTypes.length > 0 && arch.defaults.fruitTypes)
+      score += profile.fruitTypes.filter((f) => arch.defaults.fruitTypes!.includes(f)).length;
+    return { arch, score };
+  });
+  return scores.sort((a, b) => b.score - a.score)[0].arch;
+}
+
+export function fillProfileWithArchetype(profile: PaletteProfile, arch: WineArchetype): PaletteProfile {
+  return {
+    ...profile,
+    acidity:     profile.acidity     ?? arch.defaults.acidity     ?? null,
+    sweetness:   profile.sweetness   ?? arch.defaults.sweetness   ?? null,
+    body:        profile.body        ?? arch.defaults.body        ?? null,
+    tannins:     profile.tannins     ?? arch.defaults.tannins     ?? null,
+    descriptors: profile.descriptors.length > 0 ? profile.descriptors : (arch.defaults.descriptors ?? []),
+    fruitTypes:  (profile.fruitIDK || profile.fruitTypes.length > 0) ? profile.fruitTypes : (arch.defaults.fruitTypes ?? []),
+  };
+}
+
+// --- Gap detection ---
+
+export function detectGaps(profile: PaletteProfile): string | null {
+  const pool = candidatePool(profile.colours);
+  if (pool.length === 0) return "No wines match that colour filter yet — try opening it up.";
+  if (pool.length < 4) return `Only ${pool.length} wine${pool.length === 1 ? '' : 's'} in that category — more being added soon.`;
+  return null;
 }

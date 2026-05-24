@@ -1,8 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { CONCERTS } from '../data/nota-concerts';
-import type { Concert, Period, Mood } from '../data/nota-concerts';
-import { QUESTIONS } from '../data/nota-questionnaire';
+import type { Period, Mood } from '../data/nota-concerts';
 import type { QuestionOption, TasteProfile } from '../data/nota-questionnaire';
 import { buildProfile, rankConcerts, topTasteLabels } from '../utils/nota-matching';
 import { ConcertCard } from '../components/nota/ConcertCard';

@@ -51,8 +51,8 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'q3',
-    question: 'Which composers have you heard of? (no pressure)',
-    subtext: 'Tick all you recognise — this helps us understand your era',
+    question: 'Which composers draw you in?',
+    subtext: 'Select all that apply — this shapes the recommendation by era',
     multiSelect: true,
     options: [
       { id: 'q3-bach', label: 'Bach / Handel / Vivaldi', emoji: '⚜️', description: 'Baroque (1600s–1750s)', tags: { periods: ['baroque'] } },
@@ -80,10 +80,10 @@ export const QUESTIONS: Question[] = [
   {
     id: 'q5',
     question: 'How adventurous are you feeling?',
-    subtext: "Be honest. There's no wrong answer.",
+    subtext: 'Your answer gives us the clearest signal.',
     multiSelect: false,
     options: [
-      { id: 'q5-familiar', label: 'Show me the classics — pieces I might already know', emoji: '🏠', tags: { periods: ['romantic', 'classical', 'baroque'] } },
+      { id: 'q5-familiar', label: 'Core repertoire — the works I know and return to', emoji: '🏠', tags: { periods: ['romantic', 'classical', 'baroque'] } },
       { id: 'q5-mix', label: 'A mix — something familiar plus something new', emoji: '🗺️', tags: { periods: ['romantic', 'late-romantic', 'impressionist'] } },
       { id: 'q5-edge', label: 'Take me to the edge — contemporary or experimental', emoji: '🚀', tags: { periods: ['modern', 'contemporary'], moods: ['experimental'] } },
     ],

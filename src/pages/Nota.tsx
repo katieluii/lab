@@ -80,8 +80,8 @@ function HomeView({ onStart, onExplore }: { onStart: () => void; onExplore: () =
         <span className="italic" style={{ color: BURGUNDY }}>move you.</span>
       </h1>
       <p className="text-lg text-zinc-500 max-w-xl mx-auto mb-10 leading-relaxed">
-        Classical music can feel overwhelming. Answer five quick questions and we'll match you
-        with upcoming London concerts that fit your taste.
+        Tell us what you listen for — period, format, emotional register — and we'll surface the
+        London concerts coming up that are actually worth your evening.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center mb-20">
         <button onClick={onStart}

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 import type { Wine, PaletteProfile, Descriptor } from '../../data/wines';
 import { DESCRIPTOR_LABELS, generateWhy } from '../../data/wines';
+import { BOTTLES } from '../../data/wine-bottles';
 
 function vivinoSearchUrl(wine: Wine): string {
   const q = wine.name
@@ -48,7 +49,7 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
   const [showNoteBox, setShowNoteBox] = useState(false);
   const [draftNote, setDraftNote] = useState(note ?? '');
   const why = generateWhy(wine, profile);
-  const topProducers = wine.producers.slice(0, 3);
+  const bottles = BOTTLES[wine.id] ?? [];
 
   return (
     <div className="bg-white rounded-2xl shadow-sm ring-1 ring-zinc-200/60 overflow-hidden">
@@ -69,11 +70,10 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
             <span className="text-xs font-bold px-2.5 py-1 rounded-full text-white" style={{ backgroundColor: ACCENT }}>
               #{rank}
             </span>
-            <span className="text-xs text-zinc-400 font-medium">guide {wine.priceRange}</span>
           </div>
         </div>
 
-        {/* Grape + style + buy link */}
+        {/* Grape + style + search link */}
         <div className="flex items-center justify-between gap-2 -mt-1 flex-wrap">
           <p className="text-sm text-zinc-500">
             <span className="font-medium text-zinc-700">{wine.grape}</span>
@@ -89,7 +89,7 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
             className="flex items-center gap-1 text-xs font-semibold px-3 py-1.5 rounded-full border-2 transition-all hover:opacity-80 shrink-0"
             style={{ borderColor: ACCENT, color: ACCENT }}
           >
-            Search on Vivino <ExternalLink size={10} />
+            All on Vivino <ExternalLink size={10} />
           </a>
         </div>
 
@@ -127,15 +127,33 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
           })}
         </div>
 
-        {/* Producers */}
-        {topProducers.length > 0 && (
+        {/* Curated bottles */}
+        {bottles.length > 0 && (
           <div className="pt-3 border-t border-zinc-100">
-            <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide mb-2">Look for</p>
-            <div className="space-y-2">
-              {topProducers.map((p) => (
-                <div key={p.name} className="flex gap-2">
-                  <span className="text-xs font-semibold text-zinc-800 shrink-0">{p.name}</span>
-                  <span className="text-xs text-zinc-400">— {p.note}</span>
+            <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide mb-3">Buy a bottle</p>
+            <div className="space-y-3">
+              {bottles.map((b) => (
+                <div key={b.producer + b.vintage} className="flex items-start gap-3">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-baseline gap-1.5 flex-wrap">
+                      <span className="text-xs font-semibold text-zinc-800">{b.producer}</span>
+                      <span className="text-xs text-zinc-500">{b.wine}</span>
+                      <span className="text-xs text-zinc-400">{b.vintage}</span>
+                    </div>
+                    <p className="text-xs text-zinc-400 mt-0.5 leading-snug">{b.note}</p>
+                  </div>
+                  <div className="flex items-center gap-2 shrink-0 mt-0.5">
+                    <span className="text-xs font-semibold text-zinc-700">{b.approxPrice}</span>
+                    <a
+                      href={b.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-semibold px-2.5 py-1 rounded-lg border-2 transition-all hover:opacity-80 whitespace-nowrap"
+                      style={{ borderColor: ACCENT, color: ACCENT }}
+                    >
+                      Vivino ↗
+                    </a>
+                  </div>
                 </div>
               ))}
             </div>
@@ -145,7 +163,7 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
         {/* Vintage note */}
         {wine.vintageNote && (
           <div className="pt-2 border-t border-zinc-100">
-            <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide mb-1">Vintage</p>
+            <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide mb-1">Vintage guide</p>
             <p className="text-xs text-zinc-500 leading-relaxed">{wine.vintageNote}</p>
           </div>
         )}

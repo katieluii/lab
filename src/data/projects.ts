@@ -112,7 +112,7 @@ export const projects: Project[] = [
     description:
       'A centralised place to find classical concerts that match your taste. Questionnaire figures out if you\'re a Romantic-period-piano person or a Baroque-chamber-music person. Then surfaces upcoming performances near you. Democratising classical music.',
     status: 'live',
-    liveUrl: 'https://katieluii.github.io/nota/',
+    route: '/nota',
     priority: 2,
     tags: ['Web Scraping', 'React', 'TypeScript'],
     accentColor: '#d97706',

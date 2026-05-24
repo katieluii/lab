@@ -330,11 +330,11 @@ export default function WineRecommender() {
         {/* Hero */}
         <div>
           <h1 className="text-4xl font-bold text-zinc-900 mb-2 leading-tight">
-            Find wines you'll love.<br />
-            <span style={{ color: '#9f1239' }}>Tell us what you like. We'll do the rest.</span>
+            Your taste, mapped to bottles<br />
+            <span style={{ color: '#9f1239' }}>you haven't discovered yet.</span>
           </h1>
           <p className="text-zinc-500">
-            Answer a few short questions about what you enjoy, and we'll match you to wines you're likely to love.
+            Tell us how you like your wine — body, acidity, tannins, character — and we'll surface bottles that match, with producers and vintages worth knowing.
           </p>
 
           {/* Stage 4: Claude API shortcut */}

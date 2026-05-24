@@ -124,9 +124,9 @@ export const projects: Project[] = [
     wp: 'WP6',
     emoji: '🍷',
     title: 'Wine Recommender',
-    tagline: 'Find wines you\'ll actually love.',
+    tagline: 'Your taste, mapped to bottles you haven\'t discovered.',
     description:
-      'Describe what you like (crisp, mineral, not acidic, love salinity?) and get wine recommendations that match. Find tasting events near you. Curated by real wine friends. Future: vineyard partnerships and a premium tier.',
+      'For drinkers who can articulate their palate but want to go beyond their usual bottles. Describe your taste — body, acidity, tannins, character — and get matched to wines you probably haven\'t tried, with producers and vintages worth knowing.',
     status: 'live',
     priority: 3,
     tags: ['Claude API', 'Curated DB', 'Recommender', 'FastAPI'],

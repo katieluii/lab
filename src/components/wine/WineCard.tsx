@@ -3,13 +3,12 @@ import { ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 import type { Wine, PaletteProfile, Descriptor } from '../../data/wines';
 import { DESCRIPTOR_LABELS, generateWhy } from '../../data/wines';
 
-function wineSearchUrl(wine: Wine): string {
-  // Normalise accented characters then encode for Wine-Searcher's URL format
+function vivinoSearchUrl(wine: Wine): string {
   const q = wine.name
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')  // strip diacritics
-    .replace(/\s+/g, '+');
-  return `https://www.wine-searcher.com/find/${q}`;
+    .replace(/[̀-ͯ]/g, '') // strip diacritics
+    .trim();
+  return `https://www.vivino.com/search/wines?q=${encodeURIComponent(q)}`;
 }
 
 const ACCENT = '#9f1239';
@@ -66,7 +65,7 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
             <span className="text-xs font-bold px-2.5 py-1 rounded-full text-white" style={{ backgroundColor: ACCENT }}>
               #{rank}
             </span>
-            <span className="text-sm font-bold text-zinc-700">{wine.priceRange}</span>
+            <span className="text-xs text-zinc-400 font-medium">guide {wine.priceRange}</span>
           </div>
         </div>
 
@@ -80,13 +79,13 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
             <span className="text-zinc-400">{wine.worldOrigin === 'old' ? 'Old World' : 'New World'}</span>
           </p>
           <a
-            href={wineSearchUrl(wine)}
+            href={vivinoSearchUrl(wine)}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 text-xs font-semibold px-3 py-1.5 rounded-full border-2 transition-all hover:opacity-80 shrink-0"
             style={{ borderColor: ACCENT, color: ACCENT }}
           >
-            Find a bottle <ExternalLink size={10} />
+            Search on Vivino <ExternalLink size={10} />
           </a>
         </div>
 

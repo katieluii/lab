@@ -78,7 +78,7 @@ function lsClear(...keys: string[]) {
 
 function emptyProfile(): PaletteProfile {
   return {
-    colours: [], worldOrigin: null, fruitTypes: [], fruitIDK: false,
+    colours: [], likesSparkling: null, worldOrigin: null, fruitTypes: [], fruitIDK: false,
     body: null, sweetness: null, acidity: null, tannins: null,
     descriptors: [], occasion: null,
   };
@@ -193,10 +193,15 @@ export default function WineRecommender() {
   }
 
   function toggleColour(c: Colour) {
-    setProfile((p) => ({
-      ...p,
-      colours: p.colours.includes(c) ? p.colours.filter((x) => x !== c) : [...p.colours, c],
-    }));
+    setProfile((p) => {
+      const adding = !p.colours.includes(c);
+      return {
+        ...p,
+        colours: adding ? [...p.colours, c] : p.colours.filter((x) => x !== c),
+        // Selecting sparkling overrides the "no sparkling" flag
+        likesSparkling: c === 'sparkling' && adding ? null : p.likesSparkling,
+      };
+    });
   }
 
   function toggleFruit(f: FruitType) {
@@ -455,6 +460,27 @@ export default function WineRecommender() {
                     );
                   })}
                 </div>
+
+                {/* No sparkling toggle */}
+                <button
+                  onClick={() => setProfile((p) => ({
+                    ...p,
+                    likesSparkling: p.likesSparkling === false ? null : false,
+                    colours: p.likesSparkling === false ? p.colours : p.colours.filter((c) => c !== 'sparkling'),
+                  }))}
+                  className="mt-4 flex items-center gap-2 text-sm transition-colors"
+                  style={{ color: profile.likesSparkling === false ? '#9f1239' : '#a1a1aa' }}
+                >
+                  <span
+                    className="w-4 h-4 rounded border-2 flex items-center justify-center shrink-0 transition-all"
+                    style={profile.likesSparkling === false
+                      ? { borderColor: '#9f1239', backgroundColor: '#9f1239' }
+                      : { borderColor: '#d4d4d8', backgroundColor: 'transparent' }}
+                  >
+                    {profile.likesSparkling === false && <span className="text-white text-[10px] leading-none">✓</span>}
+                  </span>
+                  I don't enjoy fizzy / sparkling drinks
+                </button>
               </div>
             )}
 

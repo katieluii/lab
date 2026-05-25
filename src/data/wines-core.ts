@@ -53,6 +53,7 @@ export interface Wine {
 
 export interface PaletteProfile {
   colours: Colour[];
+  likesSparkling: boolean | null;  // null = no preference; false = exclude all sparkling
   worldOrigin: WorldOrigin | 'any' | null;
   fruitTypes: FruitType[];
   fruitIDK: boolean;
@@ -134,9 +135,10 @@ function scaleScore(userPref: number | null, wineVal: number, weight = 1): numbe
   return raw * weight;
 }
 
-function candidatePool(wines: Wine[], colours: Colour[]): Wine[] {
-  if (colours.length === 0) return wines;
-  return wines.filter((w) => colours.includes(w.colour));
+function candidatePool(wines: Wine[], profile: PaletteProfile): Wine[] {
+  let pool = profile.colours.length === 0 ? wines : wines.filter((w) => profile.colours.includes(w.colour));
+  if (profile.likesSparkling === false) pool = pool.filter((w) => w.colour !== 'sparkling');
+  return pool;
 }
 
 function scoreWine(wine: Wine, profile: PaletteProfile): number {
@@ -165,7 +167,7 @@ function scoreWine(wine: Wine, profile: PaletteProfile): number {
 }
 
 export function recommend(wines: Wine[], profile: PaletteProfile, count = 5): Wine[] {
-  return candidatePool(wines, profile.colours)
+  return candidatePool(wines, profile)
     .map((wine) => ({ wine, score: scoreWine(wine, profile) }))
     .sort((a, b) => b.score - a.score)
     .slice(0, count)
@@ -202,7 +204,7 @@ export function recommendWithFeedback(
   const dislikedIds = new Set(
     Object.entries(feedback).filter(([, v]) => v === 'disliked').map(([k]) => k),
   );
-  return candidatePool(wines, profile.colours)
+  return candidatePool(wines, profile)
     .filter((wine) => !dislikedIds.has(wine.id))
     .map((wine) => ({ wine, score: scoreWine(wine, profile) + feedbackBias(wine, wines, feedback) }))
     .sort((a, b) => b.score - a.score)

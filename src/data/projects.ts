@@ -108,9 +108,9 @@ export const projects: Project[] = [
     wp: 'WP5',
     emoji: '🎻',
     title: 'Classical Music Discovery',
-    tagline: 'Spotify for concerts. But actually good for classical.',
+    tagline: 'Find London concerts that match your taste.',
     description:
-      'A centralised place to find classical concerts that match your taste. Questionnaire figures out if you\'re a Romantic-period-piano person or a Baroque-chamber-music person. Then surfaces upcoming performances near you. Democratising classical music.',
+      'Tell us what you listen for — period, format, emotional register — and Nota surfaces upcoming London concerts worth your evening. Five questions to go from taste to ticket.',
     status: 'live',
     route: '/nota',
     priority: 2,

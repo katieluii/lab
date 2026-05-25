@@ -137,7 +137,7 @@ function scaleScore(userPref: number | null, wineVal: number, weight = 1): numbe
 
 function candidatePool(wines: Wine[], profile: PaletteProfile): Wine[] {
   let pool = profile.colours.length === 0 ? wines : wines.filter((w) => profile.colours.includes(w.colour));
-  if (profile.likesSparkling === false) pool = pool.filter((w) => w.colour !== 'sparkling');
+  if (profile.likesSparkling === false) pool = pool.filter((w) => w.colour !== 'sparkling' && w.style !== 'sparkling' && w.style !== 'pét-nat');
   return pool;
 }
 

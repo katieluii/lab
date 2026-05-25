@@ -183,7 +183,7 @@ export const WINES_IBERIA: Wine[] = [
     id: 'penedes-cava',
     name: 'Cava Reserva',
     region: 'Catalonia', subRegion: 'Penedès',
-    country: 'Spain', grape: 'Macabeo, Xarel-lo, Parellada', colour: 'white',
+    country: 'Spain', grape: 'Macabeo, Xarel-lo, Parellada', colour: 'sparkling',
     style: 'sparkling',
     body: 'light', sweetness: 1, acidity: 'high', tannins: 'none',
     fruitTypes: ['citrus', 'tree-fruit'],

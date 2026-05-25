@@ -1,170 +1,5 @@
 [
   {
-    "id": "wh-202605231300",
-    "title": "Myra Hess: National Treasure",
-    "subtitle": "Jessica Duchen and Nigel Hess in conversation",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-23",
-    "time": "13:00",
-    "performers": [],
-    "programme": [],
-    "periods": [],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605231300",
-    "price": "£4 – £10",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605231930",
-    "title": "Pavel Haas Quartet; Boris Giltburg piano; Petr Ries double bass",
-    "subtitle": "Dvořák and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-23",
-    "time": "19:30",
-    "performers": [
-      "Pavel Haas Quartet"
-    ],
-    "programme": [
-      {
-        "composer": "Antonín Dvořák",
-        "work": "I Know that My Love to Thee (Já vím, že v sladké nadeji)"
-      },
-      {
-        "composer": "Antonín Dvořák",
-        "work": "Death Reigns in Many a Human Breast (V tak mnohém srdci mrtvo jest)"
-      },
-      {
-        "composer": "Antonín Dvořák",
-        "work": "When Thy Sweet Glances Fall On Me (V té sladké moci ocí tvých)"
-      },
-      {
-        "composer": "Antonín Dvořák",
-        "work": "O, Lovely Golden Rose (Ó zlatá růže, spanilá)"
-      },
-      {
-        "composer": "Antonín Dvořák",
-        "work": "There Stands an Ancient Rock (Tam stojí stará skála)"
-      },
-      {
-        "composer": "Antonín Dvořák",
-        "work": "You Ask Why My Songs (Ty se ptáš, proč moje zpěvy)"
-      },
-      {
-        "composer": "Antonín Dvořák",
-        "work": "String Quartet No. 12 in F Op. 96 'American'"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Piano Quintet in A D667 'Trout'"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "chamber",
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605231930",
-    "price": "£4 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605241130",
-    "title": "Modigliani Quartet",
-    "subtitle": "Beethoven",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-24",
-    "time": "11:30",
-    "performers": [
-      "Modigliani Quartet"
-    ],
-    "programme": [
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "String Quartet No. 13 in B flat Op. 130 with Grosse Fuge Op. 133"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605241130",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605241500",
-    "title": "Alban Gerhardt cello",
-    "subtitle": "Bach Cello Suites",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-24",
-    "time": "15:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 4 in E flat BWV1010"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 5 in C minor BWV1011"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 3 in C BWV1009"
-      }
-    ],
-    "periods": [
-      "baroque"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605241500",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605241930",
-    "title": "Alban Gerhardt cello",
-    "subtitle": "Bach Cello Suites",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-24",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 1 in G BWV1007"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 2 in D minor BWV1008"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 6 in D BWV1012"
-      }
-    ],
-    "periods": [
-      "baroque"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605241930",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
     "id": "wh-202605251300",
     "title": "Modigliani Quartet; Leonkoro Quartet",
     "subtitle": "Felix Mendelssohn, Schulhoff and Turina",
@@ -244,10 +79,10 @@
       }
     ],
     "periods": [
-      "romantic",
-      "baroque",
       "contemporary",
-      "modern"
+      "modern",
+      "romantic",
+      "baroque"
     ],
     "formats": [
       "chamber",
@@ -491,9 +326,9 @@
       }
     ],
     "periods": [
-      "romantic",
+      "late-romantic",
       "modern",
-      "late-romantic"
+      "romantic"
     ],
     "formats": [
       "song-recital"
@@ -528,8 +363,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "chamber",
@@ -647,9 +482,9 @@
       }
     ],
     "periods": [
-      "romantic",
       "modern",
-      "impressionist"
+      "impressionist",
+      "romantic"
     ],
     "formats": [],
     "moods": [],
@@ -775,8 +610,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -829,8 +664,8 @@
       }
     ],
     "periods": [
-      "modern",
       "late-romantic",
+      "modern",
       "impressionist"
     ],
     "formats": [
@@ -872,9 +707,9 @@
       }
     ],
     "periods": [
+      "classical",
       "romantic",
-      "baroque",
-      "classical"
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -1184,8 +1019,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -1242,9 +1077,9 @@
     ],
     "periods": [],
     "formats": [
+      "song-recital",
       "early-music",
-      "choral",
-      "song-recital"
+      "choral"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202606091930",
@@ -1276,8 +1111,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
@@ -1330,8 +1165,8 @@
       }
     ],
     "periods": [
-      "modern",
       "late-romantic",
+      "modern",
       "impressionist"
     ],
     "formats": [
@@ -1390,8 +1225,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "song-recital"
+      "song-recital",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202606111930",
@@ -1492,8 +1327,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "modern"
+      "modern",
+      "baroque"
     ],
     "formats": [
       "chamber"
@@ -1530,9 +1365,9 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern",
       "late-romantic",
+      "modern",
+      "romantic",
       "impressionist"
     ],
     "formats": [
@@ -1767,9 +1602,9 @@
       }
     ],
     "periods": [
-      "romantic",
+      "classical",
       "modern",
-      "classical"
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -1798,8 +1633,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "romantic"
+      "romantic",
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -2062,8 +1897,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -2222,8 +2057,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [],
     "moods": [],
@@ -2362,8 +2197,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -2725,8 +2560,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "modern"
+      "modern",
+      "baroque"
     ],
     "formats": [
       "early-music"
@@ -2886,8 +2721,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "classical"
+      "classical",
+      "modern"
     ],
     "formats": [
       "chamber"
@@ -3312,8 +3147,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "contemporary"
+      "contemporary",
+      "modern"
     ],
     "formats": [
       "chamber"
@@ -3368,8 +3203,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "classical"
+      "classical",
+      "baroque"
     ],
     "formats": [
       "early-music"
@@ -3422,12 +3257,12 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
-      "early-music",
-      "song-recital"
+      "song-recital",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202607091930",
@@ -3517,8 +3352,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -3801,8 +3636,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "modern"
+      "modern",
+      "baroque"
     ],
     "formats": [
       "song-recital"
@@ -3890,8 +3725,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -3940,9 +3775,9 @@
       }
     ],
     "periods": [
-      "romantic",
+      "classical",
       "late-romantic",
-      "classical"
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -4226,9 +4061,9 @@
       }
     ],
     "periods": [
-      "romantic",
       "modern",
-      "impressionist"
+      "impressionist",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -4326,9 +4161,9 @@
       }
     ],
     "periods": [
-      "romantic",
+      "classical",
       "late-romantic",
-      "classical"
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -4430,9 +4265,9 @@
       }
     ],
     "periods": [
-      "romantic",
       "late-romantic",
-      "impressionist"
+      "impressionist",
+      "romantic"
     ],
     "formats": [
       "song-recital"
@@ -4485,10 +4320,10 @@
       }
     ],
     "periods": [
-      "baroque",
+      "impressionist",
       "late-romantic",
       "romantic",
-      "impressionist"
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -4541,9 +4376,9 @@
       }
     ],
     "periods": [
-      "romantic",
+      "classical",
       "contemporary",
-      "classical"
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -4578,9 +4413,9 @@
       }
     ],
     "periods": [
-      "romantic",
+      "classical",
       "modern",
-      "classical"
+      "romantic"
     ],
     "formats": [
       "string-quartet"
@@ -4716,9 +4551,9 @@
       }
     ],
     "periods": [
+      "classical",
       "romantic",
-      "impressionist",
-      "classical"
+      "impressionist"
     ],
     "formats": [],
     "moods": [],
@@ -4769,10 +4604,10 @@
       }
     ],
     "periods": [
-      "romantic",
-      "baroque",
       "late-romantic",
-      "modern"
+      "modern",
+      "romantic",
+      "baroque"
     ],
     "formats": [
       "chamber"
@@ -4809,8 +4644,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "late-romantic"
+      "late-romantic",
+      "modern"
     ],
     "formats": [
       "chamber"

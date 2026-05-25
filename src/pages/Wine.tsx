@@ -175,7 +175,7 @@ export default function WineRecommender() {
   }
 
   // Keep savedAt ref in sync when profile changes
-  useEffect(() => { savedAt.current = localStorage.getItem(LS.SAVED_AT); }, [profile]);
+  useEffect(() => { savedAt.current = lsGet<string | null>(LS.SAVED_AT, null); }, [profile]);
 
   // ── Derived ──
   const step     = ALL_STEPS[stepIdx];

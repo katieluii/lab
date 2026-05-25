@@ -120,21 +120,6 @@ export const projects: Project[] = [
     accentText: 'text-amber-700',
   },
   {
-    id: 'discord-summariser',
-    wp: 'WP7',
-    emoji: '💬',
-    title: 'Discord Chat Summariser',
-    tagline: 'Know what happened without reading 500 messages.',
-    description:
-      'Paste a Discord channel\'s chat log and get a structured daily summary: topics, decisions, action items, open questions, and key links. Python + Claude API. No bot setup required — just copy, paste, run.',
-    status: 'building',
-    priority: 7,
-    tags: ['Claude API', 'Python', 'CLI Tool', 'Productivity'],
-    accentColor: '#0ea5e9',
-    accentBg: 'bg-sky-50',
-    accentText: 'text-sky-600',
-  },
-  {
     id: 'wine',
     wp: 'WP6',
     emoji: '🍷',

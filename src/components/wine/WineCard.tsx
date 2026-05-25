@@ -3,13 +3,18 @@ import { ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 import type { Wine, PaletteProfile, Descriptor } from '../../data/wines';
 import { DESCRIPTOR_LABELS, generateWhy } from '../../data/wines';
 import { BOTTLES } from '../../data/wine-bottles';
+import { PRODUCERS } from '../../data/wine-producers';
+
+function stripDiacritics(s: string) {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').trim();
+}
 
 function vivinoSearchUrl(wine: Wine): string {
-  const q = wine.name
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '') // strip diacritics
-    .trim();
-  return `https://www.vivino.com/search/wines?q=${encodeURIComponent(q)}`;
+  return `https://www.vivino.com/search/wines?q=${encodeURIComponent(stripDiacritics(wine.name))}`;
+}
+
+function producerVivinoUrl(producerName: string, wine: Wine): string {
+  return `https://www.vivino.com/search/wines?q=${encodeURIComponent(stripDiacritics(producerName + ' ' + wine.name))}`;
 }
 
 const ACCENT = '#9f1239';
@@ -50,6 +55,7 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
   const [draftNote, setDraftNote] = useState(note ?? '');
   const why = generateWhy(wine, profile);
   const bottles = BOTTLES[wine.id] ?? [];
+  const producers = PRODUCERS[wine.id] ?? [];
 
   return (
     <div className="bg-white rounded-2xl shadow-sm ring-1 ring-zinc-200/60 overflow-hidden">
@@ -127,35 +133,49 @@ export default function WineCard({ wine, profile, rank, feedbackGiven, onLike, o
           })}
         </div>
 
-        {/* Curated bottles */}
-        {bottles.length > 0 && (
+        {/* Bottles / producers */}
+        {(bottles.length > 0 || producers.length > 0) && (
           <div className="pt-3 border-t border-zinc-100">
-            <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide mb-3">Buy a bottle</p>
+            <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wide mb-3">Producers to seek out</p>
             <div className="space-y-3">
-              {bottles.map((b) => (
-                <div key={b.producer + b.vintage} className="flex items-start gap-3">
-                  <div className="min-w-0 flex-1">
-                    <div className="flex items-baseline gap-1.5 flex-wrap">
-                      <span className="text-xs font-semibold text-zinc-800">{b.producer}</span>
-                      <span className="text-xs text-zinc-500">{b.wine}</span>
-                      <span className="text-xs text-zinc-400">{b.vintage}</span>
+              {bottles.length > 0
+                ? bottles.map((b) => (
+                    <div key={b.producer + b.vintage} className="flex items-start gap-3">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-baseline gap-1.5 flex-wrap">
+                          <span className="text-xs font-semibold text-zinc-800">{b.producer}</span>
+                          <span className="text-xs text-zinc-500">{b.wine}</span>
+                          <span className="text-xs text-zinc-400">{b.vintage}</span>
+                        </div>
+                        <p className="text-xs text-zinc-400 mt-0.5 leading-snug">{b.note}</p>
+                      </div>
+                      <div className="flex items-center gap-2 shrink-0 mt-0.5">
+                        <span className="text-xs font-semibold text-zinc-700">{b.approxPrice}</span>
+                        <a href={b.url} target="_blank" rel="noopener noreferrer"
+                          className="text-xs font-semibold px-2.5 py-1 rounded-lg border-2 transition-all hover:opacity-80 whitespace-nowrap"
+                          style={{ borderColor: ACCENT, color: ACCENT }}>
+                          Vivino ↗
+                        </a>
+                      </div>
                     </div>
-                    <p className="text-xs text-zinc-400 mt-0.5 leading-snug">{b.note}</p>
-                  </div>
-                  <div className="flex items-center gap-2 shrink-0 mt-0.5">
-                    <span className="text-xs font-semibold text-zinc-700">{b.approxPrice}</span>
-                    <a
-                      href={b.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs font-semibold px-2.5 py-1 rounded-lg border-2 transition-all hover:opacity-80 whitespace-nowrap"
-                      style={{ borderColor: ACCENT, color: ACCENT }}
-                    >
-                      Vivino ↗
-                    </a>
-                  </div>
-                </div>
-              ))}
+                  ))
+                : producers.map((p) => (
+                    <div key={p.name} className="flex items-start gap-3">
+                      <div className="min-w-0 flex-1">
+                        <span className="text-xs font-semibold text-zinc-800">{p.name}</span>
+                        <p className="text-xs text-zinc-400 mt-0.5 leading-snug">{p.note}</p>
+                      </div>
+                      <div className="flex items-center gap-2 shrink-0 mt-0.5">
+                        <span className="text-xs font-semibold text-zinc-700">{p.approxPrice}</span>
+                        <a href={producerVivinoUrl(p.name, wine)} target="_blank" rel="noopener noreferrer"
+                          className="text-xs font-semibold px-2.5 py-1 rounded-lg border-2 transition-all hover:opacity-80 whitespace-nowrap"
+                          style={{ borderColor: ACCENT, color: ACCENT }}>
+                          Vivino ↗
+                        </a>
+                      </div>
+                    </div>
+                  ))
+              }
             </div>
           </div>
         )}

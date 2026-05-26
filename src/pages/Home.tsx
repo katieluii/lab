@@ -124,7 +124,7 @@ export default function Home() {
       <footer className="border-t border-zinc-200/60 bg-white/50">
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-zinc-400">
-            <span className="text-lg">🌸</span>
+            <span className="text-lg">🌟</span>
             <span className="font-mono">KaTiE's B I G brain // side projects</span>
           </div>
           <div className="flex items-center gap-4 text-sm text-zinc-400">

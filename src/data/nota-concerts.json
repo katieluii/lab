@@ -1,465 +1,5 @@
 [
   {
-    "id": "wh-202605251300",
-    "title": "Modigliani Quartet; Leonkoro Quartet",
-    "subtitle": "Felix Mendelssohn, Schulhoff and Turina",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-25",
-    "time": "13:00",
-    "performers": [
-      "Modigliani Quartet",
-      "Leonkoro Quartet"
-    ],
-    "programme": [
-      {
-        "composer": "Joaquín Turina",
-        "work": "La oración del torero Op. 34"
-      },
-      {
-        "composer": "Erwin Schulhoff",
-        "work": "5 Pieces for String Quartet"
-      },
-      {
-        "composer": "Felix Mendelssohn",
-        "work": "Octet in E flat Op. 20"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "chamber",
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605251300",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605251930",
-    "title": "Gala Concert with Thomas Adès, Alina Ibragimova, Cédric Tiberghien, Louise Alder and Joseph Middleton",
-    "subtitle": "Brahms, Bach, Beethoven and more",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-25",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Anon",
-        "work": "God Save the King"
-      },
-      {
-        "composer": "Thomas Adès",
-        "work": "Vesper (for Henry Purcell)"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 30 in E Op. 109"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Nacht und Träume D827"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Der Jüngling an der Quelle D300"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Erlkönig D328"
-      },
-      {
-        "composer": "Johannes Brahms",
-        "work": "Variations on a Theme by Paganini Op. 35 (Book I) "
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "V. Sarabande"
-      }
-    ],
-    "periods": [
-      "contemporary",
-      "modern",
-      "romantic",
-      "baroque"
-    ],
-    "formats": [
-      "chamber",
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605251930",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605261300",
-    "title": "Jordi Savall viola da gamba, director; Hespèrion XXI; Soloists of La Capella Reial de Catalunya",
-    "subtitle": "The Tears and Fire of the Muses, Claudio Monteverdi Revolution",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-26",
-    "time": "13:00",
-    "performers": [
-      "Hespèrion XXI",
-      "Soloists of La Capella Reial de Catalunya"
-    ],
-    "programme": [],
-    "periods": [],
-    "formats": [
-      "early-music",
-      "choral"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605261300",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605261930",
-    "title": "Asmik Grigorian soprano; Lukas Geniušas piano",
-    "subtitle": "Bizet, Fauré, Hahn and more",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-26",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Maurice Ravel",
-        "work": "Vocalise-étude en forme de habanera"
-      },
-      {
-        "composer": "Gabriel Fauré",
-        "work": "Vocalise-étude"
-      },
-      {
-        "composer": "Reynaldo Hahn",
-        "work": "Vocalise-étude (Souvenir de Constantinople)"
-      },
-      {
-        "composer": "Georges Bizet",
-        "work": " L'aurore"
-      },
-      {
-        "composer": "Georges Bizet",
-        "work": " Le départ"
-      },
-      {
-        "composer": "Georges Bizet",
-        "work": " Les rêves"
-      },
-      {
-        "composer": "Georges Bizet",
-        "work": " Le retour"
-      },
-      {
-        "composer": "Sergey Rachmaninov",
-        "work": "Vocalise Op. 34 No. 14"
-      }
-    ],
-    "periods": [
-      "late-romantic",
-      "impressionist"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605261930",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605271300",
-    "title": "Jordi Savall viola da gamba, director; Hespèrion XXI; Soloists of La Capella Reial de Catalunya",
-    "subtitle": "The Tears and Fire of the Muses, Claudio Monteverdi Revolution",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-27",
-    "time": "13:00",
-    "performers": [
-      "Hespèrion XXI",
-      "Soloists of La Capella Reial de Catalunya"
-    ],
-    "programme": [],
-    "periods": [],
-    "formats": [
-      "early-music",
-      "choral"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605271300",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605271930",
-    "title": "Rhiannon Giddens; Francesco Turrisi; Crash Ensemble",
-    "subtitle": "",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-27",
-    "time": "19:30",
-    "performers": [
-      "Crash Ensemble"
-    ],
-    "programme": [],
-    "periods": [],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605271930",
-    "price": "£4 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605281930",
-    "title": "Alexandre Kantorow piano",
-    "subtitle": "Anders Hillborg, Beethoven, Chopin, Liszt and Medtner",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-28",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Franz Liszt",
-        "work": "Variationen über das Motiv von Bach S180"
-      },
-      {
-        "composer": "Nikolai Medtner",
-        "work": "Piano Sonata in F minor Op. 5"
-      },
-      {
-        "composer": "Fryderyk Chopin",
-        "work": "Prelude in C sharp minor Op. 45"
-      },
-      {
-        "composer": "Anders Hillborg",
-        "work": "The Kalamazoo Flow"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 32 in C minor Op. 111"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605281930",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605291300",
-    "title": "Yunchan Lim piano",
-    "subtitle": "Schubert and Skryabin",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-29",
-    "time": "13:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Franz Schubert",
-        "work": "Piano Sonata in D D850"
-      },
-      {
-        "composer": "Aleksandr Skryabin",
-        "work": "Piano Sonata No. 2 in G sharp minor Op. 19 'Sonata Fantasy'"
-      },
-      {
-        "composer": "Aleksandr Skryabin",
-        "work": "Piano Sonata No. 3 in F sharp minor Op. 23"
-      },
-      {
-        "composer": "Aleksandr Skryabin",
-        "work": "Piano Sonata No. 4 in F sharp Op. 30"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605291300",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605291930",
-    "title": "Christian Gerhaher baritone; Gerold Huber piano",
-    "subtitle": "Beethoven, Berg, Brahms, G Mahler and Wolf",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-29",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "An die ferne Geliebte Op. 98"
-      },
-      {
-        "composer": "Gustav Mahler",
-        "work": "Frühlingsmorgen"
-      },
-      {
-        "composer": "Gustav Mahler",
-        "work": " Ablösung im Sommer"
-      },
-      {
-        "composer": "Gustav Mahler",
-        "work": " Zu Strassburg auf der Schanz"
-      },
-      {
-        "composer": "Gustav Mahler",
-        "work": " Nicht wiedersehen!"
-      },
-      {
-        "composer": "Hugo Wolf",
-        "work": " Lied eines Verliebten"
-      },
-      {
-        "composer": "Hugo Wolf",
-        "work": " Im Frühling"
-      },
-      {
-        "composer": "Hugo Wolf",
-        "work": " Denk' es, o Seele!"
-      }
-    ],
-    "periods": [
-      "late-romantic",
-      "modern",
-      "romantic"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605291930",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605301930",
-    "title": "Leonkoro Quartet; Igor Levit piano",
-    "subtitle": "Brahms, Felix Mendelssohn and Haydn",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-30",
-    "time": "19:30",
-    "performers": [
-      "Leonkoro Quartet"
-    ],
-    "programme": [
-      {
-        "composer": "Joseph Haydn",
-        "work": "String Quartet in D Op. 76 No. 5"
-      },
-      {
-        "composer": "Felix Mendelssohn",
-        "work": "String Quartet No. 6 in F minor Op. 80"
-      },
-      {
-        "composer": "Johannes Brahms",
-        "work": "Piano Quintet in F minor Op. 34"
-      }
-    ],
-    "periods": [
-      "classical",
-      "romantic"
-    ],
-    "formats": [
-      "chamber",
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605301930",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605311130",
-    "title": "Leonkoro Quartet; Igor Levit piano",
-    "subtitle": "Bosmans and R Schumann",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-31",
-    "time": "11:30",
-    "performers": [
-      "Leonkoro Quartet"
-    ],
-    "programme": [
-      {
-        "composer": "Henriëtte Bosmans",
-        "work": "String Quartet"
-      },
-      {
-        "composer": "Robert Schumann",
-        "work": "Piano Quintet in E flat Op. 44"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605311130",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202605311930",
-    "title": "Lise Davidsen soprano; James Baillieu piano",
-    "subtitle": "Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-05-31",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Franz Schubert",
-        "work": "Am Bach im Frühling D361"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Ganymed D544"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Der Zwerg D771"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Gretchen am Spinnrade D118"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Mignons Gesang 'Kennst du das Land?' D321"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Heiss mich nicht reden"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "So lasst mich scheinen"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Nur wer die Sehnsucht kennt"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202605311930",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
     "id": "wh-202606011300",
     "title": "Igor Levit piano",
     "subtitle": "Anniversary Gala Concert",
@@ -483,8 +23,8 @@
     ],
     "periods": [
       "modern",
-      "impressionist",
-      "romantic"
+      "romantic",
+      "impressionist"
     ],
     "formats": [],
     "moods": [],
@@ -512,8 +52,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202606011930",
@@ -610,8 +150,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -664,9 +204,9 @@
       }
     ],
     "periods": [
-      "late-romantic",
       "modern",
-      "impressionist"
+      "impressionist",
+      "late-romantic"
     ],
     "formats": [
       "song-recital"
@@ -707,8 +247,8 @@
       }
     ],
     "periods": [
-      "classical",
       "romantic",
+      "classical",
       "baroque"
     ],
     "formats": [],
@@ -971,13 +511,50 @@
   {
     "id": "wh-202606082000e",
     "title": "Wigmore French Song Exchange 2026 at the Salle Cortot in Paris",
-    "subtitle": "",
+    "subtitle": "Barber, Bernstein, Bizet and more",
     "venue": "Wigmore Hall",
     "date": "2026-06-08",
     "time": "20:00",
     "performers": [],
-    "programme": [],
-    "periods": [],
+    "programme": [
+      {
+        "composer": "Pauline Viardot",
+        "work": "Madrid"
+      },
+      {
+        "composer": "Rita Strohl",
+        "work": " Berceuse"
+      },
+      {
+        "composer": "Samuel Barber",
+        "work": "Départ"
+      },
+      {
+        "composer": "Isabelle Aboulker",
+        "work": "Le Corbeau et le Renard"
+      },
+      {
+        "composer": "Francis Poulenc",
+        "work": "Bleuet"
+      },
+      {
+        "composer": "Pierre Capdevielle",
+        "work": "No. 5 L'Adieu"
+      },
+      {
+        "composer": "Reynaldo Hahn",
+        "work": "Infidélité"
+      },
+      {
+        "composer": "Henri Duparc",
+        "work": "Le galop"
+      }
+    ],
+    "periods": [
+      "modern",
+      "impressionist",
+      "late-romantic"
+    ],
     "formats": [
       "song-recital"
     ],
@@ -1019,8 +596,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -1078,8 +655,8 @@
     "periods": [],
     "formats": [
       "song-recital",
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202606091930",
@@ -1153,11 +730,11 @@
       },
       {
         "composer": "Joseph Jongen",
-        "work": " Bal de fleurs"
+        "work": "Bal de fleurs Op. 25 W127"
       },
       {
         "composer": "Maude Valérie White",
-        "work": "Chantez,chantez jeune inspirée"
+        "work": "Chantez, chantez jeune inspirée"
       },
       {
         "composer": "Francis Poulenc",
@@ -1165,9 +742,9 @@
       }
     ],
     "periods": [
-      "late-romantic",
       "modern",
-      "impressionist"
+      "impressionist",
+      "late-romantic"
     ],
     "formats": [
       "song-recital"
@@ -1190,7 +767,7 @@
     "programme": [
       {
         "composer": "George Frideric Handel",
-        "work": "Cantata: Mi palpita il cor HWV132c"
+        "work": "Mi palpita il cor HWV132c"
       },
       {
         "composer": "George Frideric Handel",
@@ -1210,7 +787,7 @@
       },
       {
         "composer": "George Frideric Handel",
-        "work": "Trio Sonata in G minor HWV390"
+        "work": "Trio Sonata in G minor HWV390a"
       },
       {
         "composer": "George Frideric Handel",
@@ -1218,7 +795,7 @@
       },
       {
         "composer": "George Frideric Handel",
-        "work": "A mirarvi io son intento HWV178 178"
+        "work": "A mirarvi io son intento HWV178"
       }
     ],
     "periods": [
@@ -1264,7 +841,7 @@
       },
       {
         "composer": "Fryderyk Chopin",
-        "work": " Mazurka in C Op. 56 No. 3"
+        "work": " Mazurka in C minor Op. 56 No. 3"
       },
       {
         "composer": "Fryderyk Chopin",
@@ -1303,11 +880,11 @@
       },
       {
         "composer": "Nicola Matteis",
-        "work": "III. Passaggio rotto"
+        "work": "Passaggio rotto"
       },
       {
         "composer": "Laurence Osborn",
-        "work": "Rendering Error for solo violin"
+        "work": "Rendering Error"
       },
       {
         "composer": "Louis-Gabriel Guillemain",
@@ -1365,10 +942,10 @@
       }
     ],
     "periods": [
-      "late-romantic",
       "modern",
       "romantic",
-      "impressionist"
+      "impressionist",
+      "late-romantic"
     ],
     "formats": [
       "chamber"
@@ -1437,8 +1014,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202606141930",
@@ -1602,9 +1179,9 @@
       }
     ],
     "periods": [
-      "classical",
       "modern",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -1730,8 +1307,8 @@
       }
     ],
     "periods": [
-      "late-romantic",
-      "impressionist"
+      "impressionist",
+      "late-romantic"
     ],
     "formats": [
       "song-recital"
@@ -1820,7 +1397,7 @@
       },
       {
         "composer": "Ninfea Cruttwell-Reade",
-        "work": "New work (piano quintet)"
+        "work": "How clear, how lovely bright"
       }
     ],
     "periods": [
@@ -2057,8 +1634,8 @@
       }
     ],
     "periods": [
-      "late-romantic",
-      "romantic"
+      "romantic",
+      "late-romantic"
     ],
     "formats": [],
     "moods": [],
@@ -2721,8 +2298,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "modern"
+      "modern",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -3147,8 +2724,8 @@
       }
     ],
     "periods": [
-      "contemporary",
-      "modern"
+      "modern",
+      "contemporary"
     ],
     "formats": [
       "chamber"
@@ -3257,8 +2834,8 @@
       }
     ],
     "periods": [
-      "late-romantic",
-      "romantic"
+      "romantic",
+      "late-romantic"
     ],
     "formats": [
       "song-recital",
@@ -3546,8 +3123,8 @@
     ],
     "periods": [],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202607131300",
@@ -3725,8 +3302,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -3775,9 +3352,9 @@
       }
     ],
     "periods": [
+      "romantic",
       "classical",
-      "late-romantic",
-      "romantic"
+      "late-romantic"
     ],
     "formats": [
       "chamber"
@@ -4062,8 +3639,8 @@
     ],
     "periods": [
       "modern",
-      "impressionist",
-      "romantic"
+      "romantic",
+      "impressionist"
     ],
     "formats": [
       "chamber"
@@ -4161,9 +3738,9 @@
       }
     ],
     "periods": [
+      "romantic",
       "classical",
-      "late-romantic",
-      "romantic"
+      "late-romantic"
     ],
     "formats": [
       "chamber"
@@ -4265,9 +3842,9 @@
       }
     ],
     "periods": [
-      "late-romantic",
+      "romantic",
       "impressionist",
-      "romantic"
+      "late-romantic"
     ],
     "formats": [
       "song-recital"
@@ -4320,9 +3897,9 @@
       }
     ],
     "periods": [
+      "romantic",
       "impressionist",
       "late-romantic",
-      "romantic",
       "baroque"
     ],
     "formats": [],
@@ -4376,9 +3953,9 @@
       }
     ],
     "periods": [
-      "classical",
+      "romantic",
       "contemporary",
-      "romantic"
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -4413,9 +3990,9 @@
       }
     ],
     "periods": [
-      "classical",
       "modern",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "string-quartet"
@@ -4551,8 +4128,8 @@
       }
     ],
     "periods": [
-      "classical",
       "romantic",
+      "classical",
       "impressionist"
     ],
     "formats": [],
@@ -4604,9 +4181,9 @@
       }
     ],
     "periods": [
-      "late-romantic",
       "modern",
       "romantic",
+      "late-romantic",
       "baroque"
     ],
     "formats": [
@@ -4644,8 +4221,8 @@
       }
     ],
     "periods": [
-      "late-romantic",
-      "modern"
+      "modern",
+      "late-romantic"
     ],
     "formats": [
       "chamber"

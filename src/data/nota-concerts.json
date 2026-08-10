@@ -30,21 +30,21 @@
       },
       {
         "composer": "Giacomo Puccini",
-        "work": "Mi chiamano Mimi"
+        "work": "Sì. Mi chiamano Mimì"
       },
       {
         "composer": "Giuseppe Verdi",
-        "work": "È strano! è strano!...Ah! fors è lui"
+        "work": "È strano!... Ah, fors' è lui... Follie!... Sempre libera"
       },
       {
-        "composer": "Giuseppe Verdi",
-        "work": " Sempre libera"
+        "composer": "Joaquín Rodrigo",
+        "work": "4 madrigales amatorios"
       }
     ],
     "periods": [
+      "late-romantic",
       "romantic",
-      "classical",
-      "late-romantic"
+      "classical"
     ],
     "formats": [
       "song-recital"
@@ -119,7 +119,7 @@
     "programme": [
       {
         "composer": "Johann Sebastian Bach",
-        "work": "Prelude in E BWV854 from <em>The Well-tempered Clavier Book I</em>"
+        "work": "The Well-tempered Clavier Book I"
       },
       {
         "composer": "Ludwig van Beethoven",
@@ -159,7 +159,7 @@
     "programme": [
       {
         "composer": "Johann Sebastian Bach",
-        "work": "Prelude in E BWV854 from <em>The Well-tempered Clavier Book I</em>"
+        "work": "The Well-tempered Clavier Book I"
       },
       {
         "composer": "Ludwig van Beethoven",
@@ -330,7 +330,7 @@
       },
       {
         "composer": "Claudio Monteverdi",
-        "work": "Confitebor tibi Domine (Secondo)"
+        "work": "Confitebor tibi Domine (Secondo) SV266"
       },
       {
         "composer": "Dario Castello",
@@ -408,8 +408,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "song-recital"
@@ -487,8 +487,8 @@
       }
     ],
     "periods": [
-      "impressionist",
-      "baroque"
+      "baroque",
+      "impressionist"
     ],
     "formats": [],
     "moods": [],
@@ -554,8 +554,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "baroque"
+      "baroque",
+      "classical"
     ],
     "formats": [
       "early-music"
@@ -1017,8 +1017,8 @@
       }
     ],
     "periods": [
-      "romantic",
       "late-romantic",
+      "romantic",
       "modern"
     ],
     "formats": [],
@@ -1188,8 +1188,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [],
     "moods": [],
@@ -1247,8 +1247,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [],
     "moods": [],
@@ -1295,10 +1295,10 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical",
+      "modern",
       "contemporary",
-      "modern"
+      "classical",
+      "romantic"
     ],
     "formats": [],
     "moods": [],
@@ -1337,8 +1337,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -1426,9 +1426,9 @@
       }
     ],
     "periods": [
+      "modern",
       "romantic",
-      "classical",
-      "modern"
+      "classical"
     ],
     "formats": [],
     "moods": [],
@@ -1465,9 +1465,9 @@
       }
     ],
     "periods": [
-      "classical",
+      "modern",
       "baroque",
-      "modern"
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -1726,8 +1726,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "modern"
+      "modern",
+      "baroque"
     ],
     "formats": [
       "choral",
@@ -1862,8 +1862,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "song-recital"
@@ -2074,9 +2074,9 @@
       }
     ],
     "periods": [
+      "late-romantic",
       "romantic",
-      "impressionist",
-      "late-romantic"
+      "impressionist"
     ],
     "formats": [
       "chamber"
@@ -2164,10 +2164,10 @@
       }
     ],
     "periods": [
+      "modern",
       "romantic",
-      "impressionist",
       "late-romantic",
-      "modern"
+      "impressionist"
     ],
     "formats": [
       "song-recital",
@@ -2257,8 +2257,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -2311,9 +2311,9 @@
       }
     ],
     "periods": [
+      "modern",
       "romantic",
-      "classical",
-      "modern"
+      "classical"
     ],
     "formats": [
       "song-recital"
@@ -2366,9 +2366,9 @@
       }
     ],
     "periods": [
+      "modern",
       "romantic",
-      "impressionist",
-      "modern"
+      "impressionist"
     ],
     "formats": [
       "song-recital"
@@ -2843,9 +2843,9 @@
       }
     ],
     "periods": [
+      "modern",
       "romantic",
-      "classical",
-      "modern"
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -3032,10 +3032,10 @@
       }
     ],
     "periods": [
-      "romantic",
-      "impressionist",
       "late-romantic",
-      "modern"
+      "romantic",
+      "modern",
+      "impressionist"
     ],
     "formats": [
       "song-recital"
@@ -3102,8 +3102,8 @@
     ],
     "periods": [],
     "formats": [
-      "chamber",
-      "choral"
+      "choral",
+      "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610211930",
@@ -3244,8 +3244,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
@@ -3301,8 +3301,8 @@
     ],
     "periods": [],
     "formats": [
-      "song-recital",
-      "choral"
+      "choral",
+      "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610241300",
@@ -3380,9 +3380,9 @@
       }
     ],
     "periods": [
+      "modern",
       "romantic",
-      "impressionist",
-      "modern"
+      "impressionist"
     ],
     "formats": [
       "chamber"
@@ -3413,8 +3413,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern"
+      "modern",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -3501,12 +3501,12 @@
     ],
     "periods": [
       "romantic",
-      "impressionist",
-      "baroque"
+      "baroque",
+      "impressionist"
     ],
     "formats": [
-      "chamber",
-      "early-music"
+      "early-music",
+      "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610261930",
@@ -3556,9 +3556,9 @@
       }
     ],
     "periods": [
+      "modern",
       "romantic",
-      "impressionist",
-      "modern"
+      "impressionist"
     ],
     "formats": [
       "song-recital"
@@ -3743,10 +3743,10 @@
       }
     ],
     "periods": [
-      "romantic",
       "late-romantic",
-      "baroque",
-      "modern"
+      "romantic",
+      "modern",
+      "baroque"
     ],
     "formats": [
       "song-recital"
@@ -3832,14 +3832,505 @@
       }
     ],
     "periods": [
+      "late-romantic",
       "romantic",
-      "classical",
-      "late-romantic"
+      "classical"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611011930",
     "price": "£4 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611021300",
+    "title": "Richard Goode piano",
+    "subtitle": "Bizet, Byrd, Gesualdo and more",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-02",
+    "time": "13:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in A minor K310"
+      },
+      {
+        "composer": "Arnold Schoenberg",
+        "work": "6 Little Piano Pieces Op. 19"
+      },
+      {
+        "composer": "Carlo Gesualdo",
+        "work": "O vos omnes"
+      },
+      {
+        "composer": "William Byrd",
+        "work": " The Second Pavane and Galliarde"
+      },
+      {
+        "composer": "William Byrd",
+        "work": " The Third Pavane and Galliarde"
+      },
+      {
+        "composer": "Jean-Philippe Rameau",
+        "work": "V. Le rappel des oiseaux"
+      },
+      {
+        "composer": "Jean-Philippe Rameau",
+        "work": "V. L’indiscrette"
+      },
+      {
+        "composer": "Christoph Willibald Gluck",
+        "work": "Melody from <em>Orfeo ed Euridice</em>"
+      }
+    ],
+    "periods": [
+      "modern",
+      "baroque",
+      "classical",
+      "romantic"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611021300",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611021930",
+    "title": "Emmet Cohen Quintet",
+    "subtitle": "Miles &amp; Coltrane at 100",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-02",
+    "time": "19:30",
+    "performers": [
+      "Emmet Cohen Quintet"
+    ],
+    "programme": [],
+    "periods": [],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611021930",
+    "price": "£4 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611031300",
+    "title": "Samrat Majumder guitar",
+    "subtitle": "Arthur Keegan, Bach and Dowland",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-03",
+    "time": "13:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "John Dowland",
+        "work": "A Fancy P5"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "Forlorn Hope Fancy"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "A Fancy P73"
+      },
+      {
+        "composer": "Johann Sebastian Bach",
+        "work": "Suite in E minor BWV996"
+      },
+      {
+        "composer": "Arthur Keegan",
+        "work": "YCAT Composer Fellow commission"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "The Earl of Essex Galliard"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "Lachrimae Pavan"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "The Frog Galliard"
+      }
+    ],
+    "periods": [
+      "baroque"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611031300",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611031900",
+    "title": "Hannes Minnaar piano",
+    "subtitle": "Shostakovich Preludes and Fugues",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-03",
+    "time": "19:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Dmitry Shostakovich",
+        "work": "24 Preludes and Fugues Op. 87"
+      }
+    ],
+    "periods": [
+      "modern"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611031900",
+    "price": "£4 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611041930",
+    "title": "Thomas Dunford artistic director, lute; Jupiter Ensemble",
+    "subtitle": "John Dowland: Another Retrospective",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-04",
+    "time": "19:30",
+    "performers": [
+      "Jupiter Ensemble"
+    ],
+    "programme": [
+      {
+        "composer": "John Dowland",
+        "work": "Come again, sweet love doth now invite"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "Semper Dowland semper dolens"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "Go, crystal tears"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "The King of Denmark’s Galliard"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "Can she excuse my wrongs"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "Lachrimae Antiquae"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "Sorrow, stay, lend true repentant tears"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "The Earl of Essex Galliard"
+      }
+    ],
+    "periods": [],
+    "formats": [
+      "choral",
+      "early-music"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611041930",
+    "price": "£4 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611051300",
+    "title": "The Purcell School Chamber Soloists; Alex Redington director",
+    "subtitle": "Bacewicz and Enescu",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-05",
+    "time": "13:00",
+    "performers": [
+      "The Purcell School Chamber Soloists"
+    ],
+    "programme": [
+      {
+        "composer": "Grażyna Bacewicz",
+        "work": "Quartet for Four violins"
+      },
+      {
+        "composer": "George Enescu",
+        "work": "String Octet in C Op. 7"
+      }
+    ],
+    "periods": [
+      "baroque"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611051300",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611051930",
+    "title": "Elias String Quartet",
+    "subtitle": "Donald Grant, R Schumann and Sally Beamish",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-05",
+    "time": "19:30",
+    "performers": [
+      "Elias String Quartet"
+    ],
+    "programme": [
+      {
+        "composer": "Sally Beamish",
+        "work": "String Quartet No. 3 ‘Reed Stanzas’"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "String Quartet in A minor Op. 41 No. 1"
+      },
+      {
+        "composer": "Sally Beamish",
+        "work": "String Quartet No. 4 ‘Nine Fragments’"
+      },
+      {
+        "composer": "Donald Grant",
+        "work": "Selection of folk songs"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [
+      "string-quartet"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611051930",
+    "price": "£4 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611061930",
+    "title": "Samling Showcase",
+    "subtitle": "Serenade: To Music",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-06",
+    "time": "19:30",
+    "performers": [
+      "Samling Artists"
+    ],
+    "programme": [],
+    "periods": [],
+    "formats": [
+      "song-recital"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611061930",
+    "price": "£4 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611071100",
+    "title": "Yellow Barn Showcase Day",
+    "subtitle": "Bach, Beethoven, Johnson and more",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-07",
+    "time": "11:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Spiritual",
+        "work": "Glory, Glory!"
+      },
+      {
+        "composer": "Sofia Gubaidulina",
+        "work": "Freue dich!"
+      },
+      {
+        "composer": "Johann Sebastian Bach",
+        "work": "Prelude and Fugue No. 1 in C BWV870 from <em>The Well-tempered Clavier Book II</em>"
+      },
+      {
+        "composer": "Travis Laplante",
+        "work": "Hidden Bright Lines"
+      },
+      {
+        "composer": "Willie Johnson",
+        "work": "Dark was the night, Cold was the ground"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "V. Cavatina. Adagio molto espressivo"
+      }
+    ],
+    "periods": [
+      "romantic",
+      "baroque"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611071100",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611071400",
+    "title": "Yellow Barn Showcase Day",
+    "subtitle": "Ligeti and Messiaen",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-07",
+    "time": "14:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "György Ligeti",
+        "work": "3 pieces for 2 pianos"
+      },
+      {
+        "composer": "Olivier Messiaen",
+        "work": "Quatuor pour la fin du temps"
+      }
+    ],
+    "periods": [],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611071400",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611071930",
+    "title": "Jerusalem Quartet",
+    "subtitle": "Bartók, Mozart and Ravel",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-07",
+    "time": "19:30",
+    "performers": [
+      "Jerusalem Quartet"
+    ],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "String Quartet No. 17 in B flat K458 ‘The Hunt’"
+      },
+      {
+        "composer": "Béla Bartók",
+        "work": "String Quartet No. 6 BB119"
+      },
+      {
+        "composer": "Maurice Ravel",
+        "work": "String Quartet in F"
+      }
+    ],
+    "periods": [
+      "modern",
+      "classical",
+      "impressionist"
+    ],
+    "formats": [
+      "string-quartet"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611071930",
+    "price": "£4 – £45",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611081130",
+    "title": "Kaleidoscope Chamber Collective",
+    "subtitle": "Farrenc and Mozart",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-08",
+    "time": "11:30",
+    "performers": [
+      "Kaleidoscope Chamber Collective — Associate Artist"
+    ],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Quintet in E flat for piano and winds K452"
+      },
+      {
+        "composer": "Louise Farrenc",
+        "work": "Nonet Op. 38"
+      }
+    ],
+    "periods": [
+      "classical"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611081130",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202611081930",
+    "title": "Benjamin Appl baritone; Jerusalem Quartet",
+    "subtitle": "World and Dreams",
+    "venue": "Wigmore Hall",
+    "date": "2026-11-08",
+    "time": "19:30",
+    "performers": [
+      "Jerusalem Quartet"
+    ],
+    "programme": [
+      {
+        "composer": "Robert Schumann",
+        "work": "Belsatzar Op. 57"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "Dein Angesicht Op. 127 No. 2"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Mit Myrten und Rosen"
+      },
+      {
+        "composer": "Johannes Brahms",
+        "work": "II. Romanze. Poco adagio"
+      },
+      {
+        "composer": "Gustav Mahler",
+        "work": "Lieder eines fahrenden Gesellen"
+      },
+      {
+        "composer": "Samuel Barber",
+        "work": "Dover Beach Op. 3"
+      },
+      {
+        "composer": "Anton Webern",
+        "work": "Langsamer Satz"
+      },
+      {
+        "composer": "Anton Webern",
+        "work": "3 Pieces for string quartet"
+      }
+    ],
+    "periods": [
+      "late-romantic",
+      "romantic",
+      "modern"
+    ],
+    "formats": [
+      "string-quartet",
+      "song-recital"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611081930",
+    "price": "£4 – £45",
     "highlight": ""
   }
 ]

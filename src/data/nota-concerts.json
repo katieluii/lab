@@ -1,371 +1,5 @@
 [
   {
-    "id": "wh-202609081930",
-    "title": "Nadine Sierra soprano; Bryan Wagorn piano",
-    "subtitle": "Gala Season Opening Concert",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-08",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Gaetano Donizetti",
-        "work": "Quel guardo il cavaliere"
-      },
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "Giunse alfin il momento"
-      },
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "Deh vieni, non tardar"
-      },
-      {
-        "composer": "Giacomo Puccini",
-        "work": " Intermezzo"
-      },
-      {
-        "composer": "Giacomo Puccini",
-        "work": "Quando me'n vo"
-      },
-      {
-        "composer": "Giacomo Puccini",
-        "work": "Sì, mi chiamano Mimì"
-      },
-      {
-        "composer": "Giuseppe Verdi",
-        "work": "È strano!... Ah, fors' è lui... Follie!... Sempre libera"
-      },
-      {
-        "composer": "Joaquín Rodrigo",
-        "work": "4 madrigales amatorios"
-      }
-    ],
-    "periods": [
-      "romantic",
-      "classical",
-      "late-romantic"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609081930",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609091930",
-    "title": "The Gesualdo Six",
-    "subtitle": "English Motets: Exploring Renaissance masterpieces from the Golden Age of polyphony in England",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-09",
-    "time": "19:30",
-    "performers": [
-      "The Gesualdo Six — Associate Artist"
-    ],
-    "programme": [
-      {
-        "composer": "Thomas Tallis",
-        "work": "Te lucis ante terminum"
-      },
-      {
-        "composer": "William Byrd",
-        "work": "Ave verum corpus"
-      },
-      {
-        "composer": "William Byrd",
-        "work": "Aspice Domine"
-      },
-      {
-        "composer": "William Cornysh",
-        "work": "Ave Maria Mater Dei"
-      },
-      {
-        "composer": "John Taverner",
-        "work": "Quemadmodum"
-      },
-      {
-        "composer": "Walter Frye",
-        "work": "Ave regina caelorum"
-      },
-      {
-        "composer": "John Plummer",
-        "work": "Tota pulcra es"
-      },
-      {
-        "composer": "Robert Parsons",
-        "work": "Ave Maria"
-      }
-    ],
-    "periods": [],
-    "formats": [
-      "early-music",
-      "choral"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609091930",
-    "price": "£4 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609101930",
-    "title": "Víkingur Ólafsson piano",
-    "subtitle": "Bach, Beethoven and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-10",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Prelude in E BWV854"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 27 in E minor Op. 90"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Partita No. 6 in E minor BWV830"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Piano Sonata in E minor D566"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 30 in E Op. 109"
-      }
-    ],
-    "periods": [
-      "romantic",
-      "baroque"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609101930",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609111930",
-    "title": "Víkingur Ólafsson piano",
-    "subtitle": "Bach, Beethoven and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-11",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "The Well-tempered Clavier Book I"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 27 in E minor Op. 90"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Partita No. 6 in E minor BWV830"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Piano Sonata in E minor D566"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 30 in E Op. 109"
-      }
-    ],
-    "periods": [
-      "romantic",
-      "baroque"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609111930",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609121300",
-    "title": "Víkingur Ólafsson piano",
-    "subtitle": "Bach, Beethoven and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-12",
-    "time": "13:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "The Well-tempered Clavier Book I"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 27 in E minor Op. 90"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Partita No. 6 in E minor BWV830"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Piano Sonata in E minor D566"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 30 in E Op. 109"
-      }
-    ],
-    "periods": [
-      "romantic",
-      "baroque"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609121300",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609121900",
-    "title": "Jean-Guihen Queyras cello",
-    "subtitle": "Bach Cello Suites",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-12",
-    "time": "19:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 1 in G BWV1007"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 2 in D minor BWV1008"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 3 in C BWV1009"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 4 in E flat BWV1010"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 5 in C minor BWV1011"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Cello Suite No. 6 in D BWV1012"
-      }
-    ],
-    "periods": [
-      "baroque"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609121900",
-    "price": "£4 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609131130",
-    "title": "Trio Zadig",
-    "subtitle": "Felix Mendelssohn, L Boulanger and R Schumann",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-13",
-    "time": "11:30",
-    "performers": [
-      "Trio Zadig"
-    ],
-    "programme": [
-      {
-        "composer": "Lili Boulanger",
-        "work": "D’un matin de printemps"
-      },
-      {
-        "composer": "Robert Schumann",
-        "work": "Piano Trio No. 1 in D minor Op. 63"
-      },
-      {
-        "composer": "Felix Mendelssohn",
-        "work": "Piano Trio No. 2 in C minor Op. 66"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609131130",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609131930",
-    "title": "il Pomo d’Oro; il Pomo d’Oro Choir",
-    "subtitle": "Monteverdi: Vespro di San Giovanni Battista",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-13",
-    "time": "19:30",
-    "performers": [
-      "il Pomo d’Oro",
-      "il Pomo d’Oro Choir"
-    ],
-    "programme": [
-      {
-        "composer": "Gregorian Chant",
-        "work": "Versiculus et responsorium"
-      },
-      {
-        "composer": "Claudio Monteverdi",
-        "work": "Dixit Dominus (Secondo) SV264"
-      },
-      {
-        "composer": "Claudio Monteverdi",
-        "work": "Confitebor tibi Domine (Secondo) SV266"
-      },
-      {
-        "composer": "Dario Castello",
-        "work": " Sonata Quarta à due Soprani"
-      },
-      {
-        "composer": "Claudio Monteverdi",
-        "work": "Beatus vir (Primo) SV268"
-      },
-      {
-        "composer": "Claudio Monteverdi",
-        "work": "Laudate pueri Dominum (Secondo) SV271"
-      },
-      {
-        "composer": "Francesco Turini",
-        "work": " Sonata a doi violini"
-      },
-      {
-        "composer": "Claudio Monteverdi",
-        "work": "Laudate Dominum omnes gentes (Primo) SV272"
-      }
-    ],
-    "periods": [
-      "baroque"
-    ],
-    "formats": [
-      "early-music",
-      "choral"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609131930",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
     "id": "wh-202609141300",
     "title": "Alice Coote mezzo-soprano; Sergey Rybin piano",
     "subtitle": "'If Only I Could Hold You All...'",
@@ -558,7 +192,7 @@
   },
   {
     "id": "wh-202609161930",
-    "title": "Angela Hewitt fortepiano; Dunedin Consort",
+    "title": "Angela Hewitt director, fortepiano; Dunedin Consort",
     "subtitle": "CPE Bach, Haydn, Martínez and Mozart",
     "venue": "Wigmore Hall",
     "date": "2026-09-16",
@@ -585,8 +219,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "classical"
+      "classical",
+      "baroque"
     ],
     "formats": [
       "early-music"
@@ -694,15 +328,19 @@
       },
       {
         "composer": "Franz Schubert",
-        "work": "Selection of dances for two pianos"
+        "work": "Deutscher Tanz in A flat D365 No. 1 "
       },
       {
-        "composer": "Maurice Ravel",
-        "work": "La valse"
+        "composer": "Franz Schubert",
+        "work": "Trauerwalzer in A flat D365 No. 2"
       },
       {
-        "composer": "Leonid Desyatnikov",
-        "work": "Du côté de chez Swan"
+        "composer": "Franz Schubert",
+        "work": "Deutscher Tanz in A flat D365 No. 3"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": "Deutscher Walzer in A flat D365 No. 4"
       }
     ],
     "periods": [
@@ -880,7 +518,7 @@
       },
       {
         "composer": "György Kurtág",
-        "work": "<sunviewer class=\"sun-editor-editable\"> Második szigrúan magánlevél a 85 éves Szőllősy Andrásnak (Second strictly personal letter to András Szöllösy on his 85th birthday)</sunviewer>"
+        "work": "Második szigrúan magánlevél a 85 éves Szőllősy Andrásnak (Second strictly personal letter to András Szőllősy on his 85th birthday)"
       }
     ],
     "periods": [
@@ -944,8 +582,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609201930",
@@ -1415,9 +1053,9 @@
     ],
     "periods": [
       "contemporary",
+      "romantic",
       "modern",
-      "classical",
-      "romantic"
+      "classical"
     ],
     "formats": [],
     "moods": [],
@@ -1545,9 +1183,9 @@
       }
     ],
     "periods": [
+      "romantic",
       "modern",
-      "classical",
-      "romantic"
+      "classical"
     ],
     "formats": [],
     "moods": [],
@@ -1584,9 +1222,9 @@
       }
     ],
     "periods": [
-      "baroque",
       "modern",
-      "classical"
+      "classical",
+      "baroque"
     ],
     "formats": [
       "chamber"
@@ -1640,8 +1278,8 @@
     ],
     "periods": [
       "romantic",
-      "baroque",
-      "classical"
+      "classical",
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -1816,41 +1454,41 @@
         "work": "Consort Sett a6 in F"
       },
       {
-        "composer": "Benjamin Britten",
-        "work": "The Choirmaster’s Burial"
-      },
-      {
-        "composer": "Ralph Vaughan Williams",
-        "work": "The Sky above the Roof"
-      },
-      {
-        "composer": "Henry Purcell",
-        "work": "In Nomine a6 Z746"
-      },
-      {
-        "composer": "Henry Purcell",
-        "work": "Fantasia a4 No. 7 in C minor Z738"
-      },
-      {
-        "composer": "George Benjamin",
-        "work": "Upon Silence"
-      },
-      {
         "composer": "Robert Lucas Pearsall",
         "work": "Lay a garland on her hearse"
       },
       {
         "composer": "Heinrich Schütz",
         "work": "Auf dem Gebirge SWV396"
+      },
+      {
+        "composer": "Henry Purcell",
+        "work": "Fantasia a4 No. 7 in C minor Z738"
+      },
+      {
+        "composer": "John Dowland",
+        "work": "In darkness let me dwell"
+      },
+      {
+        "composer": "Henry Purcell",
+        "work": "In Nomine a6 Z746"
+      },
+      {
+        "composer": "John Jenkins",
+        "work": "In nomine No. 2 in E minor"
+      },
+      {
+        "composer": "George Benjamin",
+        "work": "Upon Silence"
       }
     ],
     "periods": [
-      "baroque",
-      "modern"
+      "modern",
+      "baroque"
     ],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610011900",
@@ -2289,8 +1927,8 @@
       "late-romantic"
     ],
     "formats": [
-      "song-recital",
-      "chamber"
+      "chamber",
+      "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610071300",
@@ -2339,8 +1977,8 @@
     ],
     "periods": [],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610071930e",
@@ -2430,8 +2068,8 @@
       }
     ],
     "periods": [
-      "modern",
       "romantic",
+      "modern",
       "classical"
     ],
     "formats": [
@@ -2620,8 +2258,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610101930",
@@ -2989,8 +2627,8 @@
       }
     ],
     "periods": [
-      "modern",
       "romantic",
+      "modern",
       "classical"
     ],
     "formats": [
@@ -3248,8 +2886,8 @@
     ],
     "periods": [],
     "formats": [
-      "chamber",
-      "choral"
+      "choral",
+      "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610211930",
@@ -3463,8 +3101,8 @@
     ],
     "periods": [],
     "formats": [
-      "song-recital",
-      "choral"
+      "choral",
+      "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610241300",
@@ -3710,11 +3348,11 @@
       },
       {
         "composer": "Claude Debussy",
-        "work": "Ariettes oubliées"
+        "work": "C’est l’extase langoureuse"
       },
       {
         "composer": "Claude Debussy",
-        "work": "Proses lyriques"
+        "work": "Il pleure dans mon cœur"
       }
     ],
     "periods": [
@@ -3757,7 +3395,7 @@
     "programme": [
       {
         "composer": "Ludwig van Beethoven",
-        "work": "Piano Sonata No. 2 in A Op. 2 No. 2"
+        "work": "Piano Sonata No. 21 in C Op. 53 ‘Waldstein’"
       },
       {
         "composer": "Tōru Takemitsu",
@@ -3838,8 +3476,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610301930",
@@ -3905,10 +3543,10 @@
       }
     ],
     "periods": [
-      "modern",
       "romantic",
-      "baroque",
-      "late-romantic"
+      "modern",
+      "late-romantic",
+      "baroque"
     ],
     "formats": [
       "song-recital"
@@ -4047,10 +3685,10 @@
       }
     ],
     "periods": [
-      "baroque",
+      "romantic",
       "modern",
       "classical",
-      "romantic"
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -4198,8 +3836,8 @@
     ],
     "periods": [],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611041930",
@@ -4283,11 +3921,46 @@
     "venue": "Wigmore Hall",
     "date": "2026-11-06",
     "time": "19:30",
-    "performers": [
-      "Samling Artists"
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Franz Schubert",
+        "work": "Der Hirt auf dem Felsen D965"
+      },
+      {
+        "composer": "Henry Purcell",
+        "work": "Music for a while"
+      },
+      {
+        "composer": "Claudio Monteverdi",
+        "work": "Possente spirto"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "Fünf Lieder Op. 40"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": "Ständchen D920"
+      },
+      {
+        "composer": "Antonín Dvořák",
+        "work": "My song resounds, a psalm of love"
+      },
+      {
+        "composer": "Antonín Dvořák",
+        "work": "Songs my mother taught me"
+      },
+      {
+        "composer": "Antonín Dvořák",
+        "work": "Give a hawk a fine cage"
+      }
     ],
-    "programme": [],
-    "periods": [],
+    "periods": [
+      "romantic",
+      "modern",
+      "baroque"
+    ],
     "formats": [
       "song-recital"
     ],
@@ -4721,8 +4394,8 @@
     ],
     "periods": [],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611111930",
@@ -4913,8 +4586,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "classical"
+      "classical",
+      "baroque"
     ],
     "formats": [
       "early-music"
@@ -5132,8 +4805,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "classical"
+      "classical",
+      "baroque"
     ],
     "formats": [
       "chamber"
@@ -5278,8 +4951,8 @@
     ],
     "periods": [
       "romantic",
-      "baroque",
-      "late-romantic"
+      "late-romantic",
+      "baroque"
     ],
     "formats": [
       "chamber"
@@ -5551,7 +5224,7 @@
       },
       {
         "composer": "Amy Williams",
-        "work": "Selection from <em>Piano Portraits</em>"
+        "work": "Piano Portraits Book I"
       },
       {
         "composer": "Claude Debussy",
@@ -5706,8 +5379,8 @@
     ],
     "periods": [],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611231930",
@@ -5868,8 +5541,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "choral"
+      "choral",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611261930",
@@ -5915,7 +5588,7 @@
       },
       {
         "composer": "Tom Coult",
-        "work": "New commission"
+        "work": "Tender Cantata"
       },
       {
         "composer": "Johann Sebastian Bach",
@@ -6267,8 +5940,8 @@
       "modern"
     ],
     "formats": [
-      "song-recital",
-      "chamber"
+      "chamber",
+      "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612031930",
@@ -6502,7 +6175,7 @@
   {
     "id": "wh-202612061930",
     "title": "Magdalena Kožená mezzo-soprano; Malcolm Martineau piano",
-    "subtitle": "Janáček, Rachmaninov, Schoenberg and Wolf",
+    "subtitle": "Dvořák, Janáček, Schoenberg and Wolf",
     "venue": "Wigmore Hall",
     "date": "2026-12-06",
     "time": "19:30",
@@ -6543,8 +6216,7 @@
     ],
     "periods": [
       "romantic",
-      "modern",
-      "late-romantic"
+      "modern"
     ],
     "formats": [
       "song-recital"
@@ -6552,6 +6224,463 @@
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612061930",
     "price": "£4 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612071300",
+    "title": "Leonore Piano Trio; Lawrence Power viola",
+    "subtitle": "Suk and Walton",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-07",
+    "time": "13:00",
+    "performers": [
+      "Leonore Piano Trio"
+    ],
+    "programme": [
+      {
+        "composer": "Josef Suk",
+        "work": "Piano Quartet in A minor Op. 1"
+      },
+      {
+        "composer": "William Walton",
+        "work": "Piano Quartet in D minor"
+      }
+    ],
+    "periods": [],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612071300",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612071930",
+    "title": "Nevermind",
+    "subtitle": "CPE Bach",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-07",
+    "time": "19:30",
+    "performers": [
+      "Nevermind"
+    ],
+    "programme": [
+      {
+        "composer": "Carl Philipp Emanuel Bach",
+        "work": "II. Adagio"
+      },
+      {
+        "composer": "Carl Philipp Emanuel Bach",
+        "work": "Quartet in A minor Wq. 93"
+      },
+      {
+        "composer": "Carl Philipp Emanuel Bach",
+        "work": "Quartet in D Wq. 94"
+      },
+      {
+        "composer": "Carl Philipp Emanuel Bach",
+        "work": "Quartet in G Wq. 95"
+      },
+      {
+        "composer": "Carl Philipp Emanuel Bach",
+        "work": "II. Andante con tenerezza"
+      }
+    ],
+    "periods": [
+      "baroque"
+    ],
+    "formats": [
+      "chamber",
+      "early-music"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612071930",
+    "price": "£4 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612081930",
+    "title": "Yunchan Lim piano",
+    "subtitle": "Mozart",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-08",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in E flat K282"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in B flat K333"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in D K311"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in C K309"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in A K331"
+      }
+    ],
+    "periods": [
+      "classical"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612081930",
+    "price": "£4 – £60",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612091300",
+    "title": "Seth Schultheis piano",
+    "subtitle": "Beethoven, R Schumann and Timo Andres",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-09",
+    "time": "13:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Timo Andres",
+        "work": "Fiddlehead"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Bagatelles Op. 119"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "Fantasie in C Op. 17"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612091300",
+    "price": "£4 – £10",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612091930",
+    "title": "Yunchan Lim piano",
+    "subtitle": "Mozart",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-09",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in E flat K282"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in B flat K333"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in D K311"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in C K309"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Piano Sonata in A K331"
+      }
+    ],
+    "periods": [
+      "classical"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612091930",
+    "price": "£4 – £60",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612101930",
+    "title": "Gerald Finley bass-baritone; Julius Drake piano",
+    "subtitle": "Barber, Grieg and R Schumann",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-10",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Robert Schumann",
+        "work": "Lehn deine Wang’ Op. 142 No. 2"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "Es leuchtet meine Liebe Op. 127 No. 3"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "Dein Angesicht Op. 127 No. 2"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "Mein Wagen rollet langsam Op. 142 No. 4"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": "Dichterliebe Op. 48"
+      },
+      {
+        "composer": "Edvard Grieg",
+        "work": "Gruss Op. 48 No. 1"
+      },
+      {
+        "composer": "Edvard Grieg",
+        "work": "Dereinst, Gedanke mein Op. 48 No. 2"
+      },
+      {
+        "composer": "Edvard Grieg",
+        "work": "Lauf der Welt Op. 48 No. 3"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [
+      "song-recital"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612101930",
+    "price": "£4 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612111930",
+    "title": "Tenebrae; Nigel Short conductor",
+    "subtitle": "Joby Talbot, Eric Whitacre, Judith Weir and more",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-11",
+    "time": "19:30",
+    "performers": [
+      "Tenebrae"
+    ],
+    "programme": [
+      {
+        "composer": "Judith Weir",
+        "work": "a blue true dream of sky"
+      },
+      {
+        "composer": "Richard Rodney Bennett",
+        "work": " The seasons of his mercies"
+      },
+      {
+        "composer": "Joby Talbot",
+        "work": "The Wishing Tree"
+      },
+      {
+        "composer": "Joby Talbot",
+        "work": "The Song of Wandering Aengus"
+      },
+      {
+        "composer": "Eric Whitacre",
+        "work": "Three Flower Songs"
+      },
+      {
+        "composer": "Cheryl Frances-Hoad",
+        "work": "Beyond the Night Sky"
+      },
+      {
+        "composer": "Ivo  Antognini",
+        "work": "Dum aurora"
+      },
+      {
+        "composer": "Benjamin Britten",
+        "work": "Hymn to St Cecilia Op. 27"
+      }
+    ],
+    "periods": [
+      "modern"
+    ],
+    "formats": [
+      "choral"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612111930",
+    "price": "£4 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612121300",
+    "title": "Janine Jansen violin; Alexandre Kantorow piano",
+    "subtitle": "Beethoven, Debussy and Franck",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-12",
+    "time": "13:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Violin Sonata No. 3 in E flat Op. 12 No. 3"
+      },
+      {
+        "composer": "Claude Debussy",
+        "work": "Violin Sonata in G minor"
+      },
+      {
+        "composer": "César Franck",
+        "work": "Violin Sonata in A"
+      }
+    ],
+    "periods": [
+      "impressionist",
+      "romantic",
+      "late-romantic"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612121300",
+    "price": "£4 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612121930",
+    "title": "Nash Ensemble; Claire Booth soprano",
+    "subtitle": "Beethoven Re-Sounded: Beethoven and Humour",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-12",
+    "time": "19:30",
+    "performers": [
+      "Nash Ensemble — Chamber Ensemble in Residence",
+      "Students from the Royal Academy of Music"
+    ],
+    "programme": [
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Octet in E flat Op. 103"
+      },
+      {
+        "composer": "Joseph Haydn",
+        "work": "Sailor's Song"
+      },
+      {
+        "composer": "Joseph Haydn",
+        "work": "The Wanderer"
+      },
+      {
+        "composer": "Joseph Haydn",
+        "work": "The Mermaid's Song"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "The Elfin Fairies WoO. 154"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Sunset"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Oh! who, my dear Dermot WoO. 154"
+      },
+      {
+        "composer": "Colin Matthews",
+        "work": "C.A.N.O.N. for soprano and piano trio"
+      }
+    ],
+    "periods": [
+      "romantic",
+      "classical",
+      "late-romantic"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612121930",
+    "price": "£4 – £45",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612131130",
+    "title": "Hana Chang violin; Arthur Hinnewinkel piano",
+    "subtitle": "Grieg, Mozart and Sibelius",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-13",
+    "time": "11:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Violin Sonata in E minor K304"
+      },
+      {
+        "composer": "Jean Sibelius",
+        "work": "5 Pieces for violin and piano Op. 81"
+      },
+      {
+        "composer": "Edvard Grieg",
+        "work": "Violin Sonata No. 2 in G Op. 13"
+      }
+    ],
+    "periods": [
+      "romantic",
+      "classical",
+      "late-romantic"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612131130",
+    "price": "£4 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612131930",
+    "title": "Steven Osborne piano",
+    "subtitle": "Schubert",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-13",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Franz Schubert",
+        "work": " Liebesbotschaft"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": "Allegretto in C D346"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": " Am Meer"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": "Piano Sonata in C minor D958"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": "Piano Sonata in A D959"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612131930",
+    "price": "£4 – £40",
     "highlight": ""
   }
 ]

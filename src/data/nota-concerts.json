@@ -1,596 +1,5 @@
 [
   {
-    "id": "wh-202609141300",
-    "title": "Alice Coote mezzo-soprano; Sergey Rybin piano",
-    "subtitle": "'If Only I Could Hold You All...'",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-14",
-    "time": "13:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Pyotr Ilyich Tchaikovsky",
-        "work": "I bless you, forests Op. 47 No. 5"
-      },
-      {
-        "composer": "Pyotr Ilyich Tchaikovsky",
-        "work": "My genius, my angel, my friend"
-      },
-      {
-        "composer": "Pyotr Ilyich Tchaikovsky",
-        "work": "Whether the day reigns Op. 47 No. 6"
-      },
-      {
-        "composer": "Pyotr Ilyich Tchaikovsky",
-        "work": "Death Op. 57 No. 5"
-      },
-      {
-        "composer": "Pyotr Ilyich Tchaikovsky",
-        "work": "Why? Op. 6 No. 5"
-      },
-      {
-        "composer": "Pyotr Ilyich Tchaikovsky",
-        "work": "The love of a dead man Op. 38 No. 5"
-      },
-      {
-        "composer": "Pyotr Ilyich Tchaikovsky",
-        "work": "Again, as before, alone Op. 73 No. 6"
-      },
-      {
-        "composer": "Gustav Mahler",
-        "work": "Rückert Lieder"
-      }
-    ],
-    "periods": [
-      "romantic",
-      "late-romantic"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609141300",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609141930",
-    "title": "Paul Lewis piano",
-    "subtitle": "Mozart, Poulenc and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-14",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "Piano Sonata in C K330"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "3 Klavierstücke D946"
-      },
-      {
-        "composer": "Francis Poulenc",
-        "work": "Improvisation No. 1 in B minor"
-      },
-      {
-        "composer": "Francis Poulenc",
-        "work": "Improvisation No. 2 in A flat minor"
-      },
-      {
-        "composer": "Francis Poulenc",
-        "work": "Improvisation No. 3 in B minor"
-      },
-      {
-        "composer": "Francis Poulenc",
-        "work": "Improvisation No. 4 in A flat"
-      },
-      {
-        "composer": "Francis Poulenc",
-        "work": "Improvisation No. 5 in A minor"
-      },
-      {
-        "composer": "Francis Poulenc",
-        "work": "Improvisation No. 6 in B flat"
-      }
-    ],
-    "periods": [
-      "romantic",
-      "classical"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609141930",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609151300",
-    "title": "Mishka Rushdie Momen piano",
-    "subtitle": "Hall of Mirrors",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-15",
-    "time": "13:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Jean-Philippe Rameau",
-        "work": " I. Allemande"
-      },
-      {
-        "composer": "Jean-Philippe Rameau",
-        "work": " II. Courante"
-      },
-      {
-        "composer": "Jean-Philippe Rameau",
-        "work": " V. Le rappel des oiseaux"
-      },
-      {
-        "composer": "Jean-Philippe Rameau",
-        "work": " VI. Rigaudons I, II & double"
-      },
-      {
-        "composer": "Jean-Philippe Rameau",
-        "work": " VII. Musette en rondeau"
-      },
-      {
-        "composer": "Jean-Philippe Rameau",
-        "work": " VIII. Tambourin"
-      },
-      {
-        "composer": "Jean-Philippe Rameau",
-        "work": "IX. La villageoise (rondeau)"
-      },
-      {
-        "composer": "Maurice Ravel",
-        "work": "I. Prélude"
-      }
-    ],
-    "periods": [
-      "impressionist",
-      "baroque"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609151300",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609151930",
-    "title": "Christian Tetzlaff violin; Tanja Tetzlaff cello; Kiveli Dörken piano",
-    "subtitle": "Beethoven, Dvořák and Smetana",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-15",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Piano Trio in C minor Op. 1 No. 3"
-      },
-      {
-        "composer": "Antonín Dvořák",
-        "work": "Piano Trio No. 2 in G minor Op. 26"
-      },
-      {
-        "composer": "Bedřich Smetana",
-        "work": "Piano Trio in G minor Op. 15"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609151930",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609161930",
-    "title": "Angela Hewitt director, fortepiano; Dunedin Consort",
-    "subtitle": "CPE Bach, Haydn, Martínez and Mozart",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-16",
-    "time": "19:30",
-    "performers": [
-      "Dunedin Consort"
-    ],
-    "programme": [
-      {
-        "composer": "Joseph Haydn",
-        "work": "Symphony No. 6 in D ‘Le matin’"
-      },
-      {
-        "composer": "Carl Philipp Emanuel Bach",
-        "work": "Keyboard Concerto in C H423"
-      },
-      {
-        "composer": "Marianne Martínez",
-        "work": "Sinfonie in C"
-      },
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "Keyboard Concerto No. 14 in E flat K449"
-      }
-    ],
-    "periods": [
-      "classical",
-      "baroque"
-    ],
-    "formats": [
-      "early-music"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609161930",
-    "price": "£4 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609171300",
-    "title": "Rebecca Hardwick soprano; Toby Young speaker",
-    "subtitle": "Kafka Fragments in conversation",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-17",
-    "time": "13:00",
-    "performers": [],
-    "programme": [],
-    "periods": [],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609171300",
-    "price": "£4 – £10",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609171930",
-    "title": "Ema Nikolovska mezzo-soprano; Jonathan Biss piano",
-    "subtitle": "Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-17",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Franz Schubert",
-        "work": "Lied aus der Ferne D107"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Erntelied D434"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Der Sänger am Felsen D482"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "An den Mond D193"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Abends unter der Linde D235"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Die Sommernacht D289"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Erinnerung D101"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Klage D436"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609171930",
-    "price": "£4 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609181900",
-    "title": "Pavel Kolesnikov piano; Samson Tsoy piano; Bogdan Volkov tenor; Adrian Brendel cello",
-    "subtitle": "Leonid Desyatnikov, Rachmaninov, Ravel, Saint-Saëns and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-18",
-    "time": "19:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Camille Saint-Saëns",
-        "work": "XIII. Le Cygne"
-      },
-      {
-        "composer": "Sergey Rachmaninov",
-        "work": "Suite No. 1 Op. 5 ‘Fantaisie-tableaux’"
-      },
-      {
-        "composer": "Leonid Desyatnikov",
-        "work": "Dichterliebe und -leben"
-      },
-      {
-        "composer": "Leonid Desyatnikov",
-        "work": "Variations on Obtaining of a Dwelling"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Deutscher Tanz in A flat D365 No. 1 "
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Trauerwalzer in A flat D365 No. 2"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Deutscher Tanz in A flat D365 No. 3"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "Deutscher Walzer in A flat D365 No. 4"
-      }
-    ],
-    "periods": [
-      "impressionist",
-      "romantic",
-      "late-romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609181900",
-    "price": "£4 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609182200",
-    "title": "Rebecca Hardwick soprano; Tamsin Waley-Cohen violin",
-    "subtitle": "György Kurtág: Kafka Fragments",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-18",
-    "time": "22:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "György Kurtág",
-        "work": "Kafka-Fragmente Op. 24"
-      }
-    ],
-    "periods": [],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609182200",
-    "price": "£4 – £20",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609191130",
-    "title": "Pierre-Laurent Aimard piano; Lorenzo Soulès piano",
-    "subtitle": "Kurtág’s Játékok: an exploration in three breaths – First Breath",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-19",
-    "time": "11:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "György Kurtág",
-        "work": "Unottan (Bored)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Butáskodjunk együtt (Let's be silly)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Totyogós (Toddling)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Prelúdium és valcer C-ben (Prelude and Waltz in C)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " A nyuszi és a róka (Takács Krisztina 6 éves korában írta) (The Bunny and the Fox)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Háromnegyed-álomban (Falling asleep)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Virág az ember… (Flowers we are...) (4a)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Némajáték (Veszekedés 2) (Dumb-show (Quarreling 2))"
-      }
-    ],
-    "periods": [
-      "baroque"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609191130",
-    "price": "£4 – £25",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609191700",
-    "title": "Pierre-Laurent Aimard piano",
-    "subtitle": "Kurtág’s Játékok: an exploration in three breaths – Second Breath",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-19",
-    "time": "17:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "György Kurtág",
-        "work": "Születésnapra Antal Dórának (1. változat) (For Dóra Antal´s Birthday (1st version))"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " Versetto: Temptavit Deus Abraham"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " Versetto: Consurrexit Cain adversus fratrem suum..."
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " Versetto: Dixit Dominus ad Noe: finis universe carnis venit..."
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Vízözön-szirénák (Sirens of the Deluge) – Waiting for Noah"
-      },
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Bagatelle in B minor Op. 126 No. 4"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Päan (for Agathe and Gerhard)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Les Adieux (in Janáčeks Manier)"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609191700",
-    "price": "£4 – £25",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609192100",
-    "title": "Pierre-Laurent Aimard piano",
-    "subtitle": "Kurtág’s Játékok: an exploration in three breaths – Third Breath",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-19",
-    "time": "21:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "György Kurtág",
-        "work": " ...almavirág... (...apple blossom...)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " Csendes párbeszéd (Quiet dialogue – to Árpád Göncz with much love, friendship and respect)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " 3 HAGE-darab – 2. Scherzo"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " Medália (Medal)"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " ...jubilate..."
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " Hommage à Georg Kröll 70"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": " Hommage à Jehuda Elkana 70"
-      },
-      {
-        "composer": "György Kurtág",
-        "work": "Második szigrúan magánlevél a 85 éves Szőllősy Andrásnak (Second strictly personal letter to András Szőllősy on his 85th birthday)"
-      }
-    ],
-    "periods": [
-      "romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609192100",
-    "price": "£4 – £25",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609201130",
-    "title": "Quatuor Agate",
-    "subtitle": "Haydn and Korngold",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-20",
-    "time": "11:30",
-    "performers": [
-      "Quatuor Agate"
-    ],
-    "programme": [
-      {
-        "composer": "Joseph Haydn",
-        "work": "String Quartet in D Op. 20 No. 4"
-      },
-      {
-        "composer": "Erich Wolfgang Korngold",
-        "work": "String Quartet No. 2 in E flat Op. 26"
-      }
-    ],
-    "periods": [
-      "romantic",
-      "classical"
-    ],
-    "formats": [
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609201130",
-    "price": "£4 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202609201930",
-    "title": "Vox Luminis; Lionel Meunier artistic director, bass",
-    "subtitle": "Monteverdi Vespers",
-    "venue": "Wigmore Hall",
-    "date": "2026-09-20",
-    "time": "19:30",
-    "performers": [
-      "Vox Luminis"
-    ],
-    "programme": [
-      {
-        "composer": "Claudio Monteverdi",
-        "work": "Vespro della Beata Vergine SV206"
-      }
-    ],
-    "periods": [
-      "baroque"
-    ],
-    "formats": [
-      "choral",
-      "early-music"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609201930",
-    "price": "£4 – £60",
-    "highlight": ""
-  },
-  {
     "id": "wh-202609211300",
     "title": "Barry Douglas piano",
     "subtitle": "Brahms, Musorgsky and Tchaikovsky",
@@ -622,15 +31,20 @@
       {
         "composer": "Modest Musorgsky",
         "work": "Pictures from an Exhibition"
+      },
+      {
+        "composer": "Sergey Rachmaninov",
+        "work": "Moment musical in D flat Op. 16 No. 5"
       }
     ],
     "periods": [
+      "late-romantic",
       "romantic"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609211300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -646,7 +60,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609211930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -697,7 +111,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609221300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -728,7 +142,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609221930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -774,14 +188,14 @@
       }
     ],
     "periods": [
+      "late-romantic",
       "romantic",
-      "modern",
-      "late-romantic"
+      "modern"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609231300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -809,15 +223,15 @@
       }
     ],
     "periods": [
-      "contemporary",
-      "romantic"
+      "romantic",
+      "contemporary"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609231930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -856,7 +270,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609241300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -907,7 +321,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609241930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -951,7 +365,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609251300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -982,7 +396,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609251930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -1010,7 +424,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609261300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1052,15 +466,15 @@
       }
     ],
     "periods": [
-      "contemporary",
+      "classical",
       "romantic",
       "modern",
-      "classical"
+      "contemporary"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609261930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1102,7 +516,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609271130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1137,7 +551,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609271930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -1183,14 +597,14 @@
       }
     ],
     "periods": [
+      "classical",
       "romantic",
-      "modern",
-      "classical"
+      "modern"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609281300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1231,7 +645,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609281930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -1257,7 +671,7 @@
       },
       {
         "composer": "Florence Price",
-        "work": "Song Without Words in G"
+        "work": "Song Without Words in G 'Pleading'"
       },
       {
         "composer": "Felix Mendelssohn",
@@ -1277,14 +691,14 @@
       }
     ],
     "periods": [
-      "romantic",
       "classical",
+      "romantic",
       "baroque"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609291300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1316,7 +730,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609291930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1368,7 +782,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609301300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1384,7 +798,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202609301930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1398,7 +812,15 @@
     "programme": [
       {
         "composer": "Ignacy Jan Paderewski",
-        "work": "Humoresques de concert Op. 14 (selection)"
+        "work": "Menuet Célèbre"
+      },
+      {
+        "composer": "Ignacy Jan Paderewski",
+        "work": "Sarabande"
+      },
+      {
+        "composer": "Ignacy Jan Paderewski",
+        "work": "Caprice (genre Scarlatti)"
       },
       {
         "composer": "Alicia de Larrocha",
@@ -1419,14 +841,6 @@
       {
         "composer": "Wilhelm Kempff",
         "work": " IV. Notturno"
-      },
-      {
-        "composer": "Alexis Weissenberg",
-        "work": "Albumblatt"
-      },
-      {
-        "composer": "Alexis Weissenberg",
-        "work": "Schlittenfahrt"
       }
     ],
     "periods": [
@@ -1435,7 +849,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610011300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1492,7 +906,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610011900",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -1509,12 +923,16 @@
         "work": "5 Variations on a Theme of Franz Schubert"
       },
       {
-        "composer": "Franz Schubert",
-        "work": "4 Impromptus D899"
+        "composer": "Franz Liszt",
+        "work": "Der Wanderer"
       },
       {
         "composer": "Franz Liszt",
-        "work": "Vallée d’Obermann"
+        "work": "VI. Vallée d’Obermann"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": "4 Impromptus D899"
       }
     ],
     "periods": [
@@ -1523,7 +941,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610021300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1554,7 +972,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610021930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1589,12 +1007,12 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610031300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
     "id": "wh-202610031930",
-    "title": "Allan Clayton tenor; Christine Rice mezzo-soprano; James Baillieu piano",
+    "title": "Allan Clayton tenor; Claire Barnett-Jones mezzo-soprano; James Baillieu piano",
     "subtitle": "Britten Song Cycles &amp; Schumann Liederkreis",
     "venue": "Wigmore Hall",
     "date": "2026-10-03",
@@ -1627,7 +1045,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610031930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1672,7 +1090,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610041130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1707,7 +1125,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610041930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1748,7 +1166,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610051300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1801,7 +1219,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610051930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1832,15 +1250,15 @@
     ],
     "periods": [
       "impressionist",
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610061300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -1875,7 +1293,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610061930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -1922,9 +1340,9 @@
     ],
     "periods": [
       "impressionist",
+      "late-romantic",
       "romantic",
-      "modern",
-      "late-romantic"
+      "modern"
     ],
     "formats": [
       "chamber",
@@ -1932,7 +1350,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610071300",
-    "price": "£4 – £30",
+    "price": "£30",
     "highlight": ""
   },
   {
@@ -1982,7 +1400,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610071930e",
-    "price": "£4 – £60",
+    "price": "£15 – £60",
     "highlight": ""
   },
   {
@@ -2014,15 +1432,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610071930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2068,16 +1486,16 @@
       }
     ],
     "periods": [
+      "classical",
       "romantic",
-      "modern",
-      "classical"
+      "modern"
     ],
     "formats": [
       "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610081930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -2131,7 +1549,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610091300",
-    "price": "£4 – £25",
+    "price": "£25",
     "highlight": ""
   },
   {
@@ -2184,7 +1602,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610091930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2235,7 +1653,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610101200",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2263,7 +1681,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610101930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -2287,15 +1705,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610111130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -2348,7 +1766,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610111930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2381,7 +1799,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610121300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -2428,7 +1846,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610121930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -2481,7 +1899,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610131930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2509,15 +1927,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610141930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2556,7 +1974,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610151930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -2595,7 +2013,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610161930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -2627,16 +2045,16 @@
       }
     ],
     "periods": [
+      "classical",
       "romantic",
-      "modern",
-      "classical"
+      "modern"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610171930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -2671,7 +2089,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610181130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -2696,7 +2114,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610181930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2727,7 +2145,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610191300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -2770,7 +2188,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610191930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -2817,16 +2235,16 @@
     ],
     "periods": [
       "impressionist",
+      "late-romantic",
       "romantic",
-      "modern",
-      "late-romantic"
+      "modern"
     ],
     "formats": [
       "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610201930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -2857,7 +2275,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610211300",
-    "price": "£4 – £10",
+    "price": "£10",
     "highlight": ""
   },
   {
@@ -2872,26 +2290,48 @@
     ],
     "programme": [
       {
+        "composer": "Claudio Monteverdi",
+        "work": "Cantate Domino SV293"
+      },
+      {
+        "composer": "William Mundy",
+        "work": "O Lord, the maker of all things"
+      },
+      {
+        "composer": "Henry Purcell",
+        "work": "Thy word is a lantern Z61"
+      },
+      {
         "composer": "Tomás Luis de Victoria",
-        "work": "Missa O quam gloriosum"
+        "work": " Kyrie"
       },
       {
-        "composer": "Aaron Copland",
-        "work": "4 Motets"
+        "composer": "Tomás Luis de Victoria",
+        "work": " Gloria"
       },
       {
-        "composer": "Francis Poulenc",
-        "work": "Quatre petites prières de Saint François d'Assise"
+        "composer": "Thomas Tomkins",
+        "work": "A Voluntary"
+      },
+      {
+        "composer": "Tomás Luis de Victoria",
+        "work": " Credo"
+      },
+      {
+        "composer": "Thomas Tomkins",
+        "work": "A Fantasy"
       }
     ],
-    "periods": [],
+    "periods": [
+      "baroque"
+    ],
     "formats": [
       "choral",
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610211930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -2909,7 +2349,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610221100",
-    "price": "£1 – £10",
+    "price": "£10",
     "highlight": ""
   },
   {
@@ -2927,7 +2367,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610221230",
-    "price": "£1 – £10",
+    "price": "£10",
     "highlight": ""
   },
   {
@@ -2980,7 +2420,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610221930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3008,15 +2448,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610231300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -3052,7 +2492,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610231930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3106,7 +2546,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610241300",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3124,7 +2564,7 @@
       },
       {
         "composer": "Thierry Escaich",
-        "work": "The Reveries of the solitary walker"
+        "work": "Les Rêveries du promeneur solitaire (The Reveries of the solitary walker)"
       },
       {
         "composer": "Wolfgang Amadeus Mozart",
@@ -3136,15 +2576,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610241930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -3180,8 +2620,8 @@
       }
     ],
     "periods": [
-      "impressionist",
       "romantic",
+      "impressionist",
       "modern"
     ],
     "formats": [
@@ -3189,7 +2629,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610251130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -3221,7 +2661,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610251930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3254,7 +2694,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610261300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -3300,8 +2740,8 @@
       }
     ],
     "periods": [
-      "impressionist",
       "romantic",
+      "impressionist",
       "baroque"
     ],
     "formats": [
@@ -3310,7 +2750,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610261930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -3339,20 +2779,20 @@
         "work": "Nachtwandler Op. 86 No. 3"
       },
       {
-        "composer": "Othmar Schoeck",
-        "work": "Dämmrung senkte sich von oben Op. 19a No. 2"
-      },
-      {
-        "composer": "Othmar Schoeck",
-        "work": "Nachklang Op. 19b No. 1"
-      },
-      {
         "composer": "Claude Debussy",
         "work": "C’est l’extase langoureuse"
       },
       {
         "composer": "Claude Debussy",
         "work": "Il pleure dans mon cœur"
+      },
+      {
+        "composer": "Claude Debussy",
+        "work": "L’ombre des arbres"
+      },
+      {
+        "composer": "Claude Debussy",
+        "work": "Green"
       }
     ],
     "periods": [
@@ -3365,7 +2805,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610271930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3381,7 +2821,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610281930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -3425,7 +2865,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610291930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3481,7 +2921,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610301930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -3543,9 +2983,9 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern",
       "late-romantic",
+      "modern",
+      "romantic",
       "baroque"
     ],
     "formats": [
@@ -3553,7 +2993,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202610311930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3586,7 +3026,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611011130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -3632,14 +3072,14 @@
       }
     ],
     "periods": [
-      "romantic",
+      "late-romantic",
       "classical",
-      "late-romantic"
+      "romantic"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611011930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3685,15 +3125,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "modern",
+      "baroque",
       "classical",
-      "baroque"
+      "romantic",
+      "modern"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611021300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -3711,7 +3151,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611021930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -3764,7 +3204,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611031300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -3787,7 +3227,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611031900",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3841,7 +3281,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611041930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -3872,7 +3312,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611051300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -3911,7 +3351,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611051930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -3957,8 +3397,8 @@
       }
     ],
     "periods": [
-      "romantic",
       "modern",
+      "romantic",
       "baroque"
     ],
     "formats": [
@@ -3966,13 +3406,13 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611061930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
     "id": "wh-202611071100",
     "title": "Yellow Barn Showcase Day",
-    "subtitle": "Bach, Beethoven, Johnson and more",
+    "subtitle": "Bach, Beethoven, Gubaidulina and more",
     "venue": "Wigmore Hall",
     "date": "2026-11-07",
     "time": "11:00",
@@ -4012,7 +3452,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611071100",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4039,7 +3479,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611071400",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4067,16 +3507,16 @@
       }
     ],
     "periods": [
+      "classical",
       "impressionist",
-      "modern",
-      "classical"
+      "modern"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611071930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -4107,7 +3547,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611081130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4155,17 +3595,17 @@
       }
     ],
     "periods": [
+      "late-romantic",
       "romantic",
-      "modern",
-      "late-romantic"
+      "modern"
     ],
     "formats": [
-      "song-recital",
-      "string-quartet"
+      "string-quartet",
+      "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611081930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -4202,7 +3642,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611091300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4220,7 +3660,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611091930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -4272,7 +3712,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611101300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4306,13 +3746,13 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611101930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -4345,7 +3785,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611111300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4399,7 +3839,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611111930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -4440,7 +3880,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611121300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4485,7 +3925,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611121930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -4538,7 +3978,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611131300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4565,8 +4005,8 @@
         "work": "Son pur ridotta a piangere"
       },
       {
-        "composer": "Johann Joseph Fux",
-        "work": "Il tuo cor dimanda al mio"
+        "composer": "Giovanni Alberto Ristori",
+        "work": " Nell’onda chiara"
       },
       {
         "composer": "Benedetto Marcello",
@@ -4594,7 +4034,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611131930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -4631,7 +4071,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611141130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4684,7 +4124,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611141500",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4738,7 +4178,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611141930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -4769,7 +4209,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611151130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4813,7 +4253,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611151930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -4868,7 +4308,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611161300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -4896,15 +4336,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611161930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -4950,8 +4390,8 @@
       }
     ],
     "periods": [
-      "romantic",
       "late-romantic",
+      "romantic",
       "baroque"
     ],
     "formats": [
@@ -4959,7 +4399,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611171930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -4994,7 +4434,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611181300",
-    "price": "£4 – £10",
+    "price": "£10",
     "highlight": ""
   },
   {
@@ -5022,15 +4462,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611181930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -5064,13 +4504,13 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611191930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -5131,7 +4571,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611201930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -5169,13 +4609,13 @@
       }
     ],
     "periods": [
-      "contemporary",
-      "late-romantic"
+      "late-romantic",
+      "contemporary"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611211100",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -5206,7 +4646,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611211400",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -5244,13 +4684,13 @@
       }
     ],
     "periods": [
-      "impressionist",
-      "late-romantic"
+      "late-romantic",
+      "impressionist"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611211930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -5278,15 +4718,15 @@
       }
     ],
     "periods": [
-      "romantic",
-      "classical"
+      "classical",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611221130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -5327,7 +4767,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611221930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -5354,7 +4794,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611231300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -5384,7 +4824,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611231930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -5400,7 +4840,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611241930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -5418,7 +4858,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611251100",
-    "price": "£1 – £10",
+    "price": "£10",
     "highlight": ""
   },
   {
@@ -5436,7 +4876,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611251230",
-    "price": "£1 – £10",
+    "price": "£10",
     "highlight": ""
   },
   {
@@ -5482,15 +4922,15 @@
       }
     ],
     "periods": [
-      "modern",
-      "late-romantic"
+      "late-romantic",
+      "modern"
     ],
     "formats": [
       "song-recital"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611251930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -5546,7 +4986,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611261930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -5564,7 +5004,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611271930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -5603,7 +5043,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611281300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -5638,7 +5078,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611281930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -5675,7 +5115,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611291130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -5706,7 +5146,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611291930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -5739,7 +5179,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611301300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -5755,7 +5195,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611301930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -5779,21 +5219,21 @@
       }
     ],
     "periods": [
-      "impressionist",
-      "classical"
+      "classical",
+      "impressionist"
     ],
     "formats": [
       "string-quartet"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612011300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
     "id": "wh-202612011930",
     "title": "Benjamin Grosvenor piano",
-    "subtitle": "Beethoven, Chopin, Liszt, Skryabin and Sofia Gubaidulina",
+    "subtitle": "Beethoven, Chopin, Gubaidulina, Liszt and Skryabin",
     "venue": "Wigmore Hall",
     "date": "2026-12-01",
     "time": "19:30",
@@ -5826,7 +5266,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612011930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -5850,7 +5290,7 @@
       },
       {
         "composer": "Carl Philipp Emanuel Bach",
-        "work": "Symphony in B minor Wq. 182 No. 5"
+        "work": "Symphony in G H657"
       },
       {
         "composer": "Johann Sebastian Bach",
@@ -5865,7 +5305,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612021930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -5897,15 +5337,15 @@
       }
     ],
     "periods": [
-      "modern",
-      "classical"
+      "classical",
+      "modern"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612031300",
-    "price": "£4 – £20",
+    "price": "£20",
     "highlight": ""
   },
   {
@@ -5945,7 +5385,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612031930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -5998,7 +5438,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612041300",
-    "price": "£4 – £20",
+    "price": "£20",
     "highlight": ""
   },
   {
@@ -6038,7 +5478,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612041930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -6071,7 +5511,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612051300",
-    "price": "£4 – £20",
+    "price": "£20",
     "highlight": ""
   },
   {
@@ -6104,7 +5544,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612051930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -6136,7 +5576,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612061130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -6169,7 +5609,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612061500",
-    "price": "£4 – £20",
+    "price": "£20",
     "highlight": ""
   },
   {
@@ -6223,7 +5663,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612061930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -6252,7 +5692,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612071300",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -6296,7 +5736,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612071930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -6335,7 +5775,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612081930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -6366,7 +5806,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612091300",
-    "price": "£4 – £10",
+    "price": "£10",
     "highlight": ""
   },
   {
@@ -6405,7 +5845,7 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612091930",
-    "price": "£4 – £60",
+    "price": "£18 – £60",
     "highlight": ""
   },
   {
@@ -6458,7 +5898,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612101930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
     "highlight": ""
   },
   {
@@ -6513,7 +5953,7 @@
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612111930",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -6540,15 +5980,15 @@
     ],
     "periods": [
       "impressionist",
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612121300",
-    "price": "£4 – £50",
+    "price": "£18 – £50",
     "highlight": ""
   },
   {
@@ -6597,16 +6037,16 @@
       }
     ],
     "periods": [
-      "romantic",
+      "late-romantic",
       "classical",
-      "late-romantic"
+      "romantic"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612121930",
-    "price": "£4 – £45",
+    "price": "£18 – £45",
     "highlight": ""
   },
   {
@@ -6632,16 +6072,16 @@
       }
     ],
     "periods": [
-      "romantic",
+      "late-romantic",
       "classical",
-      "late-romantic"
+      "romantic"
     ],
     "formats": [
       "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612131130",
-    "price": "£4 – £18",
+    "price": "£16 – £18",
     "highlight": ""
   },
   {
@@ -6680,7 +6120,376 @@
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612131930",
-    "price": "£4 – £40",
+    "price": "£18 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612141300",
+    "title": "Oleg Shebeta-Dragan clarinet; Kristoffer Hyldig piano",
+    "subtitle": "Gaubert, Horovitz, Poulenc and Saint-Saëns",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-14",
+    "time": "13:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Camille Saint-Saëns",
+        "work": "Clarinet Sonata in E flat Op. 167"
+      },
+      {
+        "composer": "Francis Poulenc",
+        "work": "Sonata for clarinet and piano"
+      },
+      {
+        "composer": "Philippe Gaubert",
+        "work": "Fantaisie"
+      },
+      {
+        "composer": "Joseph Horovitz",
+        "work": "Sonatina"
+      }
+    ],
+    "periods": [
+      "late-romantic"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612141300",
+    "price": "£16 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612141930",
+    "title": "Timothy Ridout viola; Jonathan Ware piano",
+    "subtitle": "Enescu, Franck, Honnoré and Nahre Sol",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-14",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Nahre Sol",
+        "work": "Shadow Walkers"
+      },
+      {
+        "composer": "George Enescu",
+        "work": "Concertstück"
+      },
+      {
+        "composer": "Léon Honnoré",
+        "work": "Morceau de concert Op. 23"
+      },
+      {
+        "composer": "César Franck",
+        "work": "Violin Sonata in A"
+      }
+    ],
+    "periods": [
+      "late-romantic"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612141930",
+    "price": "£18 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612151930",
+    "title": "Alim Beisembayev piano",
+    "subtitle": "Bach, Brahms, Felix Mendelssohn and more",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-15",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Johann Sebastian Bach",
+        "work": "Prelude and Fugue No. 8 in E flat minor BWV853 from <em>The Well-tempered Clavier Book I</em>"
+      },
+      {
+        "composer": "Felix Mendelssohn",
+        "work": "Prelude and Fugue in B minor Op. 35 No. 3"
+      },
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Prelude (Fantasia) and Fugue in C K394"
+      },
+      {
+        "composer": "César Franck",
+        "work": "Prélude, choral et fugue"
+      },
+      {
+        "composer": "Nicolas Namoradze",
+        "work": "Sonata No. 1 'Fugue State'"
+      },
+      {
+        "composer": "Johannes Brahms",
+        "work": "Variations and Fugue on a Theme of Handel Op. 24"
+      }
+    ],
+    "periods": [
+      "late-romantic",
+      "classical",
+      "romantic",
+      "baroque"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612151930",
+    "price": "£18 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612161930",
+    "title": "il Pomo d’Oro Choir",
+    "subtitle": "In Nativitate Domini - A Venetian Christmas",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-16",
+    "time": "19:30",
+    "performers": [
+      "il Pomo d’Oro Choir"
+    ],
+    "programme": [
+      {
+        "composer": "Alessandro Grandi",
+        "work": "Deus in adiutorium"
+      },
+      {
+        "composer": "Claudio Monteverdi",
+        "work": "Dixit Dominus (Primo)"
+      },
+      {
+        "composer": "Andrea Gabrieli",
+        "work": "Angelus ad pastores"
+      },
+      {
+        "composer": "Giovanni Rovetta",
+        "work": "Confitebor"
+      },
+      {
+        "composer": "Giovanni Bassano",
+        "work": "Quem vidistis pastores"
+      },
+      {
+        "composer": "Claudio Monteverdi",
+        "work": "Beatus vir (Secondo)"
+      },
+      {
+        "composer": "Heinrich Schütz",
+        "work": "Verbum caro factum est"
+      },
+      {
+        "composer": "Claudio Monteverdi",
+        "work": "Laudate pueri"
+      }
+    ],
+    "periods": [
+      "baroque"
+    ],
+    "formats": [
+      "choral",
+      "early-music"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612161930",
+    "price": "£18 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612171930",
+    "title": "Fatma Said soprano; Malcolm Martineau piano",
+    "subtitle": "Brahms, Falla, Felix Mendelssohn, R Schumann and Schubert",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-17",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Felix Mendelssohn",
+        "work": "Die Liebende schreibt Op. 86 No. 3"
+      },
+      {
+        "composer": "Johannes Brahms",
+        "work": "Lerchengesang Op. 70 No. 2"
+      },
+      {
+        "composer": "Felix Mendelssohn",
+        "work": "Suleika Op. 34 No. 4"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": " Ständchen"
+      },
+      {
+        "composer": "Johannes Brahms",
+        "work": "Immer leiser wird mein Schlummer Op. 105 No. 2"
+      },
+      {
+        "composer": "Franz Schubert",
+        "work": "Der Zwerg D771"
+      },
+      {
+        "composer": "Johannes Brahms",
+        "work": "Ophelia-Lieder WoO. 22"
+      },
+      {
+        "composer": "Felix Mendelssohn",
+        "work": "Hexenlied Op. 8 No. 8"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [
+      "song-recital"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612171930",
+    "price": "£18 – £40",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612181900",
+    "title": "Irish Baroque Orchestra and Choir; Peter Whelan director",
+    "subtitle": "1742 Dublin Messiah",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-18",
+    "time": "19:00",
+    "performers": [
+      "Irish Baroque Orchestra"
+    ],
+    "programme": [
+      {
+        "composer": "George Frideric Handel",
+        "work": "Messiah HWV56"
+      }
+    ],
+    "periods": [
+      "baroque"
+    ],
+    "formats": [
+      "choral",
+      "early-music"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612181900",
+    "price": "£18 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612191930",
+    "title": "Boris Giltburg piano",
+    "subtitle": "Prokofiev",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-19",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Sergey Prokofiev",
+        "work": "Piano Sonata No. 6 in A Op. 82"
+      },
+      {
+        "composer": "Sergey Prokofiev",
+        "work": "Piano Sonata No. 7 in B flat Op. 83"
+      },
+      {
+        "composer": "Sergey Prokofiev",
+        "work": "Piano Sonata No. 8 in B flat Op. 84"
+      }
+    ],
+    "periods": [
+      "modern"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612191930",
+    "price": "£18 – £50",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612201130",
+    "title": "Will Duerden double bass; Svitlana Kosenko piano",
+    "subtitle": "Bottesini, Fauré, R Schumann, Ravel and Vilmos Montag",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-20",
+    "time": "11:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Robert Schumann",
+        "work": "Adagio and Allegro in A flat Op. 70"
+      },
+      {
+        "composer": "Maurice Ravel",
+        "work": "2 mélodies hébraïques"
+      },
+      {
+        "composer": "Vilmos Montag",
+        "work": "Sonata in E minor for double bass and piano"
+      },
+      {
+        "composer": "Gabriel Fauré",
+        "work": "Berceuse Op. 16"
+      },
+      {
+        "composer": "Giovanni Bottesini",
+        "work": "Fantasia (Lucia di Lammermoor)"
+      }
+    ],
+    "periods": [
+      "impressionist",
+      "late-romantic",
+      "romantic"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612201130",
+    "price": "£16 – £18",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202612201930",
+    "title": "Alina Ibragimova violin; Cédric Tiberghien piano",
+    "subtitle": "Bartók, Enescu, Kodály and Mozart",
+    "venue": "Wigmore Hall",
+    "date": "2026-12-20",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Violin Sonata in B flat K454"
+      },
+      {
+        "composer": "George Enescu",
+        "work": "Violin Sonata No. 3 in A minor ‘dans le caractère populaire roumain’ Op. 25"
+      },
+      {
+        "composer": "Zoltán Kodály",
+        "work": "Adagio for violin and piano"
+      },
+      {
+        "composer": "Béla Bartók",
+        "work": "Violin Sonata No. 2 BB85"
+      }
+    ],
+    "periods": [
+      "classical",
+      "modern"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612201930",
+    "price": "£18 – £40",
     "highlight": ""
   }
 ]

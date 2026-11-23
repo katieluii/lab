@@ -1,572 +1,33 @@
 [
   {
-    "id": "wh-202611161300",
-    "title": "Helen Charlston mezzo-soprano; Sholto Kynoch piano",
-    "subtitle": "Notes of Old",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-16",
-    "time": "13:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Federico Mompou",
-        "work": "… pour évoquer l’image du passé"
-      },
-      {
-        "composer": "Reynaldo Hahn",
-        "work": "Néère"
-      },
-      {
-        "composer": "Claudio Monteverdi",
-        "work": "Sì dolce è’l tormento SV332"
-      },
-      {
-        "composer": "Reynaldo Hahn",
-        "work": "Tyndaris"
-      },
-      {
-        "composer": "Pauline Viardot",
-        "work": "Céra una volta"
-      },
-      {
-        "composer": "Nadia Boulanger",
-        "work": "Chanson (Elle a vendu mon cœur)"
-      },
-      {
-        "composer": "Robert Schumann",
-        "work": " Stirb, Lieb und Freud!"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "Widerstehe doch der Sünde"
-      }
-    ],
-    "periods": [
-      "impressionist",
-      "baroque",
-      "romantic"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611161300",
-    "price": "£16 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611161930",
-    "title": "Takács Quartet",
-    "subtitle": "Brahms, Carlos Simon and Haydn",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-16",
-    "time": "19:30",
-    "performers": [
-      "Takács Quartet — Associate Artist"
-    ],
-    "programme": [
-      {
-        "composer": "Joseph Haydn",
-        "work": "String Quartet in G Op. 77 No. 1"
-      },
-      {
-        "composer": "Carlos Simon",
-        "work": "Warmth from Other Suns"
-      },
-      {
-        "composer": "Johannes Brahms",
-        "work": "String Quartet in C minor Op. 51 No. 1"
-      }
-    ],
-    "periods": [
-      "classical",
-      "romantic"
-    ],
-    "formats": [
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611161930",
-    "price": "£18 – £45",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611171300",
-    "title": "‘Such the tenor man told’: Memories of working with Peter Pears and Benjamin Britten",
-    "subtitle": "A talk from Graham Johnson and Hugo Brady",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-17",
-    "time": "13:00",
-    "performers": [],
-    "programme": [],
-    "periods": [],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611171300",
-    "price": "£12",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611171930",
-    "title": "Joshua Bell violin; Peter Dugan piano",
-    "subtitle": "Bach, Beethoven, Ravel and Saint-Saëns",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-17",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Ludwig van Beethoven",
-        "work": "Violin Sonata No. 5 in F Op. 24 ‘Spring’"
-      },
-      {
-        "composer": "Maurice Ravel",
-        "work": "Violin Sonata No. 2 in G"
-      },
-      {
-        "composer": "Johann Sebastian Bach",
-        "work": "V. Chaconne"
-      },
-      {
-        "composer": "Camille Saint-Saëns",
-        "work": "Violin Sonata No. 1 in D minor Op. 75"
-      }
-    ],
-    "periods": [
-      "baroque",
-      "impressionist",
-      "romantic",
-      "late-romantic"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611171930",
-    "price": "£18 – £60",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611181300",
-    "title": "Cherry Ge piano",
-    "subtitle": "Barber, Messiaen and Prokofiev",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-18",
-    "time": "13:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Olivier Messiaen",
-        "work": "Le loriot"
-      },
-      {
-        "composer": "Sergey Prokofiev",
-        "work": "Visions fugitives Op. 22"
-      },
-      {
-        "composer": "Samuel Barber",
-        "work": "Excursions Op. 20"
-      },
-      {
-        "composer": "Olivier Messiaen",
-        "work": "Le courlis cendré"
-      }
-    ],
-    "periods": [
-      "modern"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611181300",
-    "price": "£10",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611181930",
-    "title": "Takács Quartet",
-    "subtitle": "Gabriela Lena Frank, Haydn and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-18",
-    "time": "19:30",
-    "performers": [
-      "Takács Quartet — Associate Artist"
-    ],
-    "programme": [
-      {
-        "composer": "Joseph Haydn",
-        "work": "String Quartet in C Op. 20 No. 2"
-      },
-      {
-        "composer": "Gabriela Lena Frank",
-        "work": "Quijotadas"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "String Quartet in D minor D810 ‘Death and the Maiden’"
-      }
-    ],
-    "periods": [
-      "classical",
-      "romantic"
-    ],
-    "formats": [
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611181930",
-    "price": "£18 – £45",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611191930",
-    "title": "Paul Lewis piano",
-    "subtitle": "Chopin, Mozart and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-19",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "Piano Sonata in B flat K570"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "3 Klavierstücke D946"
-      },
-      {
-        "composer": "Fryderyk Chopin",
-        "work": "Polonaise in C sharp minor Op. 26 No. 1"
-      },
-      {
-        "composer": "Fryderyk Chopin",
-        "work": "Nocturnes Op. 32"
-      },
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "Piano Sonata in B flat K333"
-      }
-    ],
-    "periods": [
-      "classical",
-      "romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611191930",
-    "price": "£18 – £50",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611201500",
-    "title": "Music for the Moment",
-    "subtitle": "A concert for people living with dementia and their friends, family and carers",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-20",
-    "time": "15:00",
-    "performers": [
-      "Flarra Duo"
-    ],
-    "programme": [
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "II. Andantino"
-      },
-      {
-        "composer": "Michio Aramaki",
-        "work": " I. Water"
-      },
-      {
-        "composer": "Edward MacDowell",
-        "work": "To a Wild Rose"
-      },
-      {
-        "composer": "Manuel de Falla",
-        "work": "Asturiana"
-      },
-      {
-        "composer": "Manuel de Falla",
-        "work": "Canción"
-      },
-      {
-        "composer": "Manuel de Falla",
-        "work": "Polo"
-      },
-      {
-        "composer": "Hannah Runting",
-        "work": "Improvisations for the Moment"
-      },
-      {
-        "composer": "Carl Nielsen",
-        "work": " The Fog is Lifting"
-      }
-    ],
-    "periods": [
-      "classical"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611201500",
-    "price": "",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611201930",
-    "title": "Francesca Dego violin; Francesca Leonardi piano",
-    "subtitle": "Berio, Debussy, Ravel, Respighi and Tartini",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-20",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Giuseppe Tartini",
-        "work": "Violin Sonata in G minor ‘Didone abbandonata’ Bg10"
-      },
-      {
-        "composer": "Luciano Berio",
-        "work": "Due Pezzi"
-      },
-      {
-        "composer": "Claude Debussy",
-        "work": "Violin Sonata in G minor"
-      },
-      {
-        "composer": "Ottorino Respighi",
-        "work": "Violin Sonata in B minor"
-      },
-      {
-        "composer": "Maurice Ravel",
-        "work": "Tzigane"
-      }
-    ],
-    "periods": [
-      "impressionist"
-    ],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611201930",
-    "price": "£18 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611211100",
-    "title": "Junyan Chen piano",
-    "subtitle": "Composer Focus Day: Alex Ho",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-21",
-    "time": "11:00",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Alex Ho",
-        "work": "After Byrd – Civitas Sancti Tui"
-      },
-      {
-        "composer": "Karen Tanaka",
-        "work": "Techno Etudes"
-      },
-      {
-        "composer": "Harrison Birtwistle",
-        "work": "Oockooing Bird"
-      },
-      {
-        "composer": "Alex Ho",
-        "work": "Knuckleduster"
-      },
-      {
-        "composer": "Sergey Rachmaninov",
-        "work": "Etudes-tableaux Op. 33"
-      },
-      {
-        "composer": "Alex Ho",
-        "work": "torn, to the ground, exhausted, sobbing"
-      }
-    ],
-    "periods": [
-      "contemporary",
-      "late-romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611211100",
-    "price": "£16 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611211400",
-    "title": "Fleur Barron mezzo-soprano; Shengzhi Ren tenor; Tom Poster piano; Kaleidoscope Chamber Collective",
-    "subtitle": "Alex Ho and G Mahler",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-21",
-    "time": "14:00",
-    "performers": [
-      "Kaleidoscope Chamber Collective — Associate Artist"
-    ],
-    "programme": [
-      {
-        "composer": "Gustav Mahler",
-        "work": "Das Lied von der Erde"
-      },
-      {
-        "composer": "Alex Ho",
-        "work": "Then Shut Your Eyes"
-      }
-    ],
-    "periods": [
-      "late-romantic"
-    ],
-    "formats": [
-      "song-recital"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611211400",
-    "price": "£18 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611211930",
-    "title": "Danny Driver piano",
-    "subtitle": "Amy Williams, Debussy, Musorgsky, Rachmaninov and Thea Musgrave",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-21",
-    "time": "19:30",
-    "performers": [],
-    "programme": [
-      {
-        "composer": "Claude Debussy",
-        "work": "Images, Series 1"
-      },
-      {
-        "composer": "Amy Williams",
-        "work": "Piano Portraits Book I"
-      },
-      {
-        "composer": "Claude Debussy",
-        "work": "Images, Series 2"
-      },
-      {
-        "composer": "Sergey Rachmaninov",
-        "work": "Etude-tableau in A minor Op. 39 No. 2"
-      },
-      {
-        "composer": "Thea Musgrave",
-        "work": "Snapshots"
-      },
-      {
-        "composer": "Modest Musorgsky",
-        "work": "Pictures from an Exhibition"
-      }
-    ],
-    "periods": [
-      "impressionist",
-      "late-romantic"
-    ],
-    "formats": [],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611211930",
-    "price": "£18 – £40",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611221130",
-    "title": "Dudok Quartet Amsterdam",
-    "subtitle": "Haydn, Mozart and Schubert",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-22",
-    "time": "11:30",
-    "performers": [
-      "Dudok Quartet Amsterdam"
-    ],
-    "programme": [
-      {
-        "composer": "Joseph Haydn",
-        "work": "Introduzione"
-      },
-      {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "String Quartet No. 21 in D K575 ‘Prussian’"
-      },
-      {
-        "composer": "Franz Schubert",
-        "work": "String Quartet in A minor D804 ‘Rosamunde’"
-      }
-    ],
-    "periods": [
-      "classical",
-      "romantic"
-    ],
-    "formats": [
-      "string-quartet"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611221130",
-    "price": "£16 – £18",
-    "highlight": ""
-  },
-  {
-    "id": "wh-202611221930",
-    "title": "United Strings of Europe; Julian Azkoul violin, director; Tamsin Waley-Cohen violin; Misha Mullov-Abbado double bass",
-    "subtitle": "Boccherini, Jessie Montgomery, Misha Mullov-Abbado, Olli Mustonen and Osvaldo Golijov",
-    "venue": "Wigmore Hall",
-    "date": "2026-11-22",
-    "time": "19:30",
-    "performers": [
-      "United Strings of Europe"
-    ],
-    "programme": [
-      {
-        "composer": "Jessie Montgomery",
-        "work": "Strum"
-      },
-      {
-        "composer": "Osvaldo Golijov",
-        "work": "Last Round"
-      },
-      {
-        "composer": "Misha Mullov-Abbado",
-        "work": "The Travelling Violin"
-      },
-      {
-        "composer": "Olli Mustonen",
-        "work": "Nonet No. 2"
-      },
-      {
-        "composer": "Luigi Boccherini",
-        "work": "‘La musica notturna delle strade di Madrid’ G324"
-      }
-    ],
-    "periods": [],
-    "formats": [
-      "chamber"
-    ],
-    "moods": [],
-    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202611221930",
-    "price": "£18 – £40",
-    "highlight": ""
-  },
-  {
     "id": "wh-202611231300",
-    "title": "Modigliani Quartet",
-    "subtitle": "Franck",
+    "title": "Khanh Nhi Luong piano",
+    "subtitle": "Bacewicz and Ravel",
     "venue": "Wigmore Hall",
     "date": "2026-11-23",
     "time": "13:00",
-    "performers": [
-      "Modigliani Quartet"
-    ],
+    "performers": [],
     "programme": [
       {
-        "composer": "César Franck",
-        "work": "String Quartet in D"
+        "composer": "Grażyna Bacewicz",
+        "work": "Piano Sonata No. 2"
+      },
+      {
+        "composer": "Maurice Ravel",
+        "work": "Le tombeau de Couperin"
+      },
+      {
+        "composer": "Maurice Ravel",
+        "work": "Pavane pour une infante défunte"
+      },
+      {
+        "composer": "Franz Liszt",
+        "work": "Consolation No. 1 in E"
       }
     ],
     "periods": [
-      "late-romantic"
+      "impressionist",
+      "romantic"
     ],
     "formats": [
       "string-quartet"
@@ -589,7 +50,7 @@
     "programme": [
       {
         "composer": "Andrea Gabrieli",
-        "work": "Intonatione Primo tono"
+        "work": "Intonatione del primo tono"
       },
       {
         "composer": "Andrea Gabrieli",
@@ -597,7 +58,7 @@
       },
       {
         "composer": "Andrea Gabrieli",
-        "work": "Miserere mei Deus"
+        "work": "Miserere mei Deus a6"
       },
       {
         "composer": "Giovanni Bassano",
@@ -605,11 +66,11 @@
       },
       {
         "composer": "Claudio Monteverdi",
-        "work": "Domine ne in furore tuo"
+        "work": "Domine ne in furore tuo a6 SV298"
       },
       {
         "composer": "Claudio Monteverdi",
-        "work": "Adoramus te Christe SV289"
+        "work": "Adoramus te Christe a6 SV289"
       },
       {
         "composer": "Francesco Cavalli",
@@ -652,9 +113,45 @@
     "date": "2026-11-25",
     "time": "11:00",
     "performers": [],
-    "programme": [],
+    "programme": [
+      {
+        "composer": "Joaquín Rodrigo",
+        "work": "No. 4 De los álamos vengo, madre"
+      },
+      {
+        "composer": "Gabriel Fauré",
+        "work": "Le papillon et la fleur Op. 1 No. 1"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Schmetterling"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Das Käuzlein"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Marienwürmchen"
+      },
+      {
+        "composer": "Madeleine Dring",
+        "work": "No. 1 The cuckoo"
+      },
+      {
+        "composer": "Samuel Coleridge-Taylor",
+        "work": " You lay so still in the sunshine"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Der Sandmann"
+      }
+    ],
     "periods": [
-      "baroque"
+      "baroque",
+      "late-romantic",
+      "romantic",
+      "impressionist"
     ],
     "formats": [],
     "moods": [],
@@ -670,9 +167,45 @@
     "date": "2026-11-25",
     "time": "12:30",
     "performers": [],
-    "programme": [],
+    "programme": [
+      {
+        "composer": "Joaquín Rodrigo",
+        "work": "No. 4 De los álamos vengo, madre"
+      },
+      {
+        "composer": "Gabriel Fauré",
+        "work": "Le papillon et la fleur Op. 1 No. 1"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Schmetterling"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Das Käuzlein"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Marienwürmchen"
+      },
+      {
+        "composer": "Madeleine Dring",
+        "work": "No. 1 The cuckoo"
+      },
+      {
+        "composer": "Samuel Coleridge-Taylor",
+        "work": " You lay so still in the sunshine"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Der Sandmann"
+      }
+    ],
     "periods": [
-      "baroque"
+      "baroque",
+      "late-romantic",
+      "romantic",
+      "impressionist"
     ],
     "formats": [],
     "moods": [],
@@ -723,8 +256,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "late-romantic"
+      "late-romantic",
+      "modern"
     ],
     "formats": [
       "song-recital"
@@ -751,7 +284,7 @@
       },
       {
         "composer": "Claudio Monteverdi",
-        "work": "Baci soavi e cari"
+        "work": "Baci soavi e cari SV27"
       },
       {
         "composer": "Claudio Monteverdi",
@@ -759,7 +292,7 @@
       },
       {
         "composer": "Claudio Monteverdi",
-        "work": "Chiome d’oro"
+        "work": "Chiome d’oro SV143"
       },
       {
         "composer": "Claudio Monteverdi",
@@ -775,7 +308,7 @@
       },
       {
         "composer": "Claudio Monteverdi",
-        "work": "A quest’olmo SV119"
+        "work": "A quest’olmo, a quest’ombre et a quest’onde SV119"
       }
     ],
     "periods": [
@@ -833,9 +366,9 @@
       }
     ],
     "periods": [
-      "modern",
+      "late-romantic",
       "romantic",
-      "late-romantic"
+      "modern"
     ],
     "formats": [
       "song-recital"
@@ -938,7 +471,7 @@
       },
       {
         "composer": "Charlotte Sohy",
-        "work": " Paix"
+        "work": "I. Paix 'Assis au bord de la rivière charmeuse'. Modéré"
       },
       {
         "composer": "César Franck",
@@ -1002,7 +535,7 @@
       },
       {
         "composer": "Karol Szymanowski",
-        "work": "The Spring of Arethusa"
+        "work": "The Fountain of Arethusa"
       },
       {
         "composer": "Gabriel Fauré",
@@ -1057,8 +590,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "impressionist"
+      "impressionist",
+      "classical"
     ],
     "formats": [
       "string-quartet"
@@ -1167,11 +700,27 @@
       },
       {
         "composer": "Jacqueline Shave",
-        "work": "Artin: fragments from an imagined life"
+        "work": " III. Drifting"
       },
       {
-        "composer": "Wolfgang Amadeus Mozart",
-        "work": "Oboe Quartet in F K370"
+        "composer": "Jacqueline Shave",
+        "work": " IV. Boyhood"
+      },
+      {
+        "composer": "Jacqueline Shave",
+        "work": " V. Teenage"
+      },
+      {
+        "composer": "Jacqueline Shave",
+        "work": " VI. First Love"
+      },
+      {
+        "composer": "Jacqueline Shave",
+        "work": " VII. A Wedding"
+      },
+      {
+        "composer": "Jacqueline Shave",
+        "work": " VIII. At Rest"
       }
     ],
     "periods": [
@@ -1218,8 +767,8 @@
       "modern"
     ],
     "formats": [
-      "chamber",
-      "song-recital"
+      "song-recital",
+      "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612031930",
@@ -1406,8 +955,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "romantic"
+      "romantic",
+      "modern"
     ],
     "formats": [
       "string-quartet"
@@ -1465,7 +1014,7 @@
       },
       {
         "composer": "Leoš Janáček",
-        "work": "No. 19 Pérecko"
+        "work": "No. 19 Pérečko"
       },
       {
         "composer": "Leoš Janáček",
@@ -1493,8 +1042,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "romantic"
+      "romantic",
+      "modern"
     ],
     "formats": [
       "song-recital"
@@ -1729,8 +1278,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "romantic"
+      "romantic",
+      "modern"
     ],
     "formats": [
       "song-recital"
@@ -1876,9 +1425,9 @@
       }
     ],
     "periods": [
-      "classical",
+      "late-romantic",
       "romantic",
-      "late-romantic"
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -1911,9 +1460,9 @@
       }
     ],
     "periods": [
-      "classical",
+      "late-romantic",
       "romantic",
-      "late-romantic"
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -2071,10 +1620,10 @@
       }
     ],
     "periods": [
-      "classical",
-      "baroque",
       "late-romantic",
-      "romantic"
+      "romantic",
+      "classical",
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -2320,8 +1869,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "modern"
+      "modern",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -2334,7 +1883,7 @@
   {
     "id": "wh-202612211300",
     "title": "The Cardinall’s Musick",
-    "subtitle": "Heaven and Earth in Little Space - Christmas Choral Music",
+    "subtitle": "Heaven and Earth in Little Space – Christmas Choral Music",
     "venue": "Wigmore Hall",
     "date": "2026-12-21",
     "time": "13:00",
@@ -2428,8 +1977,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "impressionist"
+      "impressionist",
+      "classical"
     ],
     "formats": [],
     "moods": [],
@@ -2831,8 +2380,8 @@
     ],
     "periods": [],
     "formats": [
-      "choral",
-      "song-recital"
+      "song-recital",
+      "choral"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202612311900",
@@ -3103,9 +2652,9 @@
       }
     ],
     "periods": [
-      "modern",
+      "late-romantic",
       "romantic",
-      "late-romantic"
+      "modern"
     ],
     "formats": [
       "song-recital"
@@ -3173,8 +2722,8 @@
   },
   {
     "id": "wh-202701061930",
-    "title": "Luciana Mancini mezzo-soprano; Francisco Brito tenor; Bach Consort Wien; Rubén Dubrovsky artistic director, lute",
-    "subtitle": "Vidala: Traditionelle Südamerikanische Musik",
+    "title": "Luciana Mancini mezzo-soprano; Francisco Brito tenor; Bach Consort Wien; Rubén Dubrovsky colascione, charango, musical director",
+    "subtitle": "Vidala: Traditional Music from South America",
     "venue": "Wigmore Hall",
     "date": "2027-01-06",
     "time": "19:30",
@@ -3219,8 +2768,8 @@
       "baroque"
     ],
     "formats": [
-      "early-music",
-      "song-recital"
+      "song-recital",
+      "early-music"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202701061930",
@@ -3463,7 +3012,15 @@
       },
       {
         "composer": "Robert Schumann",
-        "work": "Selection of songs from <em>Liederkreis</em> Op. 39"
+        "work": " In der Fremde"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Mondnacht"
+      },
+      {
+        "composer": "Robert Schumann",
+        "work": " Auf einer Burg"
       },
       {
         "composer": "Sergey Rachmaninov",
@@ -3471,8 +3028,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -3521,8 +3078,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "romantic"
+      "romantic",
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -3627,8 +3184,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -3699,8 +3256,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "string-quartet"
@@ -3755,8 +3312,8 @@
       }
     ],
     "periods": [
-      "baroque",
-      "contemporary"
+      "contemporary",
+      "baroque"
     ],
     "formats": [
       "song-recital"
@@ -3848,8 +3405,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -3981,9 +3538,9 @@
       }
     ],
     "periods": [
+      "late-romantic",
       "romantic",
-      "baroque",
-      "late-romantic"
+      "baroque"
     ],
     "formats": [
       "chamber"
@@ -4145,8 +3702,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [],
     "moods": [],
@@ -4179,8 +3736,8 @@
       }
     ],
     "periods": [
-      "modern",
       "romantic",
+      "modern",
       "classical"
     ],
     "formats": [
@@ -4212,8 +3769,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -4386,8 +3943,8 @@
       }
     ],
     "periods": [
-      "romantic",
-      "late-romantic"
+      "late-romantic",
+      "romantic"
     ],
     "formats": [
       "chamber"
@@ -4422,8 +3979,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "impressionist"
+      "impressionist",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -4468,9 +4025,9 @@
       }
     ],
     "periods": [
-      "modern",
+      "late-romantic",
       "romantic",
-      "late-romantic"
+      "modern"
     ],
     "formats": [
       "chamber"
@@ -4641,8 +4198,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "modern"
+      "modern",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -4679,8 +4236,8 @@
       }
     ],
     "periods": [
-      "classical",
-      "modern"
+      "modern",
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -5043,8 +4600,8 @@
       }
     ],
     "periods": [
-      "modern",
-      "romantic"
+      "romantic",
+      "modern"
     ],
     "formats": [],
     "moods": [],
@@ -5151,8 +4708,8 @@
     ],
     "periods": [
       "impressionist",
-      "baroque",
-      "modern"
+      "modern",
+      "baroque"
     ],
     "formats": [],
     "moods": [],
@@ -5874,9 +5431,9 @@
       }
     ],
     "periods": [
-      "classical",
+      "impressionist",
       "romantic",
-      "impressionist"
+      "classical"
     ],
     "formats": [
       "chamber"
@@ -5998,10 +5555,10 @@
       }
     ],
     "periods": [
-      "modern",
-      "baroque",
+      "late-romantic",
       "romantic",
-      "late-romantic"
+      "modern",
+      "baroque"
     ],
     "formats": [
       "song-recital"
@@ -6194,8 +5751,8 @@
       "romantic"
     ],
     "formats": [
-      "chamber",
-      "string-quartet"
+      "string-quartet",
+      "chamber"
     ],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702141130",
@@ -6229,13 +5786,426 @@
       }
     ],
     "periods": [
-      "classical",
-      "romantic"
+      "romantic",
+      "classical"
     ],
     "formats": [],
     "moods": [],
     "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702141930",
     "price": "£18 – £45",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702151300",
+    "title": "Astatine Trio",
+    "subtitle": "Beethoven and R Schumann",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-15",
+    "time": "13:00",
+    "performers": [
+      "Astatine Trio — BBC Radio 3 New Generation Artist"
+    ],
+    "programme": [
+      {
+        "composer": "Robert Schumann",
+        "work": "Piano Trio No. 3 in G minor Op. 110"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Trio in E flat Op. 70 No. 2"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702151300",
+    "price": "£18 – £20",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702151930",
+    "title": "O/Modernt Chamber Orchestra; Hugo Ticciati violin, director; Evelyn Glennie percussion",
+    "subtitle": "Dobrinka Tabakova, Stravinsky, Steve Reich and more",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-15",
+    "time": "19:30",
+    "performers": [
+      "O/Modernt Chamber Orchestra"
+    ],
+    "programme": [
+      {
+        "composer": "Pérotin",
+        "work": "Viderunt Omnes"
+      },
+      {
+        "composer": "Dobrinka Tabakova",
+        "work": "The Patience of Trees"
+      },
+      {
+        "composer": "Josquin des Prez",
+        "work": "Ave Maria"
+      },
+      {
+        "composer": "Igor Stravinsky",
+        "work": "Concerto in D"
+      },
+      {
+        "composer": "Steve Reich",
+        "work": "Nagoya Marimbas"
+      },
+      {
+        "composer": "Radiohead",
+        "work": "Fake Plastic Trees"
+      },
+      {
+        "composer": "Albert Schnelzer",
+        "work": "Apollonian Dances"
+      }
+    ],
+    "periods": [
+      "modern"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702151930",
+    "price": "£18 – £45",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702161300",
+    "title": "Henk Neven baritone; Imogen Cooper piano",
+    "subtitle": "Schubert Winterreise",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-16",
+    "time": "13:00",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Franz Schubert",
+        "work": "Winterreise D911"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [
+      "song-recital"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702161300",
+    "price": "£25",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702161930",
+    "title": "James Ehnes violin; Orion Weiss piano",
+    "subtitle": "Beethoven, Prokofiev and Schubert",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-16",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Franz Schubert",
+        "work": "Rondo brillant in B minor D895"
+      },
+      {
+        "composer": "Sergey Prokofiev",
+        "work": "Violin Sonata No. 1 in F minor Op. 80"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Violin Sonata No. 10 in G Op. 96"
+      }
+    ],
+    "periods": [
+      "romantic",
+      "modern"
+    ],
+    "formats": [
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702161930",
+    "price": "£18 – £45",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702171100",
+    "title": "For Crying Out Loud!",
+    "subtitle": "Informal concerts for parents or carers and their babies up to 1 year old",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-17",
+    "time": "11:00",
+    "performers": [
+      "Dogoda Quintet"
+    ],
+    "programme": [],
+    "periods": [],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702171100",
+    "price": "£10",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702171230",
+    "title": "For Crying Out Loud!",
+    "subtitle": "Informal concerts for parents or carers and their babies up to 1 year old",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-17",
+    "time": "12:30",
+    "performers": [
+      "Dogoda Quintet"
+    ],
+    "programme": [],
+    "periods": [],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702171230",
+    "price": "£10",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702171930",
+    "title": "Jerusalem Quartet; Pierre Génisson clarinet",
+    "subtitle": "Brahms, Mozart and Shostakovich",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-17",
+    "time": "19:30",
+    "performers": [
+      "Jerusalem Quartet"
+    ],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "Clarinet Quintet in A K581"
+      },
+      {
+        "composer": "Dmitry Shostakovich",
+        "work": "String Quartet No. 7 in F sharp minor Op. 108"
+      },
+      {
+        "composer": "Johannes Brahms",
+        "work": "Clarinet Quintet in B minor Op. 115"
+      }
+    ],
+    "periods": [
+      "romantic",
+      "modern",
+      "classical"
+    ],
+    "formats": [
+      "string-quartet",
+      "chamber"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702171930",
+    "price": "£18 – £45",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702181930",
+    "title": "Jerusalem Quartet",
+    "subtitle": "Brahms, Haydn and Prokofiev",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-18",
+    "time": "19:30",
+    "performers": [
+      "Jerusalem Quartet"
+    ],
+    "programme": [
+      {
+        "composer": "Joseph Haydn",
+        "work": "String Quartet in D Op. 76 No. 5"
+      },
+      {
+        "composer": "Sergey Prokofiev",
+        "work": "String Quartet No. 2 in F Op. 92"
+      },
+      {
+        "composer": "Johannes Brahms",
+        "work": "String Quartet in C minor Op. 51 No. 1"
+      }
+    ],
+    "periods": [
+      "romantic",
+      "modern",
+      "classical"
+    ],
+    "formats": [
+      "string-quartet"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702181930",
+    "price": "£18 – £45",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702191930",
+    "title": "La Nuova Musica; Giulia Semenzato soprano; Laurence Kilsby tenor; David Bates director",
+    "subtitle": "La musica è finita",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-19",
+    "time": "19:30",
+    "performers": [
+      "La Nuova Musica"
+    ],
+    "programme": [
+      {
+        "composer": "Claudio Monteverdi",
+        "work": "Prologo"
+      },
+      {
+        "composer": "Michel Lambert",
+        "work": "Vos mespris chaque jour me causent mille alarmes"
+      },
+      {
+        "composer": "Jean-Baptiste Lully",
+        "work": " Passacaille"
+      },
+      {
+        "composer": "Joseph Kosma",
+        "work": "Les feuilles mortes"
+      },
+      {
+        "composer": "Ornella Vanoni",
+        "work": "La musica è finita"
+      },
+      {
+        "composer": "Michel Legrand",
+        "work": "How Do You Keep the Music Playing?"
+      },
+      {
+        "composer": "Tarquinio Merula",
+        "work": "Canzonetta spirituale sopra alla nanna ‘Hor ch’è il tempo di dormire’"
+      },
+      {
+        "composer": "Luigi Tenco",
+        "work": "Mi sono innamorato di te"
+      }
+    ],
+    "periods": [
+      "baroque"
+    ],
+    "formats": [
+      "early-music"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702191930",
+    "price": "£18 – £55",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702201930",
+    "title": "Igor Levit piano",
+    "subtitle": "Beethoven",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-20",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 1 in F minor Op. 2 No. 1"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 12 in A flat Op. 26 ‘Funeral March’"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 25 in G Op. 79"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 21 in C Op. 53 ‘Waldstein’"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702201930",
+    "price": "£18 – £65",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702211130",
+    "title": "Fibonacci Quartet",
+    "subtitle": "Mozart and Tchaikovsky",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-21",
+    "time": "11:30",
+    "performers": [
+      "Fibonacci Quartet"
+    ],
+    "programme": [
+      {
+        "composer": "Wolfgang Amadeus Mozart",
+        "work": "String Quartet No. 21 in D K575 ‘Prussian’"
+      },
+      {
+        "composer": "Pyotr Ilyich Tchaikovsky",
+        "work": "String Quartet No. 3 in E flat minor Op. 30"
+      }
+    ],
+    "periods": [
+      "romantic",
+      "classical"
+    ],
+    "formats": [
+      "string-quartet"
+    ],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702211130",
+    "price": "£18 – £20",
+    "highlight": ""
+  },
+  {
+    "id": "wh-202702211930",
+    "title": "Igor Levit piano",
+    "subtitle": "Beethoven",
+    "venue": "Wigmore Hall",
+    "date": "2027-02-21",
+    "time": "19:30",
+    "performers": [],
+    "programme": [
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 24 in F sharp Op. 78"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 4 in E flat Op. 7"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 9 in E Op. 14 No. 1"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 10 in G Op. 14 No. 2"
+      },
+      {
+        "composer": "Ludwig van Beethoven",
+        "work": "Piano Sonata No. 26 in E flat Op. 81a ‘Les Adieux’"
+      }
+    ],
+    "periods": [
+      "romantic"
+    ],
+    "formats": [],
+    "moods": [],
+    "ticketUrl": "https://wigmore-hall.org.uk/whats-on/202702211930",
+    "price": "£18 – £65",
     "highlight": ""
   }
 ]
